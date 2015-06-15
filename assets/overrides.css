@@ -12,3 +12,16 @@
 .btn-slide, .btn-slide.active {
     background-color: #5b5b5b;
 }
+
+.logo {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#content ul {
+    list-style: circle;
+    margin-top: 0px;
+    margin-bottom: 6px;
+    margin-left: 10px;
+}
+
