@@ -25,3 +25,24 @@
     margin-left: 10px;
 }
 
+a {
+    color: #1d76c3;
+}
+
+#footer {
+    border-color: #1d76c3;
+    color: #aaa;
+}
+
+.small {
+    color: #aaa;
+}
+
+.back-top a:hover{background-color: #1d76c3;}
+
+.ca-sub {
+    line-height: 15px;
+}
+
+::selection{background:#1d76c3;color:#fff;}
+.ca-menu li:hover .ca-main {color: #1d76c3;}
