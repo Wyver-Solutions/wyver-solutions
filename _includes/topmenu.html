@@ -26,6 +26,18 @@
     </div>
     <div class="headermenu eight columns noleftmarg">
         <nav id="nav-wrap">
+
+            <ul id="main-menu" class="nav-bar sf-menu">
+
+                
+                  {% for p in site.pages | sort: 'weight'%}
+                    {% if p.menu == 'main' %}
+                      <li{% if p.url == page.url %} class="current"{% endif %}>
+                         <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
+                      </li>
+                    {% endif %}
+                  {% endfor %}
+            </ul>
         <!-- <ul id="main-menu" class="nav-bar sf-menu">
             <li class="current">
             <a href="index.html">Home</a>
