@@ -32,6 +32,11 @@ a:hover { color: #5b5b5b; }
     margin-left: 12px;
 }
 
+li.relatedPost {
+    margin-top: 3px;
+    margin-bottom: 6px;
+}
+
 #footer {
     color: #aaa;
 }

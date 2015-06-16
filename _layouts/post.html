@@ -7,9 +7,13 @@
 <!-- CONTENT 
 ================================================== -->
 <div class="row">
+    <div class="twelve columns noleftmargin">
     <!-- MAIN CONTENT-->
     <div id="content" class="eight columns">
+        <p class="small">Categories: {{ page.categories | join: ', ' }}
+                    </p>
 
+                    
         {{ content }}
         <!-- Our History-->
         <!-- <div class="sectiontitle">
@@ -59,8 +63,38 @@
     </div><!-- end main content-->
 
     <!-- SIDEBAR-->
-    <div id="sidebar" class="four columns">
-        <!--<div class="teamwrap teambox">
+    <div class="four columns">
+            
+
+            {% assign hasSimilar = '' %}
+            {% for post in site.related_posts %}
+                {% assign postHasSimilar = false %}
+                    {% for category in post.categories %}
+                        {% for thisCategory in page.categories %}
+                            {% if postHasSimilar == false and hasSimilar.size < 6 and post != page and category == thisCategory %}
+                                {% if hasSimilar.size == 0 %}
+                                    <h6 class="sidebartitle">Related Posts</h6>
+                                    <ul>
+                                        {% endif %}
+                                        <li class="relatedPost">
+                                        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}
+                                        {% if post.series %}
+                                            (Series: {{ post.series }})
+                                        {% endif %}
+                                        </a>
+                                        </li>
+                                        {% capture hasSimilar %}{{ hasSimilar }}*{% endcapture %}
+                                        {% assign postHasSimilar = true %}
+                                    {% endif %}
+                                {% endfor %}
+                            {% endfor %}
+                        {% endfor %}
+                        {% if hasSimilar.size > 0 %}
+                            </ul>
+                        {% endif %}
+        </div>
+    <!--<div id="sidebar" class="four columns">
+        <div class="teamwrap teambox">
             <img src="images/temp/team1.jpg" alt="">
             <div class="mask">
                 <h2>Katrina Bernski</h2>
