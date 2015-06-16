@@ -26,7 +26,11 @@
                     <p>
                         <img src="{{ post.thumb }}" alt="" class="thumb"> {{ post.excerpt }}
                     </p>
-                    <p class="small">Categories: {{ post.categories }}</p>
+                    <p class="small">Categories: 
+                        {% for category in post.categories %}
+                            {{ category }}, 
+                        {% endfor %}
+                        </p>
                     <p>
                         <a href="{{ post.url }}" class="small continue">Continue reading</a>
                     </p>

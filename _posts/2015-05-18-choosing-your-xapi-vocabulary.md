@@ -8,15 +8,15 @@ categories:
   - Troubleshooting and consultancy
   - xAPI
 ---
-[<img class="alignright wp-image-1247" src="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2015/01/xAPI-logo.png" alt="xAPI logo" width="150" height="96" />][1]At first glance, the <a href="https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md" target="_blank">xAPI specification</a> is deceptively simple. It allows your systems (the Activity Providers) to send data (the Statement) to a central repository (the Learning Record Store) as a simple sentence:
+At first glance, the <a href="https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md" target="_blank">xAPI specification</a> is deceptively simple. It allows your systems (the Activity Providers) to send data (the Statement) to a central repository (the Learning Record Store) as a simple sentence:
 
-<p style="text-align: center;">
+<p class="panel">
   Someone Did Something of a certain Type
 </p>
 
 Or, in xAPI terms:
 
-<p style="text-align: center;">
+<p class="panel">
   {<a href="https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#actor" target="_blank">Actor</a>} {<a href="https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#verb" target="_blank">Verb</a>} {<a href="https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#object" target="_blank">Object</a>, Type}
 </p>
 
@@ -38,13 +38,13 @@ As an example of where things might go wrong, let’s consider two content manag
 
 CMS 1 sends the statement:
 
-<p style="text-align: center;">
+<p class="panel">
   {Actor} {experienced} {content item, Type = article}
 </p>
 
 CMS 2 sends the statement:
 
-<p style="text-align: center;">
+<p class="panel">
   {Actor} {read} {content item, Type = webpage}
 </p>
 
@@ -54,7 +54,7 @@ Or another example:
 
 A CPD management system has a function where CPD awards are made following an audit process. So it might send the statement:
 
-<p style="text-align: center;">
+<p class="panel">
   {Actor} {audited} {CPD record}
 </p>
 

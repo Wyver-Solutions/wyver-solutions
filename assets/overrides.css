@@ -5,6 +5,8 @@
     float: right;
 }
 
+a:hover { color: #5b5b5b; }
+
 #subheader {
     background-color: #5b5b5b;
     border-color: #5b5b5b;
