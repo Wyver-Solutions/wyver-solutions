@@ -1,0 +1,17 @@
+---
+title: xAPI concept map
+author: Wyver Solutions Admin
+excerpt: We often use concept maps as part of our workshops. They’re a brilliant way to stimulate conversation at the same time as getting the big picture across. This one provides an overview of xAPI and how it might be implemented.
+layout: post
+permalink: /2015/03/11/xapi-concept-map/
+categories:
+  - Training and education
+  - xAPI
+---
+[<img class="alignright size-medium wp-image-1317" src="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2015/03/xAPI-concept-map-300x176.jpg" alt="xAPI concept map" width="300" height="176" />][1]We often use <a href="http://learn.cmappers.net/" target="_blank">concept maps</a> as part of our workshops. They&#8217;re a brilliant way to stimulate conversation at the same time as getting the big picture across.
+
+We&#8217;ve created the concept map below to support an introductory workshop on <a href="http://www.adlnet.gov/tla/experience-api/" target="_blank">xAPI</a> and <a href="http://learninglocker.net/" target="_blank">Learning Locker</a>. Use the links within the map to find out more &#8211; or <a title="Contact us" href="http://www.wyversolutions.co.uk/cms/contact-us/" target="_blank">get in touch</a> if you want us to run your own xAPI workshop.
+
+<a href="https://cmapscloud.ihmc.us/viewer/cmap/1NTW2YR3B-15Q68VN-H2" target="_blank">Open live map in a new window</a>
+
+ [1]: http://www.wyversolutions.co.uk/cms/wp-content/uploads/2015/03/xAPI-concept-map.jpg

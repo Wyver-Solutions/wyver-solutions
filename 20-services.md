@@ -28,7 +28,7 @@ Often the solutions won&#8217;t be the ones you were expecting.
 
 Our consultants will:
 
-  * Ask the difficult questions that make you think about what you&###8217;re really trying to achieve
+  * Ask the difficult questions that make you think about what you&#8217;re really trying to achieve
   * Translate when there are people from IT, Learning & Development and the business in the same room
   * Demonstrate possible solutions, contextualised for your particular needs
 
