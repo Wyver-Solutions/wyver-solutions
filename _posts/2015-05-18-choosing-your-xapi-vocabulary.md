@@ -3,7 +3,6 @@ title: Choosing your xAPI vocabulary
 author: Wyver Solutions Admin
 excerpt: At first glance, the xAPI specification is deceptively simple. But the vocabulary you choose to use within your statements will have a massive impact on the useful information you can pull out of your Learning Record Store reports.
 layout: post
-permalink: /2015/05/18/choosing-your-xapi-vocabulary/
 categories:
   - Troubleshooting and consultancy
   - xAPI
