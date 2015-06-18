@@ -250,9 +250,9 @@ MAX-WITH 480
 /************************************************************************************
 SUPERFISH
 *************************************************************************************/
-@media screen and (max-width: 800px) {
+ @media screen and (max-width: 800px) {
 	.tinynav { display: block }
-	#main-menu{ display: none }
+	/* #main-menu{ display: none } */
 	.headermenu.columns{  padding: 0;float:none !Important;width:100% !Important;}
 	.headerlogo {width:100% !Important;  z-index: 2;  position: relative;}
 	.columns .headerlogo {padding-bottom:0;}	
@@ -263,6 +263,7 @@ SUPERFISH
 	.row {  min-width: 100%;}
 	.logo {  margin-top: 17px;  margin-bottom: 17px;}
 }
+
  
 
 

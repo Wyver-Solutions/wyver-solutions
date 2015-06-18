@@ -25,10 +25,17 @@
         </div>
     </div>
     <div class="headermenu eight columns noleftmarg">
+        <!-- Button for small screens -->
+ 
+
         <nav id="nav-wrap">
+           <label for="show-menu" class="show-menu"><i class="fa fa-bars"></i></label>
+            <input type="checkbox" id="show-menu" role="button">
+            
             {% assign pages = site.pages | sort:"name" %}
             {% assign blog = 0 %}
-            <ul id="main-menu" class="nav-bar sf-menu">
+            <ul id="menu" class="nav-bar"  >
+            <!-- <ul id="main-menu" class="nav-bar sf-menu"  > -->
                   {% for p in pages %}
 
                     {% if p.menu == 'main' %}
