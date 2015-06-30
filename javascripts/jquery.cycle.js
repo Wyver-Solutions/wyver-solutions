@@ -860,7 +860,7 @@ $.fn.cycle.ver = function() { return ver; };
 // override these globally if you like (they are all optional)
 $.fn.cycle.defaults = {
 	fx:			  'fade', // name of transition effect (or comma separated names, ex: 'fade,scrollUp,shuffle')
-	timeout:	   4000,  // milliseconds between slide transitions (0 to disable auto advance)
+	timeout:	   5500,  // milliseconds between slide transitions (0 to disable auto advance)
 	timeoutFn:     null,  // callback for determining per-slide timeout value:  function(currSlideElement, nextSlideElement, options, forwardFlag)
 	continuous:	   0,	  // true to start next transition immediately after current one completes
 	speed:		   1000,  // speed of the transition (any valid fx speed value)
