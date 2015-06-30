@@ -21,6 +21,10 @@ author :
 gems:
   - jekyll-sitemap
 
-paginate: 2
+paginate: 8
 
 paginate_path: "/blog/page:num/"
+
+name: Wyver Solutions Ltd
+description: Learning Technology Architects
+url: http://www.wyversolutions.co.uk
