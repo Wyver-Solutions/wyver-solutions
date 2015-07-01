@@ -231,6 +231,12 @@ input[type=checkbox]:checked ~ #menu {
     text-align: right;
 }
 
+.section-icon {
+    float:right;
+    color: #1d76c3;
+    margin: 0 20px 20px 20px;
+    font-size: 5vw;}
+
 /*Responsive Styles*/
 
 @media screen and (max-width : 800px){
@@ -253,5 +259,9 @@ input[type=checkbox]:checked ~ #menu {
     /*Display 'show menu' link*/
     .show-menu {
         display:block;
+    }
+
+    .section-icon {
+        margin-top: 10px;
     }
 }
