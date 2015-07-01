@@ -55,4 +55,4 @@ img-credit: Mark Berthelemy
 <p>We’re looking forward to digging further into xAPI. There are a lot of people now developing real case studies which illustrates its benefits.</p>
 <p>We’ll also be exploring more single-source technologies for content development. There are already a handful of high-end applications which do this for commercial publishing organisations. We’d like to identify a toolkit that can be used by smaller organisations with just a small amount of technical knowledge.</p>
 <p>And we’ll be picking up more on Lean ideas. Just adding technology to an already convoluted process will not solve all the problems. Improvements in both&nbsp;go hand-in-hand.</p>
-<p><strong>If you would like to know more about what we’ve been doing and how we can help your organisation, please <a href="/contact.html" target="_blank">get in touch</a></strong></p>
+<p><strong>If you would like to know more about what we’ve been doing and how we can help your organisation, please <a href="/contact.html">get in touch</a></strong></p>
