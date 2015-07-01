@@ -15,7 +15,9 @@
 
         <div class="banner-image">
             <img style="max-width:100%;" src="{{ page.banner }}" alt="{{ page.alt }}" />
-            <p class="small right">Credit: {{ page.img-credit }}</p>
+            {% if page.banner %}
+                <p class="small right">Credit: {{ page.img-credit }}</p>
+            {% endif %}
         </div>
                     
         {{ content }}
@@ -69,7 +71,7 @@
     <!-- SIDEBAR-->
     <div class="four columns">
             
-            {{ sidebar-content }}
+            {% include sidebar-content.html %}
 
             {% assign hasSimilar = '' %}
             {% for post in site.related_posts %}
