@@ -9,7 +9,7 @@ categories:
   - Lean learning
   - Tools
   - xAPI
-thumb: /assets/P1010067-reflection-1000.jpg
+thumb: /assets/P1010067-reflection-thumb.jpg
 banner: /assets/reflection-1000-cropped.png
 alt: Church reflected in glass
 img-credit: Mark Berthelemy
