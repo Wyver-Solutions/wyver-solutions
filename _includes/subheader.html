@@ -6,7 +6,22 @@
             
             <p id="rss-icon" style="float:right; margin-right: 20px;"><a href="http://www.wyversolutions.co.uk/feed.xml"><i class="fa fa-rss"></i></a></p>
             <div id="search-box">
-                <gcse:searchbox-only resultsUrl="http://www.wyversolutions.co.uk/search" queryParameterName="search"></gcse:searchbox-only>
+
+                <script>
+                  (function() {
+                    var cx = '014748105747934831097:flopxusan5w';
+                    var gcse = document.createElement('script');
+                    gcse.type = 'text/javascript';
+                    gcse.async = true;
+                    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                        '//cse.google.com/cse.js?cx=' + cx;
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(gcse, s);
+                  })();
+                </script>
+                <gcse:search></gcse:search>
+
+                
             </div>
             <p class="left">
                  {{ page.title }}
