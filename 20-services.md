@@ -7,6 +7,7 @@ weight: 20
 permalink: "services.html"
 ---
 <div class="section-icon"><span class="fa fa-ambulance"></span></div>
+
 ### Troubleshooting and Consultancy
 
 We can help you:
@@ -16,6 +17,7 @@ We can help you:
 + Dig into your processes using lean management techniques
 
 <div class="section-icon"><span class="fa fa-pencil-square-o"></span></div>
+
 ### Analysis &amp; Design
 
 We can help you:
@@ -34,6 +36,7 @@ We can help you:
 + Ask questions of your suppliers that will help to differentiate between them
 
 <div class="section-icon"><span class="fa fa-gears"></span></div>
+
 ### Implementation Support
 
 We can help you:
@@ -43,6 +46,7 @@ We can help you:
 + Manage the project team
 
 <div class="section-icon"><span class="fa fa-group"></span></div>
+
 ### Training &amp; workshops
 
 We can help you:
