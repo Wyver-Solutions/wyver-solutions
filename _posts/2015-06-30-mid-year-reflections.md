@@ -10,9 +10,11 @@ categories:
   - Tools
   - xAPI
 thumb: /assets/P1010067-reflection-1000.jpg
+banner: /assets/reflection-1000-cropped.png
+alt: Church reflected in glass
+img-credit: Mark Berthelemy
 ---
 
-<img style="max-width:100%;" src="/assets/P1010067-reflection-1000.jpg" alt="Church reflected in glass" />
 <p>It’s always good to look back every now and again, to assess what’s been achieved and what could have been done differently. This is important for organisations as well as individuals.</p>
 <p>Six months ago, we were in the middle of managing a project to implement a <a href="https://moodle.org/" target="_blank">Moodle</a> and <a href="http://learninglocker.net/" target="_blank">Learning Locker</a> backend with a bespoke Javascript front end application - working with a global social media organisations.</p>
 <p>Alongside that we were working with a global professional body to design the technology underpinning their Continuing Professional Development (CPD) programme.</p>

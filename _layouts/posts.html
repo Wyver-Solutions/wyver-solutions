@@ -24,7 +24,7 @@
                     
                    
                     <p>
-                        <img src="{{ post.thumb }}" alt="" class="thumb"> {{ post.excerpt }}
+                        <img src="{{ post.thumb }}" alt="{{ post.alt }}" class="thumb"> {{ post.excerpt }}
                     </p>
                     <p class="small">Categories: 
                         {% for category in post.categories %}

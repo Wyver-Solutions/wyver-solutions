@@ -213,13 +213,22 @@ ul #menu li a:hover + .hidden, .hidden:hover {
 }
 
 /*Hide checkbox*/
-input[type=checkbox] .hidden {
+input[type=checkbox].hide {
     display: none;
 }
 
 /*Show menu when invisible checkbox is checked*/
 input[type=checkbox]:checked ~ #menu {
     display: block;
+}
+
+.banner-image {
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.right {
+    text-align: right;
 }
 
 /*Responsive Styles*/

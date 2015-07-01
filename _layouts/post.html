@@ -13,6 +13,10 @@
         <p class="small">Categories: {{ page.categories | join: ', ' }}
                     </p>
 
+        <div class="banner-image">
+            <img style="max-width:100%;" src="{{ page.banner }}" alt="{{ page.alt }}" />
+            <p class="small right">Credit: {{ page.img-credit }}</p>
+        </div>
                     
         {{ content }}
         <!-- Our History-->
