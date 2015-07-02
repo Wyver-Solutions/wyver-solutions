@@ -2,7 +2,7 @@
 title: 'Mobile learning strategy'
 author: Mark Berthelemy
 excerpt: 
-  With the introduction of ubiquitous, connected mobile devices into the workplace or the classroom, what can we do now that we couldn't do before? What do we need to do to enable this to happen?
+  We look at some of the key elements required for any mobile learning strategy&ndash; whether in the workplace or in formal education
 layout: post
 permalink: /2015/07/02/mobile-learning-strategy/
 categories:
