@@ -60,5 +60,10 @@ You will need to consider:
 - Security &ndash; how will you handle sensitive data on devices you don't control?
 
 <hr />
+### Addendum
+
+The recently released mLearning Design Reference Model from [ADL&rsquo;s MOTIF project](https://motifproject.org/) provides a useful [interactive Powerpoint](http://www.adlnet.gov/downloads/mlearning.pptx) (why Powerpoint rather than HTML, I&rsquo;m not quite sure). It helps learning designers and architects to focus on the unique characteristics of mobile devices and usage patterns.
+
+<hr />
 
 <p><strong>If you would like help to develop your mobile learning strategy, please <a href="/contact.html">get in touch</a></strong></p>
