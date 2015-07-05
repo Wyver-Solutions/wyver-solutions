@@ -22,7 +22,7 @@
 {% if page.thumb %}
   <meta name="og:image" content="{{site.url }}{{ page.thumb }}">
 {% else %}
-  <meta name="og:image" content="{{ site.url }}/assets/wyversolutions_logo_3001.png">
+  <meta name="og:image" content="{{ site.url }}/assets/wyver_square_logo.jpg">
 {% endif %}
 
 <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
@@ -50,7 +50,7 @@
 {% if page.thumb %}
   <meta name="twitter:image:src" content="{{site.url }}{{ page.thumb }}">
 {% else %}
-  <meta name="twitter:image:src" content="{{ site.url }}/assets/wyversolutions_logo_3001.png">
+  <meta name="twitter:image:src" content="{{ site.url }}/assets/wyver_square_logo.jpg">
 {% endif %}
 
 <title>{{ site.title }} > {{ page.title }}</title>
