@@ -19,11 +19,39 @@
 
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-<meta property="og:image" content="{% if page.thumb %}{{ page.thumb | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+{% if page.thumb %}
+  <meta name="og:image" content="{{site.url }}{{ page.thumb }}">
+{% else %}
+  <meta name="og:image" content="{{ site.url }}/assets/wyversolutions_logo_3001.png">
+{% endif %}
 
 <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
 <meta property="og:site_name" content="{{ site.title }}">
+
+<!-- Twitter cards -->
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@berthelemy">
+<meta name="twitter:creator" content="@berthelemy">
+{% if page.title %}
+  <meta name="twitter:title" content="{{ page.title }}">
+{% else %}
+  <meta name="twitter:title" content="{{ site.title }}">
+{% endif %}
+{% if page.url %}
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+{% endif %}
+{% if page.description %}
+  <meta name="twitter:description" content="{{ page.description }}">
+{% else %}
+  <meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
+{% if page.thumb %}
+  <meta name="twitter:image:src" content="{{site.url }}{{ page.thumb }}">
+{% else %}
+  <meta name="twitter:image:src" content="{{ site.url }}/assets/wyversolutions_logo_3001.png">
+{% endif %}
 
 <title>{{ site.title }} > {{ page.title }}</title>
 
