@@ -11,6 +11,7 @@ highlighter: pygments
 
 title : Wyver Solutions Ltd
 tagline: Learning Technology Architects
+description: 'Learning Technology Architects: consulting, supplier selection, implementation management and training'
 author :
   name : Mark Berthelemy
   email : mberthelemy@wyversolutions.co.uk
@@ -26,5 +27,4 @@ paginate: 8
 paginate_path: "/blog/page:num/"
 
 name: Wyver Solutions Ltd
-description: Learning Technology Architects
 url: http://www.wyversolutions.co.uk
