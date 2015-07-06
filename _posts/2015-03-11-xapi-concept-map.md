@@ -10,7 +10,7 @@ categories:
 thumb: /assets/cmaptools-icon.jpg
 banner: /assets/cmap-xapi.png
 alt: Cmap tools and xAPI logos
-img-credit: Wyver Solutions
+img-credit: Wyver Solutions, IHMC and ADL
 ---
 We often use <a href="http://learn.cmappers.net/" target="_blank">concept maps</a> as part of our workshops. They&#8217;re a brilliant way to stimulate conversation at the same time as getting the big picture across.
 
