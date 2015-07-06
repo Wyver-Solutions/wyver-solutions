@@ -11,35 +11,29 @@
         <!-- MAIN CONTENT -->
         <div id="content" class="eight columns noleftmargin">
 
-            <p style="margin: 15px; border: 1px dotted #ededed; padding: 5px;">Please note that this blog is currently being rebuilt following a major systems failure at our hosting provider. In the meantime we are still writing new posts!</p>
+            <p style="margin: 15px 0px 15px 0px; border: 1px dotted #ededed; padding: 5px;">Please note that this blog is currently being rebuilt following a major systems failure at our hosting provider. In the meantime we are still writing new posts!</p>
 
+            {% assign row = 0 %}
             {% for post in paginator.posts %}
-            <div class="six columns">
-                <div class="boxblog">
-                    
-                    
+
+            {% if row == 0 %}<div class="row blogrow">{% endif %}
+                <div class="six columns">
+                    <div class="boxblog">                   
                         <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
                         <p class="small date">
                             Posted on: {{ post.date }}
                         </p>
-                   
-                    
-                   
-                    <p>
+                        <p>
                         <img src="{{ post.thumb }}" alt="{{ post.alt }}" class="thumb"> {{ post.excerpt }}
-                    </p>
-                    <p class="small">Categories: 
-                        {% for category in post.categories %}
-                            {{ category }}, 
-                        {% endfor %}
                         </p>
-                    <p>
-                        <a href="{{ post.url }}" class="small continue">Continue reading</a>
-                    </p>
-
-                      
+                        <p class="small">Categories: {% for category in post.categories %}{{ category }},{% endfor %}
+                        </p>
+                        <p>
+                            <a href="{{ post.url }}" class="small continue">Continue reading</a>
+                        </p>
+                    </div>
                 </div>
-            </div>
+            {% if row == 1 %}</div> <!-- End row -->{% assign row = 0 %}{% else %}{% assign row = 1 %}{% endif %}
             {% endfor %} 
 
 <!-- PAGINATION BUTTONS -->

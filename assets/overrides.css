@@ -251,6 +251,14 @@ input.gsc-input,
     background-image: #1d76c3;
 }
 
+.blogrow {
+
+}
+
+.boxblog {
+    height: 100%;
+}
+
 .section-icon {
     float:right;
     color: #1d76c3;
