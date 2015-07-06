@@ -83,5 +83,3 @@ As always, when designing your xAPI statements, we would advise to:
   2. Understand what information you will need in order to make those decisions (eg. Which activities appear to result in increased performance, or which regions are performing less well).
   3. Understand what data will be needed to generate that information. Note that you may require some knowledge of statistics to know whether the data is actually saying what you think it is!
   4. Decide on the vocabulary you will use to generate that data from across your activity providers.
-
- [1]: http://www.wyversolutions.co.uk/cms/wp-content/uploads/2015/01/xAPI-logo.png
