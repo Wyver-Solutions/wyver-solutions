@@ -8,15 +8,11 @@ categories:
   - Analysis and design
   - Five minute briefing
   - Troubleshooting and consultancy
+thumb: /assets/morguefile0001600559463-thumb.png
+banner: /assets/morguefile0001600559463-995.png
+alt: Web browser
+img-credit: <a href="http://mrg.bz/Nd11SG" target="_blank">Morguefile</a>
 ---
-<div id="attachment_1340" style="width: 160px" class="wp-caption alignright">
-  <a href="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2015/04/morguefile000132267159-500.png"><img class="size-thumbnail wp-image-1340" src="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2015/04/morguefile000132267159-500-150x150.png" alt="Web browser" width="150" height="150" /></a>
-  
-  <p class="wp-caption-text">
-    From: <a href="http://mrg.bz/jrLNPH" target="_blank">Morguefile</a>
-  </p>
-</div>
-
 Over the years, we have worked with a number of organisations who&#8217;s primary business model is focussed on creating and selling ideas. In the past they would have sold the ideas as content &#8211; usually books and videos. It was a highly scaleable model which has its roots in the invention of the printing press. The process of production was so complex and specialised that people were prepared to pay for the outputs, as they couldn&#8217;t get them any other way.
 
 Now, however, it is so easy for anyone to create, distribute and copy digital content that it brings into question a business model which is based on selling such content.

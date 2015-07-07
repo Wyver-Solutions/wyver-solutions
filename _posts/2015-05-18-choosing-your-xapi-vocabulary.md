@@ -6,6 +6,10 @@ layout: post
 categories:
   - Troubleshooting and consultancy
   - xAPI
+thumb: /assets/xapi-logo.png
+banner: /assets/xapi-bgd.png
+alt: xAPI logo
+img-credit: Wyver Solutions, ADL
 ---
 At first glance, the <a href="https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md" target="_blank">xAPI specification</a> is deceptively simple. It allows your systems (the Activity Providers) to send data (the Statement) to a central repository (the Learning Record Store) as a simple sentence:
 
