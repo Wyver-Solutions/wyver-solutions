@@ -27,6 +27,7 @@ We can help you:
 + Communicate those designs to senior stakeholders
 
 <div class="section-icon"><span class="fa fa-search"></span></div>
+
 ### Supplier Selection
 
 We can help you:
