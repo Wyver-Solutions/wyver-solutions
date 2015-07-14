@@ -2,7 +2,7 @@
 title: 'Preparing for butterfly hunting'
 author: Mark Berthelemy
 excerpt: 
-  Some things to think about prior to our session at this week&rsquo;s #elnevent.
+  Some things to think about prior to our session at this week&rsquo;s Elearning Network event.
 layout: post
 permalink: /2015/07/14/preparing-for-butterfly-hunting/
 categories:
