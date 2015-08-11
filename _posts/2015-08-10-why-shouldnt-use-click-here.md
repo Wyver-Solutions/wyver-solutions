@@ -8,8 +8,8 @@ permalink: /2015/08/10-why-shouldnt-use-click-here
 categories:
   - consultancy and troubleshooting
   - analysis and design
-thumb: assets/pixabay-signpost-468074_1280-165.png
-banner: assets/signpost.png
+thumb: /assets/pixabay-signpost-468074_1280-165.png
+banner: /assets/signpost.png
 alt: Signpost saying "walk down"
 img-credit: <a href="https://pixabay.com/en/directory-wall-stones-traffic-sign-468074/" target="_blank">Pixabay</a>
 ---
