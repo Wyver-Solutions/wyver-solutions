@@ -5,11 +5,14 @@ excerpt: "With eFront's recent string of awards, I thought it was about time I t
 layout: post
 permalink: /2012/10/02/moodle-and-efront-side-by-side/
 categories:
-  - Learning Management
+  - Learning management
+  - Supplier selection
+thumb: /post-images/2012/10/moodle_efront_logos-thumb.png 
+banner: /post-images/2012/10/moodle_efront_logos.png
+img-credit: <a href="http://moodle.org" target="_blank">Moodle</a> and <a href="http://www.efrontlearning.net/" target="_blank">eFront</a>
 ---
-<img class="alignnone size-full wp-image-369 aligncenter" title="moodle_efront_logos" src="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2012/10/moodle_efront_logos.png" alt="Moodle and eFront logos" width="400" height="58" />
+With eFront&#8217;s recent [string of awards][1], I thought it was about time I took a look at this relative newcomer to the open source Learning Management System market.
 
-With eFront&#8217;s recent [string of awards][1], I thought it was about time I took a look at this relative newcomer to the open source Learning Management System market.  
 For many years, [Moodle][2] has been most people&#8217;s port of call when looking for an open source LMS (or Virtual Learning Environment in the education sector). Yes, there are many others, such as [Atutor][3], [Dokeos][4] and [Sakai][5], but they just haven&#8217;t had the same impact as Moodle.
 
 Personally, I&#8217;ve developed a love-hate relationship with Moodle. I&#8217;ve used it for many projects, from an elearning delivery platform for a local authority, through to a combined elearning and assessment platform used by nearly 45,000 people over the space of 6 months. It is tremendously capable, extremely robust (mostly!), and has been well tested by millions of users worldwide.
