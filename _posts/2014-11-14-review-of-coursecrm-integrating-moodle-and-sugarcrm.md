@@ -8,7 +8,7 @@ categories:
   - Learning Management
   - Reviews
 thumb: /post-images/2014/11/cm_logo-thumb.png
-banner: /post-images/2014/11/cm_logo.png
+banner: /post-images/2014/11/cm_logo-banner.png
 alt: CourseCRM logo
 img-credit: <a href="http://www.coursecrm.com/" target="_blank">CourseCRM</a>
 ---
