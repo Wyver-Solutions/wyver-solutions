@@ -5,6 +5,11 @@
     float: right;
 }
 
+.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 
 #proposition {
     width: 100%;
