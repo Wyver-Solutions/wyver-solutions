@@ -7,8 +7,8 @@ permalink: /2014/11/14/review-of-coursecrm-integrating-moodle-and-sugarcrm/
 categories:
   - Learning Management
   - Reviews
-thumb: /assets/cm_logo-thumb.png
-banner: /assets/cm_logo.png
+thumb: /post-images/2014/11/cm_logo-thumb.png
+banner: /post-images/2014/11/cm_logo.png
 alt: CourseCRM logo
 img-credit: <a href="http://www.coursecrm.com/" target="_blank">CourseCRM</a>
 ---
@@ -16,7 +16,7 @@ Generally, I would advise not to use Moodle for either content management or st
 
 Leaving the content management piece aside for now (as I&#8217;m sure that will produce some howls of protest&#8230;), let&#8217;s consider what a typical training or learning &amp; development organisation needs to do.
 
-<img src="assets/building-blocks.png" alt="Building blocks of a typical L&amp;D organisation" />
+<img src="/post-images/2014/11/building-blocks.png" alt="Building blocks of a typical L&amp;D organisation" />
 
 ## Building blocks
 
@@ -44,7 +44,7 @@ By pulling together data from across the different parts of the organisation it&
 
 When you look in more detail at how these building blocks work together, it shows some fairly complex process flows:
 
-<img src="assets/processes.png" alt="Typical L&amp;D processes" />
+<img src="/post-images/2014/11/processes.png" alt="Typical L&amp;D processes" />
 
 Moodle is great at the Learning Delivery part of the puzzle. But ask anyone who&#8217;s tried to use Moodle on its own to run an L&amp;Dorganisation and they&#8217;ll tell you horror stories of multiple spreadsheets, CSV files and complex mail merges.
 
@@ -52,7 +52,7 @@ In schools and colleges there are a few, high-powered Student Information System
 
 <a href="http://www.coursecrm.com/" target="_blank">CourseCRM</a> connects Moodle with its equivalent in the Customer Relationship Management world: <a href="http://www.sugarcrm.com/" target="_blank">SugarCRM</a> (you might want to use <a href="https://suitecrm.com/" target="_blank">SuiteCRM</a> instead &#8211; which is SugarCRM with a lot of additional functionality, especially around reporting, in a neat, easily upgradeable package).
 
-<img src="assets/moodleint.png" alt="Data flows" />
+<img src="/post-images/2014/11/moodleint.png" alt="Data flows" />
 
 It pulls as much data as it can out of Moodle (using a clever web-service, with a built in queuing system &#8211; which is important to ensure no data is missed) and aggregates it into SugarCRM.
 
@@ -60,7 +60,7 @@ This allows the admin team to easily find out what is happening with their learn
 
 This data can then be used alongside SugarCRM&#8217;s ticketing and sales process systems in order to provide an all-round picture of your communications with your students.
 
-<img src="assets/course-attendance-query.png" alt="Course attendance query" />
+<img src="/post-images/2014/11/course-attendance-query.png" alt="Course attendance query" />
 
 From within the CRM, an administrator could:
 
