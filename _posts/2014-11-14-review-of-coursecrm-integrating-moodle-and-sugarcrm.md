@@ -44,7 +44,7 @@ By pulling together data from across the different parts of the organisation it&
 
 When you look in more detail at how these building blocks work together, it shows some fairly complex process flows:
 
-<img src="/post-images/2014/11/processes.png" alt="Typical L&amp;D processes" />
+<img class="aligncenter" src="/post-images/2014/11/processes.png" alt="Typical L&amp;D processes" />
 
 Moodle is great at the Learning Delivery part of the puzzle. But ask anyone who&#8217;s tried to use Moodle on its own to run an L&amp;Dorganisation and they&#8217;ll tell you horror stories of multiple spreadsheets, CSV files and complex mail merges.
 
@@ -52,7 +52,7 @@ In schools and colleges there are a few, high-powered Student Information System
 
 <a href="http://www.coursecrm.com/" target="_blank">CourseCRM</a> connects Moodle with its equivalent in the Customer Relationship Management world: <a href="http://www.sugarcrm.com/" target="_blank">SugarCRM</a> (you might want to use <a href="https://suitecrm.com/" target="_blank">SuiteCRM</a> instead &#8211; which is SugarCRM with a lot of additional functionality, especially around reporting, in a neat, easily upgradeable package).
 
-<img src="/post-images/2014/11/moodleint.png" alt="Data flows" />
+<img class="aligncenter" src="/post-images/2014/11/moodleint.png" alt="Data flows" />
 
 It pulls as much data as it can out of Moodle (using a clever web-service, with a built in queuing system &#8211; which is important to ensure no data is missed) and aggregates it into SugarCRM.
 
@@ -60,7 +60,7 @@ This allows the admin team to easily find out what is happening with their learn
 
 This data can then be used alongside SugarCRM&#8217;s ticketing and sales process systems in order to provide an all-round picture of your communications with your students.
 
-<img src="/post-images/2014/11/course-attendance-query.png" alt="Course attendance query" />
+<img class="aligncenter" src="/post-images/2014/11/course-attendance-query.png" alt="Course attendance query" />
 
 From within the CRM, an administrator could:
 
@@ -84,7 +84,3 @@ In a recent project, where we had to organise dozens of students into groups wi
 What CourseCRM does, it does extremely well. So, if you&#8217;re looking for a way to efficiently support and track students and their courses, then you should consider CourseCRM.
 
 My hope is that they&#8217;ll extend the functionality so that SugarCRM can also be the place where the administration can happen.
-
-
-
-&nbsp;
