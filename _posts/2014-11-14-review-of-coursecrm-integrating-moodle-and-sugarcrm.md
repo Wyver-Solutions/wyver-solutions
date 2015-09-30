@@ -16,9 +16,7 @@ Generally, I would advise not to use Moodle for either content management or st
 
 Leaving the content management piece aside for now (as I&#8217;m sure that will produce some howls of protest&#8230;), let&#8217;s consider what a typical training or learning &amp; development organisation needs to do.
 
-<div class="aligncenter">
-<img src="/post-images/2014/11/building-blocks.png" alt="Building blocks of a typical L&amp;D organisation" />
-</div>
+<img class="aligncenter" src="/post-images/2014/11/building-blocks.png" alt="Building blocks of a typical L&amp;D organisation" />
 
 ## Building blocks
 
