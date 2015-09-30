@@ -60,7 +60,7 @@ This allows the admin team to easily find out what is happening with their learn
 
 This data can then be used alongside SugarCRM&#8217;s ticketing and sales process systems in order to provide an all-round picture of your communications with your students.
 
-<img class="aligncenter" src="/post-images/2014/11/course-attendance-query.png" alt="Course attendance query" />
+<img class="aligncenter" width="100%" src="/post-images/2014/11/course-attendance-query.png" alt="Course attendance query" />
 
 From within the CRM, an administrator could:
 
