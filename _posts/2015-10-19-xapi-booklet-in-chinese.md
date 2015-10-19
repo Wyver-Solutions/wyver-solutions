@@ -13,7 +13,7 @@ banner: /post-images/2015/10/xapi-booklet-banner.png
 alt: xAPI booklet cover
 img-credit: Mark Berthelemy
 ---
-Last year, we published a short, introductory booklet <href="http://www.slideshare.net/MarkBerthelemy/exploring-the-potential-of-the-xapi-aka-tin-can-api" target="_blank">&ldquo;Exploring the potential of xAPI&rdquo;</a>, designed for a non-technical audience.
+Last year, we published a short, introductory booklet <a href="http://www.slideshare.net/MarkBerthelemy/exploring-the-potential-of-the-xapi-aka-tin-can-api" target="_blank">&ldquo;Exploring the potential of xAPI&rdquo;</a>, designed for a non-technical audience.
 
 We placed it on Slideshare, and gave it out at our xAPI workshops, where we received some very good reviews.
 
