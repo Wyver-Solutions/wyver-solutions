@@ -29,7 +29,7 @@ So, here are few resources that may help guide you at each level.
 
 ## Level 1: Infrastructure
 
-NB. I don&rsquo;t know how large your site is going to get, so I&rsquo;ve split this into small and large setups:
+We&rsquo;ve split this into small and large setups.
 
 ### Small setup (low user numbers, low bandwidth requirements):
 
