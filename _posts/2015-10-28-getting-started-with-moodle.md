@@ -31,7 +31,9 @@ So, here are few resources that may help guide you at each level.
 
 We&rsquo;ve split this into small and large setups.
 
-### Small setup (low user numbers, low bandwidth requirements):
+### Small setup
+
+(Low user numbers, low bandwidth requirements)
 
 This will work on a single server, running a Linux, Apache, MySQL and PHP software stack. These will need to be configured appropriately for security and performance.
 
@@ -51,7 +53,9 @@ A lot has also been written about optimizing Moodle servers:
 
 <a rel=nofollow href="http://www.iteachwithmoodle.com/2014/01/23/how-to-optimize-a-moodle-server-part-4-apc/" target="_blank">http://www.iteachwithmoodle.com/2014/01/23/how-to-optimize-a-moodle...</a>
 
-### Large setup (high user numbers accessing a lot of resources and activities):
+### Large setup
+
+(High user numbers accessing a lot of resources and activities)
 
 This can get very complicated very quickly, as you&rsquo;ll need multiple servers, network infrastructure, and security systems.### <br/></em>
 
