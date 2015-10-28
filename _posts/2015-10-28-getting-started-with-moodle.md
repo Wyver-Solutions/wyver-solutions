@@ -59,7 +59,7 @@ A lot has also been written about optimizing Moodle servers:
 
 This can get very complicated very quickly, as you&rsquo;ll need multiple servers, network infrastructure, and security systems.
 
-At this point, you will need to bring in professional system architects... some will recommend Linux as the base operating system, others Windows. Either will work, but don&rsquo;t try to mix and match software (ie. with Windows use IIS as the web server software, and with Linux use Apache or nginx
+At this point, you will need to bring in professional system architects... Some will recommend Linux as the base operating system, others Windows. Either will work, but don&rsquo;t try to mix and match software (ie. with Windows use IIS as the web server software, and with Linux use Apache or nginx.
 
 You will find this document useful at this stage:
 
