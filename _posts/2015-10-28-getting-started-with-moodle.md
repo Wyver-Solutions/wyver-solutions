@@ -2,12 +2,12 @@
 title: 'Getting started with Moodle'
 author: Mark Berthelemy
 excerpt: 
-  Where to get help for those looking to setup their own Moodle site.
+ Where to get help for those looking to setup their own Moodle site.
 layout: post
 permalink: /2015/10/28-getting-started-with-moodle
 categories:
-  - consultancy and troubleshooting
-  - analysis and design
+ - consultancy and troubleshooting
+ - analysis and design
 thumb: /post-images/2015/10/moodle-logo-thumb.png
 banner: /post-images/2015/10/moodle-logo-banner.png
 alt: Moodle logo
@@ -39,19 +39,19 @@ This will work on a single server, running a Linux, Apache, MySQL and PHP softwa
 
 There are guidelines on Moodle docs:
 
-<a rel=nofollow href="https://docs.moodle.org/29/en/Installing_Moodle#Requirements" target="_blank">https://docs.moodle.org/29/en/Installing_Moodle#Requirements</a>
+<a href="https://docs.moodle.org/29/en/Installing_Moodle#Requirements" target="_blank">https://docs.moodle.org/29/en/Installing_Moodle#Requirements</a>
 
-<a rel=nofollow href="https://docs.moodle.org/29/en/Installing_AMP" target="_blank">https://docs.moodle.org/29/en/Installing_AMP</a>
+<a href="https://docs.moodle.org/29/en/Installing_AMP" target="_blank">https://docs.moodle.org/29/en/Installing_AMP</a>
 
 A lot has also been written about optimizing Moodle servers:
 
-<a rel=nofollow href="http://www.iteachwithmoodle.com/2014/01/20/optimizing-a-moodle-server-step-1-fine-tune-apache/" target="_blank">http://www.iteachwithmoodle.com/2014/01/20/optimizing-a-moodle-serv...</a>
+<a href="http://www.iteachwithmoodle.com/2014/01/20/optimizing-a-moodle-server-step-1-fine-tune-apache/" target="_blank">http://www.iteachwithmoodle.com/2014/01/20/optimizing-a-moodle-serv...</a>
 
-<a rel=nofollow href="http://www.iteachwithmoodle.com/2014/01/21/how-to-optimize-a-moodle-server-part-2-mysql/" target="_blank">http://www.iteachwithmoodle.com/2014/01/21/how-to-optimize-a-moodle...</a>
+<a href="http://www.iteachwithmoodle.com/2014/01/21/how-to-optimize-a-moodle-server-part-2-mysql/" target="_blank">http://www.iteachwithmoodle.com/2014/01/21/how-to-optimize-a-moodle...</a>
 
-<a rel=nofollow href="http://www.iteachwithmoodle.com/2014/01/22/how-to-optimize-a-moodle-server-part-3-apache-on-a-diet/" target="_blank">http://www.iteachwithmoodle.com/2014/01/22/how-to-optimize-a-moodle...</a>
+<a href="http://www.iteachwithmoodle.com/2014/01/22/how-to-optimize-a-moodle-server-part-3-apache-on-a-diet/" target="_blank">http://www.iteachwithmoodle.com/2014/01/22/how-to-optimize-a-moodle...</a>
 
-<a rel=nofollow href="http://www.iteachwithmoodle.com/2014/01/23/how-to-optimize-a-moodle-server-part-4-apc/" target="_blank">http://www.iteachwithmoodle.com/2014/01/23/how-to-optimize-a-moodle...</a>
+<a href="http://www.iteachwithmoodle.com/2014/01/23/how-to-optimize-a-moodle-server-part-4-apc/" target="_blank">http://www.iteachwithmoodle.com/2014/01/23/how-to-optimize-a-moodle...</a>
 
 ### Large setup
 
@@ -63,15 +63,15 @@ At this point, you will need to bring in professional system architects... some 
 
 You will find this document useful at this stage:
 
-<a rel=nofollow href="https://docs.moodle.org/29/en/Performance_recommendations" target="_blank">https://docs.moodle.org/29/en/Performance_recommendations</a>
+<a href="https://docs.moodle.org/29/en/Performance_recommendations" target="_blank">https://docs.moodle.org/29/en/Performance_recommendations</a>
 
 ## Level 2: Installation
 
 Moodle is actually very simple to install, once you have the server hardware and software setup correctly.
 
-Follow the instructions at: <a rel=nofollow href="https://docs.moodle.org/29/en/Installing_Moodle" target="_blank">https://docs.moodle.org/29/en/Installing_Moodle</a>
+Follow the instructions at: <a href="https://docs.moodle.org/29/en/Installing_Moodle" target="_blank">https://docs.moodle.org/29/en/Installing_Moodle</a>
 
-You will usually find help in the <a rel=nofollow href="https://moodle.org/mod/forum/view.php?id=28" target="_blank">Moodle Installation forum</a>
+You will usually find help in the <a href="https://moodle.org/mod/forum/view.php?id=28" target="_blank">Moodle Installation forum</a>
 
 Some hosting providers offer an automated Moodle installation service, but be aware that many shared hosting setups will not cope with anything more than a very small number of users.
 
@@ -82,7 +82,7 @@ Don&rsquo;t forget that you will need to perform regular maintenance upgrades on
 
 This is where it starts to get complicated, as Moodle can be configured to operate in so many different ways.
 
-The best source of advice on this is Alex Buchner&rsquo;s book: Moodle 2 Administration (<a rel=nofollow href="http://www.amazon.co.uk/Moodle-2-Administration-Alex-B%C3%BCchner/dp/1849516049" target="_blank">Amazon</a>). The book is probably a little out-of-date, and will need to be supplemented by frequent visits to <a rel=nofollow href="https://docs.moodle.org/" target="_blank">https://docs.moodle.org/</a>
+The best source of advice on this is Alex Buchner&rsquo;s book: Moodle 2 Administration (<a href="http://www.amazon.co.uk/Moodle-2-Administration-Alex-B%C3%BCchner/dp/1849516049" target="_blank">Amazon</a>). The book is probably a little out-of-date, and will need to be supplemented by frequent visits to <a href="https://docs.moodle.org/" target="_blank">https://docs.moodle.org/</a>
 
 The main things to consider are:
 
@@ -100,18 +100,18 @@ The main things to consider are:
 
 Actually, once a Moodle site is setup, there&rsquo;s little ongoing administration to do, apart from adding new users and assigning the right users to the right courses and groups, with the right permissions. It is possible to automate much of that, which will be considered during Configuration.
 
-Again, Moodle docs is a good source of info: <a rel=nofollow href="https://docs.moodle.org/29/en/Guide_for_new_administrators" target="_blank">https://docs.moodle.org/29/en/Guide_for_new_administrators</a>
+Again, Moodle docs is a good source of info: <a href="https://docs.moodle.org/29/en/Guide_for_new_administrators" target="_blank">https://docs.moodle.org/29/en/Guide_for_new_administrators</a>
 
 ## Level 5: Course design
 
-At this point, there is a huge amount of guidance and support <a rel=nofollow href="https://www.google.co.uk/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=moodle%20course%20design" target="_blank">dotted around the web</a>. The <a rel=nofollow href="https://moodle.org/mod/forum/view.php?id=41" target="_blank">Teaching with Moodle forum</a> is a particularly good source of help.
+At this point, there is a huge amount of guidance and support <a href="https://www.google.co.uk/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=moodle%20course%20design" target="_blank">dotted around the web</a>. The <a href="https://moodle.org/mod/forum/view.php?id=41" target="_blank">Teaching with Moodle forum</a> is a particularly good source of help.
 
-It is worth reading Moodle&rsquo;s paper on pedagogy: <a rel=nofollow href="https://docs.moodle.org/29/en/Pedagogy" target="_blank">https://docs.moodle.org/29/en/Pedagogy</a> as it will give a very good idea of why Moodle works the way it does.
+It is worth reading Moodle&rsquo;s paper on pedagogy: <a href="https://docs.moodle.org/29/en/Pedagogy" target="_blank">https://docs.moodle.org/29/en/Pedagogy</a> as it will give a very good idea of why Moodle works the way it does.
 
 Other useful resources:
 
-<a rel=nofollow href="https://docs.moodle.org/29/en/Moodle_key_terms" target="_blank">https://docs.moodle.org/29/en/Moodle_key_terms</a>
+<a href="https://docs.moodle.org/29/en/Moodle_key_terms" target="_blank">https://docs.moodle.org/29/en/Moodle_key_terms</a>
 
-<a rel=nofollow href="https://docs.moodle.org/29/en/Managing_a_Moodle_course" target="_blank">https://docs.moodle.org/29/en/Managing_a_Moodle_course</a>
+<a href="https://docs.moodle.org/29/en/Managing_a_Moodle_course" target="_blank">https://docs.moodle.org/29/en/Managing_a_Moodle_course</a>
 
 If you need independent support or advice to get you up and running with Moodle, please <a href="/contact.html">get in touch</a>.
