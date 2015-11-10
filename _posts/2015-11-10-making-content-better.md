@@ -18,7 +18,7 @@ Creating content to support learning &amp; development can be an enjoyable task,
 
 In the ideal scenario, the learning designer will work with a Subject Matter Expert (SME) to understand the learning needs, the context and the content. They will then translate that into a set of activities designed to motivate, stimulate, support and embed learning. These activities will then be delivered as a finished product, to the delight of its users.
 
-That&rsqu;s the ideal.
+That&rsquo;s the ideal.
 
 In practice, it&rsquo;s a little more complicated...
 
