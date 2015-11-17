@@ -70,6 +70,14 @@ Find the section headed SMTP server configuration, and then add in the following
 
 Once all that is done, you should have a working Testlink installation. It may need further tweaks, but check out the documentation stored inside the docs directory.
 
+Note: If you want to access PHPmyadmin to administer the database, create an SSH tunnel to the port 80 instead. This can be done as follows in Unix systems:
+
+    ssh -i <path_to_private_key> -N -L 8888:127.0.0.1:80 <public_dns>
+
+or with Putty on Windows using source port 8888 and destination 127.0.0.1:80.
+
+Once done it will be accessible at http://localhost:8888/phpmyadmin while the tunnel is opened. Credit to <a href="https://bitnami.com/forums/forums/bitnami-cloud/topics/can-t-access-phpmyadmin#post_10627" target="_blank">Carlos on the Bitnami forums</a> for this advice.
+
  
 
 
