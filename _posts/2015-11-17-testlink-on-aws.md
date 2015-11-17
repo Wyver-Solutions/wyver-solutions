@@ -13,7 +13,7 @@ banner: /post-images/2015/11/testlink-on-aws-banner.png
 alt: Testlink
 img-credit: Testlink and Amazon
 ---
-We have been using Testlink on and off for a number of years as a tool to help define and execute tests against all sorts of software. It&rsquo;s far better than trying to track everything on spreadsheets (see our recent post on <a href="/2015-11-10-making-content-better">Making Content Better</a> for a bit more rationale).
+We have been using <a href="http://testlink.org" target="_blank">Testlink</a> on and off for a number of years as a tool to help define and execute tests against all sorts of software. It&rsquo;s far better than trying to track everything on spreadsheets (see our recent post on <a href="/2015-11-10-making-content-better">Making Content Better</a> for a bit more rationale).
 
 We needed to move our Testlink installation from our shared web-server to something a bit more robust and scalable, and have chosen <a href="https://aws.amazon.com">Amazon Web Services (AWS)</a> given its reputation and our previous experiences with some rather large clients of their&rsquo;s.
 
