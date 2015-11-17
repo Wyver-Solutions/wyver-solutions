@@ -13,7 +13,7 @@ banner: /post-images/2015/11/testlink-on-aws-banner.png
 alt: Testlink
 img-credit: Testlink and Amazon
 ---
-We have been using Testlink on and off for a number of years as a tool to help define and execute tests against all sorts of software. It&rsquo;s far better than trying to track everything on spreadsheets (see our recent post on <a href="/2015-11-10-making-content-better">Making Content Better<a> for a bit more rationale).
+We have been using Testlink on and off for a number of years as a tool to help define and execute tests against all sorts of software. It&rsquo;s far better than trying to track everything on spreadsheets (see our recent post on <a href="/2015-11-10-making-content-better">Making Content Better</a> for a bit more rationale).
 
 We needed to move our Testlink installation from our shared web-server to something a bit more robust and scalable, and have chosen <a href="https://aws.amazon.com">Amazon Web Services (AWS)</a> given its reputation and our previous experiences with some rather large clients of their&rsquo;s.
 
@@ -32,7 +32,7 @@ Setting up Testlink on the server was mostly quite straightforward, but there we
 
 If you then go to the IP address supplied by AWS, you should see the Testlink login page. However, the normal Bitnami password doesn't seem to work, so you'll need to change it, but you'll only be able to do that when you've got a way for Testlink to send emails...
 
-## Setting up an AWS SMTP server (for sending emails)
+## Setting up an AWS SMTP server
 
 There are three stages to getting Testlink setup so it can send emails:
 
@@ -66,6 +66,7 @@ Find the section headed SMTP server configuration, and then add in the following
     $g_return_path_email = ‘email@sample.com'; # the return address for bounced mail
     $g_from_name = ‘From Name';
     $g_enable_email_notification = ON;
+
 
 Once all that is done, you should have a working Testlink installation. It may need further tweaks, but check out the documentation stored inside the docs directory.
 
