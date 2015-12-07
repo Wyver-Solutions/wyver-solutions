@@ -13,7 +13,7 @@ banner: /post-images/2015/10/moodle-logo-banner.png
 alt: Moodle logo
 img-credit: Moodle.org
 ---
-[This post is a copy of a response made to a query on the <a href="http://learningandskillsgroup.ning.com/forum/topics/moodle-advice" target="_blank">Learning & Skills group forum</a>]
+[This post is a copy of a response made to a query on the <a href="http://learningandskillsgroup.ning.com/forum/topics/moodle-advice" target="_blank">Learning &amp; Skills group forum</a>]
 
 If you&rsquo;re looking for help on setting up a Moodle site, you&rsquo;re going to be spoilt for choice...
 

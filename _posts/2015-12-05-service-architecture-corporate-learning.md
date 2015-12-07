@@ -4,6 +4,7 @@ author: Mark Berthelemy
 excerpt: 
  We discuss a model for corporate learning and the principles behind it.
 permalink: /2015/12/05/service-architecture-corporate-learning
+layout: post
 categories:
  - consultancy and troubleshooting
  - analysis and design
@@ -12,7 +13,7 @@ banner: /post-images/2015/12/pixabay-blueprint-964630-banner.png
 alt: Architectural blueprint
 img-credit: <a href="https://pixabay.com/en/blueprint-ruler-architecture-964630" target="_blank">Pixabay</a>
 ---
-The modern corporate learning environment is diverse and complex. As well as the "traditional" face-to-face courses, there is a whole range of different learning methodologies to be supported.
+The modern corporate learning environment is diverse and complex. As well as the &lsquo;traditional&rsquo; face-to-face courses, there is a whole range of different learning methodologies to be supported.
 
 When designing a technology architecture to underpin this environment, I would recommend building on a few, key learning design principles (see references below):
 
@@ -23,8 +24,7 @@ When designing a technology architecture to underpin this environment, I would r
 5. Decisions about course or resource requirements should be underpinned by evidence
 
 As a thought-experiment, I would like to propose an architecture as shown in the diagram below:
-
-<img class="aligncenter" src="/post-images/2015/12/learning-architecture.png" />
+<img class="aligncenter" width="100%" src="/post-images/2015/12/learning-architecture.png" />
 
 Each component within the architecture is a designed as a service which can be called upon by any of the other components. That service could be realised through people, through a website, through a mobile app, or any combination of these. 
 
@@ -58,7 +58,7 @@ The personalisation service provides the means by which people get, as quickly a
 
 What the user is directed to should be based on:
 
-- what the organisation is trying to "market" at any point in time
+- what the organisation is trying to &ldquo;market&rdquo; at any point in time
 - what the organisation considers mandatory for that particular user
 - information supplied by the user, including
     - preferences
@@ -88,7 +88,7 @@ Note that the Community provides data for the Search service - thus providing a 
 
 The Community will also provide data to the Learning Records service, such as:
 
-"[UserID] responded to [forum post] on [date]"
+    [UserID] responded to [forum post] on [date]
 
 ## Content
 
@@ -115,7 +115,7 @@ The ideal is to have both extremes at the same time - where content is built in 
 
 The Content service will also provide data to the Learning Records service, such as:
 
-"[UserID] watched [x%] of [video] on [date]"
+    [UserID] watched [x%] of [video] on [date]
 
 ## Courses
 
@@ -131,7 +131,7 @@ A course usually comprises a mix of resources and activities. The resources, in 
 
 The Course service will also provide data for the Learning Records service, such as:
 
-"[UserID] completed [Course] on [date]"
+    [UserID] completed [Course] on [date]
 
 ## Assessment
 
@@ -152,9 +152,9 @@ As each of those requirements increases, so will the necessary complexity of the
 
 The Assessment service will also provide data to the Learning Records service, such as:
 
-"[UserID] passed [Assessment] with a score of [x%] on [date]"
+    [UserID] passed [Assessment] with a score of [x%] on [date]
 
-"[UserID] answered [Question] in [Assessment] with [Answer], scoring [n]"
+    [UserID] answered [Question] in [Assessment] with [Answer], scoring [n]
 
 ## Learning records
 
@@ -175,23 +175,22 @@ It will help answer questions such as:
 
 - What Content resources do we need to provide to answer user's questions to the Search service?
 - Which Content resources are being underused?
-- Where can I find an expert on topic "x"?
+- Where can I find an expert on topic &ldquo;x&rdquo;?
 - How good are our assessments at differentiating accurately between people?
 
 The Analytics service can be used in support of A-B testing, where a slight tweak is made to a service to see the impact of the change.
 
 Note that, if the Analytics service also has access to performance data, then even more useful analysis can be made to answer questions such as:
 
-- Does our "x" course have an impact on performance?
+- Does our &ldquo;x&rdquo; course have an impact on performance?
 - How do high-achieving people use the learning services?
 
 # References
 
-Caple, C. (1996) "The Effects of Spaced Practice and Spaced Review on Recall
-and Retention Using Computer Assisted Instruction", available from: http://eric.ed.gov/?id=ED427772
+Caple, C. (1996) &ldquo;The Effects of Spaced Practice and Spaced Review on Recall and Retention Using Computer Assisted Instruction&rdquo;, available from: [http://eric.ed.gov/?id=ED427772](http://eric.ed.gov/?id=ED427772)
 
-Siemens, G. (2005) "Connectivism: A Learning Theory for the Digital Age", available from: http://www.itdl.org/journal/jan_05/article01.htm
+Siemens, G. (2005) &ldquo;Connectivism: A Learning Theory for the Digital Age&rdquo;, available from: [http://www.itdl.org/journal/jan_05/article01.htm](http://www.itdl.org/journal/jan_05/article01.htm)
 
-Shackleton-Jones, N. (2010) "Towards a working theory of learning: the affective context model", available from: http://www.aconventional.com/2010/05/towards-working-theory-of-learning.html
+Shackleton-Jones, N. (2010) &ldquo;Towards a working theory of learning: the affective context model&rdquo;, available from: [http://www.aconventional.com/2010/05/towards-working-theory-of-learning.html](http://www.aconventional.com/2010/05/towards-working-theory-of-learning.html)
 
-Medina, J. (2014) "Brain rules", available from: http://www.brainrules.net/about-brain-rules
+Medina, J. (2014) &ldquo;Brain rules&rdquo;, available from: [http://www.brainrules.net/about-brain-rules](http://www.brainrules.net/about-brain-rules)
