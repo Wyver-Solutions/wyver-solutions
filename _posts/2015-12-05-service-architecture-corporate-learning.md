@@ -24,7 +24,8 @@ When designing a technology architecture to underpin this environment, I would r
 5. Decisions about course or resource requirements should be underpinned by evidence
 
 As a thought-experiment, I would like to propose an architecture as shown in the diagram below:
-<img class="aligncenter" width="100%" src="/post-images/2015/12/learning-architecture.png" />
+
+<a class="example-image-link" data-lightbox="service-architecture" href="/post-images/2015/12/learning-architecture.png"><img width="100%" class="aligncenter" src="/post-images/2015/12/learning-architecture.png" alt=""/></a>
 
 Each component within the architecture is a designed as a service which can be called upon by any of the other components. That service could be realised through people, through a website, through a mobile app, or any combination of these. 
 
