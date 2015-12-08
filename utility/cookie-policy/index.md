@@ -1,5 +1,6 @@
 ---
 title: Cookie Policy
+menu: utility
 author: Wyver Solutions Admin
 layout: page
 ---

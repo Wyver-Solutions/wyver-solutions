@@ -141,6 +141,10 @@ li.relatedPost {
     font-size: 15px;
 }
 
+#copyright a {
+    font-size: 11px;
+}
+
 #footer a:hover {
     color: #aaa;
     text-decoration: underline;
