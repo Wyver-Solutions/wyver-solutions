@@ -14,10 +14,14 @@ As well as the standard corporate and academic learning technologies, we also ke
 
 We are not afraid to tell you if there is a better & less expensive way &#8211; even if that will result in less work for us. Our aim is to build up long-term relationships centred on trust, rather than short-term expediency.
 
-Wyver Solutions is based around people who are:
+## Our work
 
-  1. experts in their field
-  2. able to communicate with a range of audiences
-  3. good listeners
+Our portfolio includes a range of work from across the public and private sector, in the UK, Sweden and the US.
 
-&nbsp;
+Examples include:
+
+- Performing a learning technology review for a global utility provider
+- Providing Solutions Architecture services for a major UK government department; helping them to develop a five year strategy for learning and development - to incorporate key technologies such as xAPI, enterprise search and content management
+- Working with SERCO, supporting a learning technology review for the Defence Academy
+- Mapping and documenting integration points, data flows and authentication pathways in a multi-application learning technology system
+- Project managing complex integrated Moodle implementations for clients in the US and UK
