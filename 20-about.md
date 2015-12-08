@@ -8,7 +8,7 @@ permalink: "about.html"
 ---
 Wyver Solutions is a learning technology architecture practice &#8211; specialising in providing support, advice and training at the interface between learning, business and technology.
 
-<a data-lightbox="company-profile" href="/assets/images/company-profile-v3.svg"><img src="/assets/images/company-profile-v3.svg" width="300px" alt="Company profile diagram" /></a>
+<a data-lightbox="company-profile" href="/assets/images/company-profile-v3.svg"><img src="/assets/images/company-profile-v3.svg" class="alignright" width="250px" alt="Company profile diagram" /></a>
 
 As well as the standard corporate and academic learning technologies, we also keep a close eye on the technologies being used by wider society or enterprise IT. Many of these can play a part in supporting learning, without significant extra expense.
 
