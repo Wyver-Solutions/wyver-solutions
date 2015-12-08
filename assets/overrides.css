@@ -91,6 +91,14 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
     font-size: 1em;
 }
 
+.noslide h1 {
+    font-size: 40px;
+}
+
+.noslide h3 {
+    font-size: 27px;
+}
+
 code {
     white-space: pre-wrap;       /* CSS 3 */
     white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
