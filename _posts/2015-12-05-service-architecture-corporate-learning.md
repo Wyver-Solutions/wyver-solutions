@@ -60,7 +60,7 @@ What the user is directed to should be based on:
 
 - what the organisation is trying to &ldquo;market&rdquo; at any point in time
 - what the organisation considers mandatory for that particular user
-- information supplied by the user, including
+- information supplied by the user, including:
     - preferences
     - interests
     - job title
@@ -74,7 +74,7 @@ The latter set of data will come from other services within the learning archite
 
 The Search service will provide data to the Learning Records service, such as:
 
-"[UserID] searched for [search term] on [date]"
+    [UserID] searched for [search term] on [date]
 
 ## Community
 
