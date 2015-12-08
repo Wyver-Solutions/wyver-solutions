@@ -125,8 +125,13 @@ li.relatedPost {
 }
 
 #footer a {
-    color: #bbb;
+    color: #ddd;
     font-size: 15px;
+}
+
+#footer a:hover {
+    color: #aaa;
+    text-decoration: underline;
 }
 
 .small {
