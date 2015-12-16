@@ -132,6 +132,8 @@ li.relatedPost {
     margin-bottom: 6px;
 }
 
+
+
 #footer {
     color: #aaa;
 }
@@ -146,12 +148,14 @@ li.relatedPost {
     text-decoration: underline;
 }
 
-.copyright a {
-    font-size: 11px;
-}
+
 
 .small {
     color: #aaa;
+}
+
+#footer span.small a {
+    font-size: 11px;
 }
 
 
