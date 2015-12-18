@@ -1,7 +1,7 @@
 ---
 title: Tools of the trade
 author: Mark Berthelemy
-excerpt: Our top ten software tools for project management, consulting and collaboration.
+excerpt: Our top software tools for project management, consulting and collaboration.
 layout: post
 permalink: /2015/12/17/tools-of-the-trade/
 categories:
