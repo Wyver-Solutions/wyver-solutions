@@ -16,7 +16,7 @@ One of the problems with SCORM is its requirement for a learning management syst
 
 Our position has long been that content is best managed and delivered from within a <a href="http://en.wikipedia.org/wiki/Content_management_system" target="_blank">Content Management System</a> (CMS). Learning Management Systems should be the place where formal programmes and assessment are managed, using content from the CMS as required.
 
-To this mix, we also have the potential opened up by <a href="/2014/06/12/exploring-the-potential-of-the-xapi-aka-tin-can-api/" target="_blank">xAPI (Tin Can)</a> which allows any application, to which a learner has logged in, to send and receive data in a standard way to a Learning Record Store.
+To this mix, we also have the potential opened up by xAPI (Tin Can) which allows any application, to which a learner has logged in, to send and receive data in a standard way to a Learning Record Store.
 
 The problem has been creating, editing and displaying interactive learning materials within the CMS. But now, from Norway, we have the HTML5 Package (known as <a href="http://h5p.org/" target="_blank">H5P</a>). This provides a means of using any CMS, that understands H5P, to create, edit and display a whole range of interactive content types, including:
 
