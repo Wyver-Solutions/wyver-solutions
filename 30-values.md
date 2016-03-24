@@ -31,4 +31,4 @@ Wyver Solutions Ltd is committed to observing the highest standards of ethical 
 * To decline any engagement for which we are not competent unless we have access to such advice and assistance as will enable us to carry out the work competently.
 * To uphold the highest personal and professional standards
 
-Based on the code of ethics of <a href="http://spearfinancial.ifa-web.co.uk/" target="_blank">Spear Financial Ltd</a>. Used with permission.
+Based on the code of ethics of <a href="http://www.spearfinancial.co.uk/" target="_blank">Spear Financial Ltd</a>. Used with permission.
