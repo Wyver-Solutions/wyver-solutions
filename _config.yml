@@ -21,6 +21,7 @@ author :
 
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
 
 paginate: 10
 
