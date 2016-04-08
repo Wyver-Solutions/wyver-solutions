@@ -20,8 +20,23 @@ Our portfolio includes a range of work from across the public and private sector
 
 Examples include:
 
+- Providing project management services for an internationally recognised professional body 
 - Performing a learning technology review for a global utility provider
 - Providing Solutions Architecture services for a major UK government department; helping them to develop a five year strategy for learning and development - to incorporate key technologies such as xAPI, enterprise search and content management
 - Working with SERCO, supporting a learning technology review for the Defence Academy
 - Mapping and documenting integration points, data flows and authentication pathways in a multi-application learning technology system
 - Project managing complex integrated Moodle implementations for clients in the US and UK
+
+## How we remain independent
+
+We work with a number of specialist suppliers who we trust to work to the same standards as we do.
+
+Precisely who we bring in or recommend is dependent only on your particular requirements. We value our independence, and therefore we only enter into agreements with suppliers where we can maintain that independence. We do not receive any commission or kick-backs for any introductions made.
+
+Some suppliers use Wyver Solutions to provide implementation and project management services. To avoid conflicts of interest, our preference is to offer this as an independent service directly to our customers, and to only work for the suppliers when they have brought us into *their* customers.
+
+{% include suppliers.html %}
+
+
+
+
