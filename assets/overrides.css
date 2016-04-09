@@ -5,12 +5,16 @@
     float: right;
 }
 
+.alignleft {
+    padding: 0 20px 10px 0px;
+    float: left;
+}
+
 .aligncenter {
     display: block;
     margin-left: auto;
     margin-right: auto }
 }
-
 
 #proposition {
     width: 100%;
@@ -24,13 +28,27 @@
 
 a:hover { color: #5b5b5b; }
 
-
-
 #subheader {
     background-color: #5b5b5b;
     border-color: #5b5b5b;
 }
 
+#subheader h1 {
+    font-size: 1.8em;
+    color:#eee;
+}
+
+.ca-sub {
+    font-size: 1em;
+    line-height: 1em;
+}
+
+#searchbox {
+    clear:both;
+    width:100%;
+    padding-top: 10px;
+    margin-bottom:35px;
+}
 .slide {
     border-color: #5b5b5b;
 }
@@ -45,7 +63,7 @@ a:hover { color: #5b5b5b; }
 }
 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 #content ul, ol {
@@ -136,11 +154,12 @@ li.relatedPost {
 
 #footer {
     color: #aaa;
+    font-size: 15px;
 }
 
 #footer a {
     color: #ddd;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #footer a:hover {
@@ -158,10 +177,6 @@ li.relatedPost {
     font-size: 11px;
 }
 
-
-.ca-sub {
-    line-height: 15px;
-}
 
 /* Set colours */
 
@@ -203,12 +218,21 @@ a.projectdetail:hover { background: #1d76c3;opacity:1.0;}
 #testimonials {border-left: solid 6px #1d76c3;}
 .ei-title h2{background:#1d76c3;} 
 
+#utility-menu {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 /* Menu */
 
 .nav-bar {
     position: absolute;
     top: 0px;
     right: 30px;
+}
+
+.nav-bar > li > a:first-child {
+    font-size: 1em;
 }
 
 /*Strip the ul of padding and list styling*/
