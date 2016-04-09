@@ -33,7 +33,9 @@ We work with a number of specialist suppliers who we trust to work to the same s
 
 Precisely who we bring in or recommend is dependent only on your particular requirements. We value our independence, and therefore we only enter into agreements with suppliers where we can maintain that independence. We do not receive any commission or kick-backs for any introductions made.
 
-Some suppliers use Wyver Solutions to provide implementation and project management services. To avoid conflicts of interest, our preference is to offer this as an independent service directly to our customers, and to only work for the suppliers when they have brought us into *their* customers.
+Some suppliers use Wyver Solutions to provide implementation and project management services. To avoid conflicts of interest, our preference is to offer this as an independent service directly to our customers, and to only work for the suppliers when *they* have brought us into *their* customers.
+
+When working on your behalf, we are able to put your interests first. A clear line of accountability helps this greatly! 
 
 {% include suppliers.html %}
 
