@@ -15,6 +15,8 @@ We talk quite a bit about being *independent* consultants, but how does that wor
 
 We work with a growing number of <a href="/20-about.html">specialist suppliers</a> who we trust to work to the same standards as we do. In a few cases we have agreements with those suppliers which allow us to provide solution design, implementation, training or consultancy services on their behalf. Where these agreements exist, we always disclose them to our clients.
 
+We are always on the lookout for other suppliers who we can recommend to our customers.
+
 Precisely who we bring in or recommend is dependent only on our customers' particular requirements. We do not receive any commission or kick-backs for any introductions made.
 
 In order to maintain integrity, our preference is to provide implementation, training etc services directly to the customer - especially in cases where we have had a relationship with the customer previously.
