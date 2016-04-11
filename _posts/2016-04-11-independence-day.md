@@ -13,7 +13,7 @@ img-credit: <a href="https://commons.wikimedia.org/wiki/File:Independence_Town_S
 ---
 We talk quite a bit about being *independent* consultants, but how does that work in practice, and what's the benefit to our customers?
 
-We work with a growing number of <a href="/about.html">specialist suppliers</a> who we trust to work to the same standards as we do. In a few cases we have agreements with those suppliers which allow us to provide solution design, implementation, training or consultancy services on their behalf. Where these agreements exist, we always disclose them to our clients.
+We work with a growing number of <a href="/about.html#suppliers">specialist suppliers</a> who we trust to work to the same standards as we do. In a few cases we have agreements with those suppliers which allow us to provide solution design, implementation, training or consultancy services on their behalf. Where these agreements exist, we always disclose them to our clients.
 
 We are always on the lookout for other suppliers who we can recommend to our customers.
 
