@@ -19,7 +19,7 @@
                     <div class="boxblog">                   
                         <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
                         <p class="small date">
-                            Posted on: {{ post.date }}
+                            Posted on: {{ post.date | date: '%B %d, %Y' }}
                         </p>
                         <p>
                         <img src="{{ post.thumb }}" alt="{{ post.alt }}" class="thumb"> {{ post.excerpt }}
