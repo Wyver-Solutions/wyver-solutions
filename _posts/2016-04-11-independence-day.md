@@ -5,7 +5,9 @@ excerpt: Why independence is a good thing...
 layout: post
 permalink: /2016/04/11/independence-day/
 categories:
-  - Wyver Solutions
+  - Troubleshooting and consultancy
+  - Analysis and design
+  - Implementation support
 thumb: /post-images/2016/04/independence-sign-thumb.png
 banner: /post-images/2016/04/independence-sign-banner.png
 alt: Road sign for the town of Independence
