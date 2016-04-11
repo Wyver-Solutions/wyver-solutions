@@ -10,8 +10,14 @@
     <div class="twelve columns noleftmargin">
     <!-- MAIN CONTENT-->
     <div id="content" class="eight columns">
+        
+        <p class="small">
+                            Posted on: {{ page.date | date: '%B %d, %Y' }}
+                        </p>
         <p class="small">Categories: {{ page.categories | join: ', ' }}
                     </p>
+
+
 
         <div class="banner-image">
             <img style="max-width:100%;" src="{{ page.banner }}" alt="{{ page.alt }}" />

@@ -22,13 +22,14 @@
                             Posted on: {{ post.date | date: '%B %d, %Y' }}
                         </p>
                         <p>
-                        <img src="{{ post.thumb }}" alt="{{ post.alt }}" class="thumb"> {{ post.excerpt }}
+                        <a href="{{ post.url }}"><img src="{{ post.thumb }}" alt="{{ post.alt }}" class="thumb"></a>
+                        <!-- {{ post.excerpt }} -->
                         </p>
-                        <p class="small">Categories: {% for category in post.categories %}{{ category }},{% endfor %}
-                        </p>
-                        <p>
+                        <!--<p class="small">Categories: {% for category in post.categories %}{{ category }},{% endfor %}
+                        </p>-->
+                        <!--<p>
                             <a href="{{ post.url }}" class="small continue">Continue reading</a>
-                        </p>
+                        </p>-->
                     </div>
                 </div>
             {% if cellcount == 1 %}</div> <!-- End row -->{% assign cellcount = 0 %}{% else %}{% assign cellcount = 1 %}{% endif %}
