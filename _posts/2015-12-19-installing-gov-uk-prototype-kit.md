@@ -59,4 +59,4 @@ At this point, you can now follow the [instructions to download and install the 
 
 Once you&rsquo;re done, then use the documentation at [GOV.UK elements](http://govuk-elements.herokuapp.com/) to understand how to use the CSS.
 
-'#commentonmedium'
+<a href="https://medium.com/@mberthelemy">Comment on Medium</a>
