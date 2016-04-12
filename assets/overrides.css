@@ -1,5 +1,10 @@
 /* Overrides stylesheet */
 
+.reference {
+    text-align: right;
+    font-style: italic;
+}
+
 .alignright {
     padding: 0 0 10px 10px;
     float: right;
