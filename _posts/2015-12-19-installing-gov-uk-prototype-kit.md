@@ -1,7 +1,7 @@
 ---
 title: Installing the .gov.uk prototype kit
 author: Mark Berthelemy
-excerpt: A technical post about getting the prototype kit working in a mixed nodejs environment using nvm  - <a href="https://medium.com/@mberthelemy">Comment on Medium</a>
+excerpt: A technical post about getting the prototype kit working in a mixed nodejs environment using nvm
 layout: post
 permalink: /2015/12/19/installing-gov-uk-prototype-kit/
 categories:
