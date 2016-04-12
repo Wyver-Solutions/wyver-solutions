@@ -2,6 +2,7 @@
 title: Installing the .gov.uk prototype kit
 author: Mark Berthelemy
 excerpt: A technical post about getting the prototype kit working in a mixed nodejs environment using nvm 
+<a href="https://medium.com/@mberthelemy">Comment on Medium</a>
 layout: post
 permalink: /2015/12/19/installing-gov-uk-prototype-kit/
 categories:
@@ -58,5 +59,3 @@ To see which versions of node you have installed, type:
 At this point, you can now follow the [instructions to download and install the GOV.UK prototype kit](https://github.com/alphagov/govuk_prototype_kit)
 
 Once you&rsquo;re done, then use the documentation at [GOV.UK elements](http://govuk-elements.herokuapp.com/) to understand how to use the CSS.
-
-<a href="https://medium.com/@mberthelemy">Comment on Medium</a>
