@@ -5,6 +5,7 @@ menu: main
 layout: page
 weight: 10
 permalink: "about.html"
+cat: about-us
 ---
 Wyver Solutions is a learning technology architecture practice &#8211; specialising in providing support, advice and training at the interface between learning, business and technology.
 

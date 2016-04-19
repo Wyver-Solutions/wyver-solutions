@@ -5,6 +5,7 @@ layout: page
 menu: main
 weight: 20
 permalink: "services.html"
+cat: services
 ---
 <div class="section-icon"><span class="fa fa-ambulance"></span></div>
 

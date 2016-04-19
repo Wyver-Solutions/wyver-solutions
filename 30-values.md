@@ -5,6 +5,7 @@ layout: page
 menu: main
 weight: 30
 permalink: "values.html"
+cat: values
 ---
 Wyver Solutions is underpinned by two core values:
 
