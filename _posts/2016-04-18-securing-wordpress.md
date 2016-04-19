@@ -9,6 +9,7 @@ categories:
   - Implementation support
   - Five minute briefing
   - Troubleshooting and consultancy
+  - services
 thumb: /post-images/2016/04/securing-wordpress-thumb.png
 banner: /post-images/2016/04/securing-wordpress-banner.png
 alt: Wordpress logo with padlock
