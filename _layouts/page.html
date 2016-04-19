@@ -20,16 +20,16 @@
         {% include sidebar-content.html %}
 
 
-
-    <h4 class="sidebartitle">Related Posts</h6>
-
+    
     {% assign cat1 = page.cat | downcase %}
-                                         
+    
+    {% if site.categories[cat1] != null %}
+        <h4 class="sidebartitle">Related Posts</h6>
+    {% endif %}
+
         {% for post in site.categories[cat1] %} 
 
-        {% if !post %}
-            <p>No posts available</p>
-        {% endif %}        
+      
                              
                 <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
                 <p>
