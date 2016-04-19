@@ -8,9 +8,8 @@ categories:
   - Troubleshooting and consultancy
   - Analysis and design
   - Implementation support
-  - Services
   - about-us
-  - Our values
+  - values
 thumb: /post-images/2016/04/independence-sign-thumb.png
 banner: /post-images/2016/04/independence-sign-banner.png
 alt: Road sign for the town of Independence
