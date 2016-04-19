@@ -9,6 +9,8 @@ categories:
   - Implementation support
   - Tools
   - Troubleshooting and consultancy
+  - about-us
+  - services
 thumb: /post-images/2015/12/hammer-250x187.jpg
 banner: /post-images/2015/12/hammer-banner.png
 alt: Hammer

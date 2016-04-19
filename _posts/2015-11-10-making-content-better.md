@@ -9,6 +9,7 @@ categories:
  - consultancy and troubleshooting
  - content development
  - implementation support
+ - services
 thumb: /post-images/2015/11/making-content-better-thumb.png
 banner: /post-images/2015/11/making-content-better-banner.png
 alt: Content processes

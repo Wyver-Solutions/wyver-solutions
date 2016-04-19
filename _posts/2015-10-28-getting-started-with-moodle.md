@@ -8,6 +8,7 @@ permalink: /2015/10/28-getting-started-with-moodle
 categories:
  - consultancy and troubleshooting
  - analysis and design
+ - services
 thumb: /post-images/2015/10/moodle-logo-thumb.png
 banner: /post-images/2015/10/moodle-logo-banner.png
 alt: Moodle logo

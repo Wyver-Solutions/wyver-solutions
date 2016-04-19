@@ -8,6 +8,7 @@ layout: post
 categories:
  - consultancy and troubleshooting
  - analysis and design
+ - services
 thumb: /post-images/2015/12/pixabay-blueprint-964630-thumb.png
 banner: /post-images/2015/12/pixabay-blueprint-964630-banner.png
 alt: Architectural blueprint
