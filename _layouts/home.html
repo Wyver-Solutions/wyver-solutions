@@ -66,6 +66,8 @@
     </div>
 </div>
 
+
+
 <!-- CONTENT 
 ================================================== -->
 <!--<div class="row">
@@ -171,8 +173,41 @@
             <a title="Elearning Network Industry Partner" class="elnlogo" href="https://www.elearningnetwork.org/industry-partners/" target="_blank">
                 <img class="aligncenter" src="/assets/logos/eLN-Logo-Ind-Part.png" width="250px" alt="ELN industry partner logo" />
             </a>
+            <p>&nbsp;</p>
         </div>
     </div>
+</div>
+
+<div class="hr">
+</div>
+
+<div class="row">
+    <div class="twelve columns">
+        <div class="centersectiontitle">
+            <h4>Recent blog posts</h4>
+        </div>
+        {% for post in site.posts limit: 3 %}
+        <div class="four columns"> <!-- Posts -->
+
+            <div class="boxblog">                   
+                <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
+                <p class="small date">
+                    Posted on: {{ post.date | date: '%B %d, %Y' }} &nbsp; <a href="{{ site.url}}{{ post.url }}#disqus_thread">Comments</a>
+                </p>
+                <p>
+                <a href="{{ post.url }}"><img src="{{ post.thumb }}" alt="{{ post.alt }}" class="thumb"></a>
+                <!-- {{ post.excerpt }} -->
+                </p>
+                <!--<p class="small">Categories: {% for category in post.categories %}{{ category }},{% endfor %}
+                </p>-->
+                <!--<p>
+                    <a href="{{ post.url }}" class="small continue">Continue reading</a>
+                </p>-->
+            </div>
+
+        </div>
+        {% endfor %}
+        </div>
 </div>
 
 <!--end testimonials-->
