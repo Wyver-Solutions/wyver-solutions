@@ -383,6 +383,10 @@ input.gsc-input,
     border: none;
 }
 
+.boxblog h5 {
+    height: 1.5em;
+}
+
 .section-icon {
     float:right;
     color: #1d76c3;
