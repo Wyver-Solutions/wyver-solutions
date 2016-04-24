@@ -1,7 +1,8 @@
 ---
 title: Seven lessons for successful projects
 author: Mark Berthelemy
-excerpt: Running a project will be easier if you can follow these simple lessons. 
+excerpt:
+ Running a project will be easier if you can follow these simple lessons. 
 layout: post
 permalink: /2016/04/21/seven-lessons-for-successful-projects
 categories:
