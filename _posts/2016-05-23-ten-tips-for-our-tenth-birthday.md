@@ -33,7 +33,7 @@ So, on our tenth birthday, what are the ten things we have learnt about running 
 4. You are going to be spending a lot of time doing paperwork, so build processes that you can replicate, document and then give to someone else to do.
 5. Join the <a href="http://www.fsb.org.uk/" target="_blank">Federation of Small Businesses</a>. Their legal advice and documents library is excellent.
 6. Expect to need help with contracts. Keeping on the right side of the IR35 legislation (see advice at <a href="http://www.contractorweekly.com/ir35" target="_blank">Contractor Weekly</a>) as a sole contractor takes effort. It becomes much easier when things develop so you can bring in people to work alongside you.
-7. Make sure that your past and potential clients know you're still around - don't forget them in the busyness of your current projects - work that network.
+7. Make sure that your past and potential clients know you're still around. Don't forget them in the busyness of your current projects. Work that network!
 8. Life is not all about work. Don't feel guilty when you take time off to get in some exercise, or just enjoy seeing daylight again! Build down-time into your week, and into your pricing model. You'll need it.
 9. Make sure your pricing allows you to create a financial buffer for those times when paid work seems thin on the ground...
 10. Maintain your network - you never know when all your contracts are going to end at once and you'll need to rely on it!
