@@ -13,7 +13,7 @@ banner: /post-images/2016/05/birthday-cake-380178_900.png
 alt: Birthday cake
 img-credit: <a href="https://pixabay.com/en/birthday-cake-cake-birthday-380178/" target="_blank">Pixabay</a>
 ---
-Ten years ago, a wise man suggested to me that it would be a good idea to have a fallback plan - separate to our company. At the time, our team was going through a lean period - "lean" in the sense of not having much work coming down the pipeline...
+Ten years ago, a wise man suggested to me that it would be a good idea to have a fallback plan - separate to the company we both worked for. At the time, our team was going through a lean period - "lean" in the sense of not having much work coming down the pipeline...
 
 So, in May 2006, I registered Wyver Solutions Ltd at Companies House, and began offering consultancy and web development services.
 
