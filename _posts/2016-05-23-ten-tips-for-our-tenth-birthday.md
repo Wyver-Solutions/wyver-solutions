@@ -8,6 +8,7 @@ permalink: /2016/05/23/ten-tips-for-our-tenth-birthday
 categories:
   - Wyver Solutions
   - about-us
+
 thumb: /post-images/2016/05/birthday-cake-380178_455.png
 banner: /post-images/2016/05/birthday-cake-380178_900.png
 alt: Birthday cake
