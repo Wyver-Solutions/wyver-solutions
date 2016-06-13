@@ -63,5 +63,11 @@ Also see: <a href="http://twi-institute.com/training-within-industry/about-twi/"
 
 <a href="http://campaignlearning.com/" target="_blank">Campaign learning</a>
 
+### Plan, Do, Study, Act
+
+An iterative process for continuous improvement, based on small changes changes and tests.
+
+<a href="http://www.institute.nhs.uk/quality_and_service_improvement_tools/quality_and_service_improvement_tools/plan_do_study_act.html" target="_blank">NHS Institute > Plan, Do, Study, Act</a>
+
 
 
