@@ -21,8 +21,7 @@ This page contains a gradually increasing set of resources and useful ideas arou
 
 ## Useful books
 
-<iframe style="width:100%;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=wyvsolltd-21&marketplace=amazon&region=GB&placement=0990466531&asins=0990466531&linkId=&show_border=true&link_opens_in_new_window=true">
-</iframe>
+<SCRIPT charset="utf-8" type="text/javascript" src="http://ws-eu.amazon-adsystem.com/widgets/q?rt=tf_mfw&ServiceVersion=20070822&MarketPlace=GB&ID=V20070822%2FGB%2Fwyvsolltd-21%2F8001%2F2b9faece-0103-4fab-83a0-5b72b6101c8e"> </SCRIPT> <NOSCRIPT><A rel="nofollow" HREF="http://ws-eu.amazon-adsystem.com/widgets/q?rt=tf_mfw&ServiceVersion=20070822&MarketPlace=GB&ID=V20070822%2FGB%2Fwyvsolltd-21%2F8001%2F2b9faece-0103-4fab-83a0-5b72b6101c8e&Operation=NoScript">Amazon.co.uk Widgets</A></NOSCRIPT>
 
 ## Lean in L&amp;D
 
