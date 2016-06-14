@@ -37,9 +37,9 @@ Source: <a href="http://adh.sagepub.com/content/3/2/127.extract" target="_blank"
 
 When invited to work with an organisation, TWI consultants worked through three main programmes:
 
-Job Instruction - a course that "taught trainers (supervisors and experienced workers) to train inexperienced workers faster"
-Job Methods - a course that "taught workers to objectively evaluate the efficiency of their jobs and to methodically evaluate and suggest improvements"
-Job Relations - a course that "taught supervisors to deal with workers effectively and fairly."
+- Job Instruction - a course that "taught trainers (supervisors and experienced workers) to train inexperienced workers faster"
+- Job Methods - a course that "taught workers to objectively evaluate the efficiency of their jobs and to methodically evaluate and suggest improvements"
+- Job Relations - a course that "taught supervisors to deal with workers effectively and fairly."
 
 Source: <a href="https://en.wikipedia.org/wiki/Training_Within_Industry" target="_blank">https://en.wikipedia.org/wiki/Training_Within_Industry</a>
 
