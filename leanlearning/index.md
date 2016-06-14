@@ -23,8 +23,6 @@ This page contains a gradually increasing set of resources and useful ideas arou
 
 <SCRIPT charset="utf-8" type="text/javascript" src="http://ws-eu.amazon-adsystem.com/widgets/q?rt=tf_mfw&ServiceVersion=20070822&MarketPlace=GB&ID=V20070822%2FGB%2Fwyvsolltd-21%2F8001%2F12e883b4-0f68-4423-8d73-5a0cf5141df9"> </SCRIPT> <NOSCRIPT><A rel="nofollow" HREF="http://ws-eu.amazon-adsystem.com/widgets/q?rt=tf_mfw&ServiceVersion=20070822&MarketPlace=GB&ID=V20070822%2FGB%2Fwyvsolltd-21%2F8001%2F12e883b4-0f68-4423-8d73-5a0cf5141df9&Operation=NoScript">Amazon.co.uk Widgets</A></NOSCRIPT>
 
-Lean thinking
-
 ## Lean in L&amp;D
 
 ### Training within Industry
