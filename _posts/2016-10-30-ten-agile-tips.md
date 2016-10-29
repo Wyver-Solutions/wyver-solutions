@@ -24,7 +24,7 @@ We have worked with many organisations across the whole spectrum of agile-ness..
 
 Agile is more than just a way of managing projects. It's a way of thinking about work that often requires a wholesale culture change in every part of the organisation.
 
-If you are wanting to move from the traditional "waterfall" approach (where you define all the requirements up front, organise your people to build the product, then test and deliver it), then the following ten tips, gleaned from our work with many such organisations will hopefully help you avoid some of the major pitfalls.
+If your organisation is wanting to move from the traditional "waterfall" approach (where you define all the requirements up front, organise your people to build the product, then test and deliver it), then the following ten tips, gleaned from our work with many such organisations will hopefully help you avoid some of the major pitfalls.
 
 # 1. Know why
 
@@ -89,31 +89,8 @@ The primary difference between the short term iterative agile approach and the l
 
 Successful agile projects maintain very clear quality definitions which are accepted by the whole team (and themselves iterated based on lessons learned)
 
-## Definition of Ready
-
-The Definition of Ready makes explicit the criteria that a user story (that describes something to be built) must meet before being accepted for development in the next iteration period.
-
-Examples include:
-
-- Is the user story independent of any other story?
-- Is the user story delivering value to the stakeholders?
-- Has the user story size been estimated?
-- Is the user story small?
-- Are the acceptance criteria clearly defined?
-- Has the user story been prioritized?
-
-## Definition of Done
-
-The Definition of Done makes explicit the criteria by which the team will accept a user story as having been completed.
-
-Examples include:
-
-- Code commented and checked in
-- Peer reviewed and meets code development standards
-- Unit tests written (where applicable) and passing in all builds
-- Any build/deployment/configuration changes implemented, documented, and communicated.
-- Relevant documentation/diagrams produced or updated
-- Accepted by the Product Owner
+| Definition of Ready | The Definition of Ready makes explicit the criteria that each user story (that describes something to be built) must meet **before** it is accepted for development in the next iteration period. |
+| Definition of Done | The Definition of Done makes explicit the criteria by which the team will accept a user story as having been completed. |
 
 # 8. Build trust gradually
 
@@ -133,23 +110,6 @@ But, introducing a tool on its own will not effect that culture change. That com
 
 The concept of iterating towards perfection is taken from "lean thinking". It's a method of continuous improvement that focusses on what perfection looks like and striving to reach that state. It means that constant change is inevitable, but, by including everyone in the process, change is something that people do to themselves rather than having it done to them.
 
-In the agile world, perfection is described by the <a href="http://agilemanifesto.org/principles.html" target="_blank">"12 agile principles"</a> (reproduced below).
+In the agile world, perfection is described by the <a href="http://agilemanifesto.org/principles.html" target="_blank">"12 agile principles"</a>.
 
 These should be your focus right from the start of your transition to agile.
-
-> ## Agile principles
-> 
-> - Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
-> - Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
-> - Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
-> - Business people and developers must work together daily throughout the project.
-> - Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
-> - The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
-> - Working software is the primary measure of progress.
-> - Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
-> - Continuous attention to technical excellence and good design enhances agility.
-> - Simplicity - the art of maximizing the amount of work not done - is essential.
-> - The best architectures, requirements, and designs emerge from self-organizing teams.
-> - At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behaviour accordingly.
-> 
-> Source: <a href="http://agilemanifesto.org/principles.html" target="_blank">Agile manifesto</a>
