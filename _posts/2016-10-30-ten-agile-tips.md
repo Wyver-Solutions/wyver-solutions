@@ -89,8 +89,8 @@ The primary difference between the short term iterative agile approach and the l
 
 Successful agile projects maintain very clear quality definitions which are accepted by the whole team (and themselves iterated based on lessons learned)
 
-| Definition of Ready | The Definition of Ready makes explicit the criteria that each user story (that describes something to be built) must meet **before** it is accepted for development in the next iteration period. |
-| Definition of Done | The Definition of Done makes explicit the criteria by which the team will accept a user story as having been completed. |
+| Definition of Ready | The Definition of Ready makes explicit the criteria that each user story (that describes something to be built) must meet **before** it is accepted for development in the next iteration period.<br /><a href="https://www.agilealliance.org/glossary/definition-of-ready/" target="_blank">More information from the Agile Alliance</a>|
+| Definition of Done | The Definition of Done makes explicit the criteria by which the team will accept a user story as having been completed.<br /><a href="https://www.agilealliance.org/glossary/definition-of-done/" target="_blank">More information from the Agile Alliance</a> |
 
 # 8. Build trust gradually
 
