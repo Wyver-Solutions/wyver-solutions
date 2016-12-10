@@ -443,11 +443,40 @@
 	},
 	"buffers":
 	[
+<<<<<<< HEAD
+=======
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 68,
+				"line_ending": "Unix",
+				"name": "gem 'github-pages'"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 24,
+				"line_ending": "Unix"
+			}
+		}
+>>>>>>> a88efe07a464abf427a72825a20bf4f7cd71ebb6
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
+<<<<<<< HEAD
 		"height": 392.0,
+=======
+		"height": 67.0,
+		"last_filter": "",
+>>>>>>> a88efe07a464abf427a72825a20bf4f7cd71ebb6
 		"selected_items":
 		[
 			[
@@ -503,7 +532,10 @@
 	},
 	"console":
 	{
-		"height": 139.0
+		"height": 139.0,
+		"history":
+		[
+		]
 	},
 	"distraction_free":
 	{
@@ -514,6 +546,10 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/markberthelemy/Documents/Code/wyver-solutions.github.io"
+	],
 	"file_history":
 	[
 		"/Users/markberthelemy/Documents/Code/wyver-solutions/_layouts/post.html",
@@ -857,8 +893,71 @@
 	"groups":
 	[
 		{
+<<<<<<< HEAD
 			"sheets":
 			[
+=======
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 68,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "gem 'github-pages'",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23,
+								23
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+>>>>>>> a88efe07a464abf427a72825a20bf4f7cd71ebb6
 			]
 		}
 	],
@@ -897,6 +996,12 @@
 	{
 		"height": 112.0
 	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "wyvers-solutions.sublime-project",
 	"replace":
 	{
 		"height": 64.0
@@ -905,6 +1010,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -912,7 +1018,12 @@
 	},
 	"select_project":
 	{
+<<<<<<< HEAD
 		"height": 500.0,
+=======
+		"height": 0.0,
+		"last_filter": "",
+>>>>>>> a88efe07a464abf427a72825a20bf4f7cd71ebb6
 		"selected_items":
 		[
 			[
@@ -922,10 +1033,26 @@
 		],
 		"width": 380.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 272.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }
