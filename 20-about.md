@@ -38,16 +38,21 @@ Some suppliers use Wyver Solutions to provide solution design, implementation an
 
 When working on your behalf, we are able to put your interests first. A clear line of accountability helps this greatly! 
 
-<a name="suppliers"></a>
+<a name="associates"></a>
+{% include associates.html %}
 
-{% include suppliers.html %}
+<!--<a name="suppliers"></a>
+
+{ % include suppliers.html % }-->
+
+<!--
 
 ## Our people
 
 Our lead consultant, Mark Berthelemy, has nearly 30 years experience at the interface of learning, business and technology.
 
-<!-- TESTIMONIALS 
-================================================== -->
+TESTIMONIALS 
+==================================================
 
 <div class="row">
     <div class="twelve columns">
@@ -81,6 +86,7 @@ Our lead consultant, Mark Berthelemy, has nearly 30 years experience at the inte
         
     </div>
 </div>
+-->
 
 
 
