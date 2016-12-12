@@ -38,12 +38,7 @@ Some suppliers use Wyver Solutions to provide solution design, implementation an
 
 When working on your behalf, we are able to put your interests first. A clear line of accountability helps this greatly! 
 
-<a name="associates"></a>
-{% include associates.html %}
-
-<!--<a name="suppliers"></a>
-
-{ % include suppliers.html % }-->
+<a name="people"></a>
 
 <!--
 

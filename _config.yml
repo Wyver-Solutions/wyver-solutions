@@ -3,6 +3,8 @@
 permalink: /:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+
+markdown: kramdown
 highlighter: rouge
 
 # Themes are encouraged to use these universal variables 
@@ -29,3 +31,16 @@ paginate_path: "/blog/page:num/"
 
 name: Wyver Solutions Ltd
 url: http://www.wyversolutions.co.uk
+
+collections:
+    people:
+       output: true
+       permalink: /people/:path/
+
+      
+defaults:
+  - scope:
+      path: ""
+      type: people
+    values:
+      layout: page 

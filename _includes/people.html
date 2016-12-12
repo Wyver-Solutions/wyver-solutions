@@ -1,8 +1,20 @@
-<h3>Associates</h3>
-<p>We work with a number of associates, who each bring a particular expertise to our projects.</p>
+<h2>Our people</h2>
+
+
+
+{% assign people = site.people | sort: 'type' %}
+{% for person in people %}
+<div class="person">
+	<h3>{{ person.firstname }} {{ person.surname }} ({{ person.type }})</h3>
+	<img class="alignright" width="150" src="{{ person.photo }}" alt="{{ person.firstname}} portrait" />
+	<p>{{ person.description }}</p>
+	<p><a data-lightbox="{{ person.firstname }}" href="{{ person.url }}">More about {{ person.firstname }}</a></p>
+</div>
+{% endfor %}
+
 <h4>Gregor McPherson</h4>
 <img class="alignright" width="150" src="/assets/images/gregor.jpg" alt="Gregor portrait" />
-<p>Gregor blends cross-industry experience with a strong understanding of business strategy, commercial reality, psychology, operational pressures and practices, process improvement, technology, and supply chain expertise.</p>
+<p></p>
 <p>He specialises in:</p>
 <ul>
 	<li>designing business solutions to improve organisational capability</li>
@@ -23,8 +35,7 @@
 </ul>
 <h4>Vanessa Tregunna</h4>
 <img class="alignright" width="150" src="/assets/images/vanessa.png" alt="Vanessa portrait" />
-<p>Vanessa is a learning project manager, consultant and designer with experience of a wide variety of industry sectors and projects.</p>
-<p>A fellow of the Learning and Performance Institute, she specialises in helping clients to make best use of their systems, processes and tools by embedding new technology and ways of working into their organisations.</p>
+
 <p>She specialises in:</p>
 <ul>
 	<li>Understanding the impact of new technologies, processes, and procedures on an organisation and the individuals within it</li>
