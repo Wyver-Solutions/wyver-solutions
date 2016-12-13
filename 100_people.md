@@ -2,7 +2,7 @@
 title: People
 author: Wyver Solutions Admin
 menu: 
-layout: page
+layout: people
 weight: 50
 permalink: "people.html"
 cat: people
