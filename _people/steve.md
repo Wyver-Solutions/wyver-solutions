@@ -2,7 +2,7 @@
 surname: Wilson
 firstname: Steve
 layout: person
-type: Lead developer
+type: Associate
 excerpt: Creating lean code for web applications
 description: 
     <p>Steve brings many years of experience in user interface and application design.</p>
