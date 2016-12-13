@@ -2,28 +2,20 @@
 
 
 
-{% assign people = site.people | sort: 'type' %}
+{% assign people = site.people | sort: 'type' | reverse %}
 {% for person in people %}
 <div class="person">
 	<h3>{{ person.firstname }} {{ person.surname }} ({{ person.type }})</h3>
-	<img class="alignright" width="150" src="{{ person.photo }}" alt="{{ person.firstname}} portrait" />
-	<p>{{ person.description }}</p>
-	<p><a data-lightbox="{{ person.firstname }}" href="{{ person.url }}">More about {{ person.firstname }}</a></p>
+	<img class="alignright" width="75" src="{{ person.photo }}" alt="{{ person.firstname}} portrait" />
+	<p>{{ person.excerpt }}</p>
+	<p><a href="#" data-featherlight="{{ person.url }}index.html #content">More about {{ person.firstname }}</a></p>
+	
 </div>
 {% endfor %}
 
 <h4>Gregor McPherson</h4>
 <img class="alignright" width="150" src="/assets/images/gregor.jpg" alt="Gregor portrait" />
-<p></p>
-<p>He specialises in:</p>
-<ul>
-	<li>designing business solutions to improve organisational capability</li>
-	<li>designing new products/services</li>
-	<li>solving business problems</li>
-</ul>
 
-<p>Gregor draws on 15 years of experience in senior roles across industries and disciplines &mdash; from UK central government departments to an international shipping port, from telecoms to automotive, legal services to professional membership bodies, and many more in between.</p>
-<p>He brings a unique blend of commercial acumen, psychology, and technical expertise across numerous specialisations, and experience in delivering business results through challenging periods of growth, redevelopment, and change. He has worked in commercial, operational, project, and programme delivery capacities across the private and public sectors.</p>
 
 <h5>Career highlights include:</h5>
 <ul>
