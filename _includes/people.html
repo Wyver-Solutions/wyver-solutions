@@ -1,46 +1,24 @@
+{::nomarkdown}
 <h2>Our people</h2>
 
 
 
 {% assign people = site.people | sort: 'type' | reverse %}
+{% assign count = 1 %}
 {% for person in people %}
-<div class="person">
-	<h3>{{ person.firstname }} {{ person.surname }} ({{ person.type }})</h3>
-	<img class="alignright" width="75" src="{{ person.photo }}" alt="{{ person.firstname}} portrait" />
-	<p>{{ person.excerpt }}</p>
-	<p><a href="#" data-featherlight="{{ person.url }}index.html #content">More about {{ person.firstname }}</a></p>
-	
-</div>
+{% if count == 1 %}<div class="row">{% endif %}
+<div class="four columns">
+	<div class="person">
+		<h3>{{ person.firstname }} {{ person.surname }}</h3>
+		<p>{{ person.type }}</p>
+		<div class="portrait rounded">
+			<img class="" width="275" src="{{ person.photo }}" alt="{{ person.firstname}} portrait" />
+		</div>
+		<p>{{ person.excerpt }}</p>
+		<p><a href="#" data-featherlight="{{ person.url }}index.html #content">More about {{ person.firstname }}</a></p>
+	</div>
+</div><!-- end of column -->
+{% if count == 3 %}</div><!--end of row -->{% assign count = 1 %}{% elsif count == 1 %}{% assign count = 2 %}{% else %}{% assign count = 3 %}{% endif %}
 {% endfor %}
-
-<h4>Gregor McPherson</h4>
-<img class="alignright" width="150" src="/assets/images/gregor.jpg" alt="Gregor portrait" />
-
-
-<h5>Career highlights include:</h5>
-<ul>
-	<li>Programme Director responsible for Supplier Management, Contract Management, Programme and Project Management, PMO and IT infrastructure within the Civil Service Learning service</li>
-	<li>Solution design, definition, and implementation of a leadership programme for the franchise network of 116 centres for Audi UK</li>
-	<li>Recruitment and Training (technical and soft skills) for the Brand Experience team of Audi City.  All work carried out under full secrecy, delivered successfully, on time, within budget</li>
-	<li>Culture change and business transformation programme design and implementation across the 3,500 strong operations function at Port of Felixstowe</li>
-	<li>Programme management, solution design, implementation, and operational delivery of training services for the 2011 Census</li>
-</ul>
-<h4>Vanessa Tregunna</h4>
-<img class="alignright" width="150" src="/assets/images/vanessa.png" alt="Vanessa portrait" />
-
-<p>She specialises in:</p>
-<ul>
-	<li>Understanding the impact of new technologies, processes, and procedures on an organisation and the individuals within it</li>
-	<li>Adopting a client-focussed, collaborative, approach to overcoming the challenges associated with changes to systems, processes, and procedures</li>
-	<li>Analysing requirements and obtaining buy-in from project teams to realise the chosen solution in a timely, cost-effective manner</li>
-	<li>All aspects of the learning cycle from business/learning needs analysis to assessment and evaluation</li>
-</ul>
-<h5>Career highlights include:</h5>
-<ul>
-	<li>Project managed the Financial Conduct Authority’s re-work of its Mandatory eLearning</li>
-	<li>Project managed a global initiative to re-design Onboarding and Induction for Thomson Reuters' Customer Administration function</li>
-	<li>Design lead for the award-winning Nye Bevan Leading Care III programme for the NHS Leadership Academy</li>
-	<li>Created a training and communication function from ground level for PMC Retail</li>
-	<li>Managed national system training rollouts for Wyevale Garden Centres</li>
-	<li>Managed the translation, localisation, and training provision for Experian’s micromarketing software</li>
-</ul>
+{% if count == 3 or count == 2 %}</div><!-- close row -->{% endif %}
+{:/nomarkdown}

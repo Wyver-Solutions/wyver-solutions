@@ -402,6 +402,26 @@ input.gsc-input,
     margin: 0 20px 20px 20px;
     font-size: 5vw;}
 
+.rounded {
+    border:1px solid #;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px; 
+}
+
+.portrait {
+    width: 275px;
+    height: 250px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+div .portrait img {
+    max-width:100%;
+    max-height:100%;
+    filter: grayscale(100%);
+}
+
 /*Responsive Styles*/
 
 @media screen and (max-width : 800px){
