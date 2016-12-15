@@ -1,24 +1,21 @@
 {::nomarkdown}
 <h2>Our people</h2>
-
-
-
+<div class="row">
 {% assign people = site.people | sort: 'type' | reverse %}
-{% assign count = 1 %}
 {% for person in people %}
-{% if count == 1 %}<div class="row">{% endif %}
 <div class="four columns">
 	<div class="person">
 		<h3>{{ person.firstname }} {{ person.surname }}</h3>
 		<p>{{ person.type }}</p>
 		<div class="portrait rounded">
-			<img class="" width="275" src="{{ person.photo }}" alt="{{ person.firstname}} portrait" />
+			<img class="" src="{{ person.photo }}" alt="{{ person.firstname}} portrait" />
 		</div>
 		<p>{{ person.excerpt }}</p>
 		<p><a href="#" data-featherlight="{{ person.url }}index.html #content">More about {{ person.firstname }}</a></p>
 	</div>
 </div><!-- end of column -->
-{% if count == 3 %}</div><!--end of row -->{% assign count = 1 %}{% elsif count == 1 %}{% assign count = 2 %}{% else %}{% assign count = 3 %}{% endif %}
 {% endfor %}
-{% if count == 3 or count == 2 %}</div><!-- close row -->{% endif %}
+</div><!-- end of row -->
+
+
 {:/nomarkdown}
