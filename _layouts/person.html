@@ -10,16 +10,24 @@
     <!-- MAIN CONTENT-->
     
     <div id="content">
-    	
     	<div class="twelve columns">
     	<h2>{{ page.firstname }} {{ page.surname }}</h2>
-		<div class="alignright portrait">
+    	</div>
+    	<div class="eight columns">
+    	
+    	{{ page.description }}
+    	{{ content }}
+    	</div>
+    	<div class="one columns"></div>
+		<div class="three columns">
+		<div class= "portrait rounded">
 			<img src="{{ page.photo }}" alt="{{ page.firstname }} portrait" />
+			</div>
 		</div>
-		{{ page.description }}
 		
-        {{ content }}
-        </div><!-- end of central column -->       
+		
+        
+              
     </div><!-- end main content-->
 
     

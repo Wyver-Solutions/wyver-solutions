@@ -6,13 +6,13 @@
 {% for person in people %}
 <div class="four columns">
 	<div class="person">
-		<h3>{{ person.firstname }} {{ person.surname }}</h3>
+		<p><strong>{{ person.firstname }} {{ person.surname }}</strong></p>
 		<p>{{ person.type }}</p>
 		<div class="portrait ">
-			<img class="rounded" src="{{ person.photo }}" alt="{{ person.firstname}} portrait" />
+			<a class="gallery" href="{{ person.url }}index.html #content" data-featherlight-type="ajax"><img class="rounded" src="{{ person.photo }}" alt="{{ person.firstname}} portrait" /></a>
 		</div>
 		<p>{{ person.excerpt }}</p>
-		<p><a class="gallery" href="{{ person.url }}index.html #content" data-featherlight-type="ajax">More about {{ person.firstname }}</a></p>
+		
 	</div>
 </div><!-- end of column -->
 {% endfor %}
