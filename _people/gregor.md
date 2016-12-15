@@ -5,11 +5,11 @@ layout: person
 type: Associate
 excerpt: Commercial, process improvement and technology consultant
 description: 
-    <p>Gregor blends cross-industry experience with a strong understanding of business strategy, commercial reality, psychology, operational pressures and practices, process improvement, technology, and supply chain expertise.</p>
+    <p>Gregor blends cross-industry experience with a strong understanding of all aspects of business from strategy to psychology.</p>
 photo: /assets/images/gregor.jpg
 ---
-<p>Gregor draws on 15 years of experience in senior roles across industries and disciplines &mdash; from UK central government departments to an international shipping port, from telecoms to automotive, legal services to professional membership bodies, and many more in between.</p>
-<p>He brings a unique blend of commercial acumen, psychology, and technical expertise across numerous specialisations, and experience in delivering business results through challenging periods of growth, redevelopment, and change. He has worked in commercial, operational, project, and programme delivery capacities across the private and public sectors.</p>
+<p>His experience helps organisations to reduce operational pressure and improve services through process improvement and technology &mdash; whilst acknowledging and respecting commercial realities.</p>
+
 <p>He specialises in:</p>
 <ul>
     <li>designing business solutions to improve organisational capability</li>

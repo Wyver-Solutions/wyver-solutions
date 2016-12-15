@@ -406,19 +406,22 @@ input.gsc-input,
     border:1px solid #;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
-    border-radius: 20px; 
+    border-radius: 20px;
 }
 
 .portrait {
-    width: 275px;
-    
-    object-fit: fill;
+    max-width: 100%;
+    overflow: hidden; 
+
     margin-bottom: 10px;
+
 }
 
 div .portrait img {
+        object-fit: cover;
     height: 250px;
     filter: grayscale(100%);
+
 }
 
 /* customized gallery */
