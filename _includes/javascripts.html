@@ -50,11 +50,29 @@
 
 </script>
 
+
+
+
+
 <script
   src="https://code.jquery.com/jquery-1.12.4.min.js"
   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
   crossorigin="anonymous"></script>
 <script src="//cdn.rawgit.com/noelboss/featherlight/1.6.1/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.6.1/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Jquery functions -->
+<script>
+  jQuery(document).ready(function($){
+    $('.gallery').featherlightGallery({
+          gallery: {
+            next: 'next »',
+            previous: '« previous'
+          },
+          variant: 'featherlight-gallery2'
+        });
+  });
+</script>
 
 <script src="/javascripts/foundation.min.js"></script>
 <script src="/javascripts/jquery.easing.1.3.js"></script>

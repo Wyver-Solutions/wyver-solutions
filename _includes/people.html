@@ -1,5 +1,6 @@
 {::nomarkdown}
 <h2>Our people</h2>
+
 <div class="row">
 {% assign people = site.people | sort: 'type' | reverse %}
 {% for person in people %}
@@ -11,11 +12,14 @@
 			<img class="" src="{{ person.photo }}" alt="{{ person.firstname}} portrait" />
 		</div>
 		<p>{{ person.excerpt }}</p>
-		<p><a href="#" data-featherlight="{{ person.url }}index.html #content">More about {{ person.firstname }}</a></p>
+		<p><a class="gallery" href="{{ person.url }}index.html #content" data-featherlight-type="ajax">More about {{ person.firstname }}</a></p>
 	</div>
 </div><!-- end of column -->
 {% endfor %}
 </div><!-- end of row -->
 
 
+
 {:/nomarkdown}
+
+<!--<a href="#" data-featherlight="{{ person.url }}index.html #content">More about {{ person.firstname }}</a>-->

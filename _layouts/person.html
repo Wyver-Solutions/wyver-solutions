@@ -8,7 +8,10 @@
 ================================================== -->
 <div class="row">
     <!-- MAIN CONTENT-->
-    <div id="content" class="twelve columns">
+    
+    <div id="content">
+    	
+    	<div class="twelve columns">
     	<h2>{{ page.firstname }} {{ page.surname }}</h2>
 		<div class="alignright portrait rounded">
 			<img src="{{ page.photo }}" alt="{{ page.firstname }} portrait" />
@@ -16,7 +19,7 @@
 		{{ page.description }}
 		
         {{ content }}
-        
+        </div><!-- end of central column -->       
     </div><!-- end main content-->
 
     
