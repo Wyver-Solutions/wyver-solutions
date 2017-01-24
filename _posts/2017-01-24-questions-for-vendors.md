@@ -21,7 +21,7 @@ As you wander around the exhibition hall, in between picking up pens and sweets,
 
 ## General
 
-### What makes you different from vendors x,y & z?
+### What makes you different from vendors x, y & z?
 
 Sales people will love you for this, as it gives them a chance to talk about their Unique Selling Point (assuming they've thought about it of course!)
 
