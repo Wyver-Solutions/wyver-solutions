@@ -7,7 +7,7 @@ weight: 10
 permalink: "about.html"
 cat: about-us
 ---
-Wyver Solutions is a learning technology architecture practice &#8211; specialising in providing support, advice and training at the interface between learning, business and technology.
+Wyver Solutions is a group of high-level specialists working in the fields of learning solution architecture, user experience design, project management and business & process improvement.
 
 <a data-lightbox="company-profile" href="/assets/images/company-profile-v3.svg"><img src="/assets/images/company-profile-v3.svg" class="alignright" width="250px" alt="Company profile diagram" /></a>
 
