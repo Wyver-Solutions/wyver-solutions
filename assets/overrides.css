@@ -412,7 +412,7 @@ input.gsc-input,
 .portrait {
     max-width: 100%;
     overflow: hidden; 
-
+    
     margin-bottom: 10px;
     position: relative;
     height: 0;
@@ -429,6 +429,7 @@ div .portrait img {
     top: 0;
     bottom: 0;
     margin: auto;
+
     filter: grayscale(100%);
 
 }

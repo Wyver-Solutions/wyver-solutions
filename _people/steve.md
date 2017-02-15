@@ -6,7 +6,7 @@ type: Associate
 excerpt: Creating lean code for web applications
 description: 
     <p>Steve brings many years of experience in user interface and application design.</p>
-photo: /assets/images/steve.jpg
+photo: /assets/images/steve-400.jpeg
 ---
 <p>He specialises in:</p>
 <ul>

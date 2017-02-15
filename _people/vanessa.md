@@ -7,7 +7,7 @@ excerpt: Project manager, consultant and learning designer
 description: 
     <p>Vanessa is a learning project manager, consultant and designer with experience of a wide variety of industry sectors and projects.</p>
     <p>Her client-focussed, collaborative approach helps customers to realise their chosen solutions in a cost-effective and timely manner.</p>
-photo: /assets/images/vanessa.jpg
+photo: /assets/images/vanessa-400.jpeg
 ---
 <p>She specialises in:</p>
 <ul>
