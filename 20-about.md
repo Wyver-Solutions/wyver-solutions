@@ -30,8 +30,6 @@ Examples include:
 
 ## How we remain independent
 
-We work with a number of specialist suppliers who we trust to work to the same standards as we do.
-
 Precisely who we bring in or recommend is dependent only on your particular requirements. We value our independence, and therefore we only enter into agreements with suppliers where we can maintain that independence. We do not receive any commission or kick-backs for any introductions made.
 
 Some suppliers use Wyver Solutions to provide solution design, implementation and project management services. To avoid conflicts of interest, our preference is to offer this as an independent service directly to our customers, and to only work for the suppliers when *they* have brought us into *their* customers.
