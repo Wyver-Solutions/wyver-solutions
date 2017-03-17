@@ -3,7 +3,7 @@ surname: Tregunna
 firstname: Vanessa
 layout: person
 type: Associate
-excerpt: Project manager, consultant and learning designer
+excerpt: Project manager and learning designer
 description: 
     <p>Vanessa is a learning project manager, consultant and designer with experience of a wide variety of industry sectors and projects.</p>
     <p>Her client-focussed, collaborative approach helps customers to realise their chosen solutions in a cost-effective and timely manner.</p>
