@@ -36,6 +36,7 @@ The goal of creating materials on the web is communication. The checklist below 
 # Building scent
 
 - Do all your links to other pages contain enough information to let people know where they're going?<br>eg. "<u>More information</u>"&nbsp;not "Click <u>here</u>&nbsp;for more information".
+- Have you underlined text that is not a link? That will be highly confusing for your audience.
 
 ## Useful resources
 
