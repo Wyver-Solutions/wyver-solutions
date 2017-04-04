@@ -24,8 +24,8 @@ We can help you:
 We can help you:
 
 + Understand the problems you need to solve &ndash; working with teams from across IT, Learning &amp; Development and Operations
-+ Design solutions for those problems &ndash; looking at people, processes and technology
-+ Communicate those designs to senior stakeholders
++ Devise solutions for those problems
++ Communicate those solutions across multiple stakeholders
 
 <div class="section-icon"><span class="fa fa-search"></span></div>
 
