@@ -11,9 +11,7 @@ Wyver Solutions is a group of high-level specialists working in the fields of le
 
 <a data-lightbox="fishbone" data-title="Iterating towards a solution" href="/assets/images/d3-fishbone-diagram.svg"><img src="/assets/images/d3-fishbone-diagram.svg" width="100%" alt="Solution design process" /></a>
 
-As well as the standard corporate and academic learning technologies, we also keep a close eye on the technologies being used by wider society or enterprise IT. Many of these can play a part in supporting learning, without significant extra expense.
-
-We are not afraid to tell you if there is a better & less expensive way &#8211; even if that will result in less work for us. Our aim is to build up long-term relationships centred on trust, rather than short-term expediency.
+As with architects in the built environment, we look at all the factors that will contribute towards a successful solution for you.
 
 ## Our work
 
@@ -47,7 +45,7 @@ Examples include:
 
 Precisely who we bring in or recommend is dependent only on your particular requirements. We value our independence, and therefore we only enter into agreements with suppliers where we can maintain that independence. We do not receive any commission or kick-backs for any introductions made.
 
-Some suppliers use Wyver Solutions to provide solution design, implementation and project management services. To avoid conflicts of interest, our preference is to offer this as an independent service directly to our customers, and to only work for the suppliers when *they* have brought us into *their* customers.
+Some suppliers use Wyver Solutions to provide solution design, implementation leadership and project management services. To avoid conflicts of interest, our preference is to offer this as an independent service directly to our customers, and to only work for the suppliers when *they* have brought us into *their* customers.
 
 When working on your behalf, we are able to put your interests first. A clear line of accountability helps this greatly! 
 
