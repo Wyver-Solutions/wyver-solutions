@@ -9,7 +9,7 @@ cat: about-us
 ---
 Wyver Solutions is a group of high-level specialists working in the fields of learning solution architecture, user experience design, project management and business & process improvement.
 
-<a data-lightbox="company-profile" href="/assets/images/company-profile-v3.svg"><img src="/assets/images/company-profile-v3.svg" class="alignright" width="250px" alt="Company profile diagram" /></a>
+<a data-lightbox="company-profile" href="/assets/images/d3-fishbone-diagram.svg"><img src="/assets/images/d3-fishbone-diagram.svg" class="alignright" width="250px" alt="Solution design process" /></a>
 
 As well as the standard corporate and academic learning technologies, we also keep a close eye on the technologies being used by wider society or enterprise IT. Many of these can play a part in supporting learning, without significant extra expense.
 
@@ -21,12 +21,27 @@ Our portfolio includes a range of work from across the public and private sector
 
 Examples include:
 
-- Providing project management services for an internationally recognised professional body 
-- Performing a learning technology review for a global utility provider
-- Providing Solutions Architecture services for a major UK government department; helping them to develop a five year strategy for learning and development - to incorporate key technologies such as xAPI, enterprise search and content management
-- Working with SERCO, supporting a learning technology review for the Defence Academy
-- Mapping and documenting integration points, data flows and authentication pathways in a multi-application learning technology system
-- Project managing complex integrated Moodle implementations for clients in the US and UK
+- Product design and consultancy services for:
+    + An international qualification awarding body
+    + One of the Big Four global professional services firms
+    + A large orthodontics practice's internal training platform
+- Moodle leadership and support for:
+    + A rail engineering corporate academy
+    + A B2C site serving 50,000 TEFL trainees
+    + A government-wide training platform
+    + An award-winning NHS leadership programme
+    + Oxford Health NHS Trust
+    + National Institute for Health Research (Clinical Research Network)
+    + A global social media organisation
+- Learning technology reviews for:
+    * a global utility provider
+    * National Institute for Health Research - clinical research network
+- Learning technology procurement support for:
+    + Education for Health
+    + Association of Accounting Technicians
+- Learning and communication solution design for:
+    + Primary Care International
+    + Public Media Alliance
 
 ## How we remain independent
 
