@@ -9,7 +9,7 @@ cat: about-us
 ---
 Wyver Solutions is a group of high-level specialists working in the fields of learning solution architecture, user experience design, project management and business & process improvement.
 
-<div align="centre"><a data-lightbox="fishbone" data-title="Iterating towards a solution" href="/assets/images/d3-fishbone-diagram.svg"><img src="/assets/images/d3-fishbone-diagram.svg" width="75%" alt="Solution design process" /></a></div>
+<div class="twelve columns centred"><a data-lightbox="fishbone" data-title="Iterating towards a solution" href="/assets/images/d3-fishbone-diagram.svg"><img src="/assets/images/d3-fishbone-diagram.svg" width="80%" alt="Solution design process" /></a></div>
 
 As with architects in the built environment, we look at all the factors that will contribute towards a successful solution for you.
 
