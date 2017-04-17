@@ -462,6 +462,7 @@ div .portrait img {
                 }
 
 
+
 /*Responsive Styles*/
 
 @media screen and (max-width : 800px){
@@ -492,6 +493,9 @@ div .portrait img {
 }
 
 @media print {
+    #print-page {
+        display: none;
+    }
     .logo a[href]:after {
         content: none !important;
     }
@@ -511,8 +515,7 @@ div .portrait img {
         display: none;
     }
     #subheader h1 {
-        margin-left: 0;
-        padding-left: 0;
+        margin-left: -45px;
     }
     #disqus_thread {
         display: none;
