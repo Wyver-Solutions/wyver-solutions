@@ -88,67 +88,28 @@ cat: services
 
 <tr>
 <td>Moodle Discovery Phase</td>
-<td></td>
-<td></td>
+<td>
+<ul>
+<li>Review documentation</li>
+<li>Three day face-to-face workshop with client lead &amp; stakeholders</li>
+<li>Virtual meetings with client and supplier over a two week period</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Project vision statement</li>
+<li>Project kick-off / initiation document
+<li>Initial set of user journeys</li>
+<li>Initial set of non-functional requirements</li>
+<li>Initial integration map</li>
+<li>Initial prioritised backlog of development and configuration tasks</li>
+</ul>
+</td>
 <td>£8,000</td>
 </tr>
 
-<tr>
-<td>Troubleshooting, training and support</td>
-<td></td>
-<td></td>
-<td>£850 per day</td>
-</tr>
 </table>
 
+For troubleshooting, training and support, our standard rate is £850 per day.
+
 Please <a href="/contact.html">get in touch</a> if you have a longer, or more bespoke project that you would like to discuss.
-
-<div class="section-icon"><span class="fa fa-ambulance"></span></div>
-
-### Troubleshooting and Consultancy
-
-We can help you:
-
-+ Understand how new technologies, such as [xAPI](/services/xapi) might fit into your learning &amp; development or product strategy
-+ Make better use of your current technology solutions
-+ Dig into your processes using lean management techniques
-
-<div class="section-icon"><span class="fa fa-pencil-square-o"></span></div>
-
-### Analysis &amp; Design
-
-We can help you:
-
-+ Understand the problems you need to solve &ndash; working with teams from across IT, Learning &amp; Development and Operations
-+ Devise solutions for those problems
-+ Communicate those solutions across multiple stakeholders
-
-<div class="section-icon"><span class="fa fa-search"></span></div>
-
-### Supplier Selection
-
-We can help you:
-
-+ Understand and document your requirements
-+ Shortlist your potential suppliers
-+ Ask questions of your suppliers that will help to differentiate between them
-
-<div class="section-icon"><span class="fa fa-gears"></span></div>
-
-### Implementation Support
-
-We can help you:
-
-+ Setup your project for success &ndash; using best practices in Agile and Prince2&trade; methodologies
-+ Act as the interface between you and your suppliers
-+ Manage the project team
-
-<div class="section-icon"><span class="fa fa-group"></span></div>
-
-### Training &amp; workshops
-
-We can help you:
-
-+ Understand new technologies and their impact on learning &amp; development
-+ Explore lean management and process mapping techniques
-+ Consider modern content design, development and delivery tools and techniques
