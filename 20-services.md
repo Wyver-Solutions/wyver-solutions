@@ -63,13 +63,26 @@ cat: services
 <li>Executive summary</li>
 </ul>
 </td>
-<td>£8,000</td>
+<td>£9,000</td>
 </tr>
 
 <tr>
-<td>Supplier selection</td>
-<td></td>
-<td></td>
+<td>Learning technology supplier selection</td>
+<td>
+<ul>
+<li>Kick-off meeting with client lead &amp; senior stakeholders</li>
+<li>Review documentation</li>
+<li>One to one interviews with up to 5 stakeholders</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Document high level requirements</li>
+<li>Review of the market for possible suppliers</li>
+<li>Initial shortlist</li>
+<li>Scenarios to give to suppliers for their demonstration</li>
+</ul>
+</td>
 <td>£7,500</td>
 </tr>
 
