@@ -24,7 +24,6 @@ cat: services
 <li>One to one interviews with up to 7 stakeholders</li>
 <li>Meeting with a sample of learners or clients</li>
 <li>Review existing documentation and systems</li>
-<li>
 </ul>
 </td>
 <td>
@@ -44,8 +43,26 @@ cat: services
 
 <tr>
 <td>Large organisation learning technology review</td>
-<td></td>
-<td></td>
+<td>
+<ul>
+<li>Kick-off meeting with client lead &amp; senior stakeholders</li>
+<li>One to one interviews with up to 12 stakeholders</li>
+<li>Two meetings with a sample of learners or clients</li>
+<li>Review existing documentation and systems</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Presentation to client lead &amp; senior stakeholders</li>
+<li>Detailed report containing:
+<ol>
+<li>Current state</li>
+<li>Comparison with similar organisations</li>
+<li>Options for improvement</li>
+</ol>
+<li>Executive summary</li>
+</ul>
+</td>
 <td>£8,000</td>
 </tr>
 
@@ -69,6 +86,7 @@ cat: services
 <td></td>
 <td>£850 per day</td>
 </tr>
+</table>
 
 Please <a href="/contact.html">get in touch</a> if you have a longer, or more bespoke project that you would like to discuss.
 
