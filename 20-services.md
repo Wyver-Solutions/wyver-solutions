@@ -85,3 +85,23 @@ When you come to look for a new supplier of learning technology, we can help pro
     <li>Scenarios to give to suppliers for selection interview</li>
     <li>Questions for suppliers</li>
 </ul>
+
+<hr />
+
+## Implementation project management
+
+We have experience in both the traditional waterfall methodologies, and the modern, iterative project management approaches.
+
+With this background we can help you get the best from your suppliers and your internal teams.
+
+### Typical outputs
+
+These vary depending on the methodology that is appropriate for your context, but may include:
+
+- Project kick-off meetings 
+- Project Initiation Document
+- Highlight reports
+- Risks, Assumptions, Issues & Decisions log
+- Spending reports
+
+
