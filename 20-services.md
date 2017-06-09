@@ -15,7 +15,7 @@ Please <a href="/contact.html">get in touch</a> to discuss how we can help meet 
 
 Every few years, it's a good idea to review how well the technologies you have in place are helping your employees or clients to learn.
 
-We take a wide view, across your whole technology landscape to assess its effectiveness and provide recommendations for improvement.
+We take a wide view, across your whole technology landscape to assess its current effectiveness and provide recommendations for improvement.
 
 ### Typical outputs
 
@@ -61,6 +61,23 @@ Our focus is on creating a solution that will meet the needs of its users. Where
     <li>Real data to feed into the success metrics</li>
 </ul>
 
+#### Live phase
+
+<ul>
+    <li>Ongoing support to maximise the effectiveness of the solution</li>
+    <li>An ongoing prioritised set of work to improve the solutions</li>
+    <li>Ongoing measurements to help understand how well the solution is working</li>
+</ul>
+
 ## Supplier selection
 
-GOT TO HERE
+When you come to look for a new supplier of learning technology, we can help provide an independent, expert viewpoint.
+
+### Typical outputs
+
+<ul>
+    <li>Documented understanding of your requirements</li>
+    <li>Supplier shortlist</li>
+    <li>Scenarios to give to suppliers for selection interview</li>
+    <li>Questions for suppliers</li>
+</ul>
