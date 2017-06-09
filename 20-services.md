@@ -25,6 +25,8 @@ We take a wide view, across your whole technology landscape to assess its curren
 <li>Executive summary</li>
 </ul>
 
+<hr />
+
 ## Learning technology solutions architecture
 
 Whether you want to bring in some new ideas on top of your existing technology landscape, or you are starting from scratch, we can help you to design a solution that works in your context.
@@ -68,6 +70,8 @@ Our focus is on creating a solution that will meet the needs of its users. Where
     <li>An ongoing prioritised set of work to improve the solutions</li>
     <li>Ongoing measurements to help understand how well the solution is working</li>
 </ul>
+
+<hr />
 
 ## Supplier selection
 
