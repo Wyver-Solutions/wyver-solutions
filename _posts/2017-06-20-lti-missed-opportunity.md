@@ -45,7 +45,7 @@ That's where LTI (or <a href="https://www.imsglobal.org/activity/learning-tools-
 
 ## Learning Tools Interoperability
 
-<img src="/post-images/2017/06/lti-banner.svg" alt="LTI flow chart" />
+<img width='600' src="/post-images/2017/06/lti-banner.svg" alt="LTI flow chart" />
 
 LTI is a standard that allows a user to login to the LMS, launch an external resource, and get a results sent back to the LMS with no separate setting up of users in the external system and no separate login for those users.
 
