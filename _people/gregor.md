@@ -6,7 +6,7 @@ type: Associate
 excerpt: Commercial, process improvement and technology consultant
 description: 
     <p>Gregor blends cross-industry experience with a strong understanding of all aspects of business from strategy to psychology.</p>
-photo: /assets/images/gregor.jpg
+photo: /assets/images/gregor-square.png
 ---
 <p>His experience helps organisations to reduce operational pressure and improve services through process improvement and technology &mdash; whilst acknowledging and respecting commercial realities.</p>
 
