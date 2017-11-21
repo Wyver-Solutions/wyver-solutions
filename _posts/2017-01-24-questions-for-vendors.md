@@ -11,7 +11,7 @@ categories:
 thumb: /post-images/2017/01/woman-1527670_thumb.jpg
 banner: /post-images/2017/01/woman-1527670_banner.jpg
 alt: Women behind maze of tech icons
-img-credit: Wyver Solutions
+img-credit: <a href="https://pixabay.com/en/woman-face-head-question-mark-1527670/" target="_blank">Pixabay</a>
 ---
 Vendors are brilliant at putting on glossy presentations at trade shows, but what are the key questions you should be asking them this year?
 
