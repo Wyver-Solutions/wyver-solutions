@@ -14,7 +14,7 @@ Wyver Solutions is underpinned by two core values:
 
 Anyone that works under the Wyver Solutions banner is signed up to these values.
 
-At least 10% of our profits is given away to local and international charities; usually with an educational focus. Charities we support on a regular basis include:
+At least 10% of our profits is given away to local and international charities; usually with an educational focus. Charities we have supported include:
 
 - <a href="http://boaztrust.org.uk/" target="_blank">Boaz Trust</a> - serving destitute asylum seekers
 - <a href="http://reaperministries.org.uk/" target="_blank">Reaper Ministries</a> - particularly the [school](http://www.reaperministries.org.uk/reaper-ministries-in-action/action-in-malawi/good-hope-school-malawi/) they fund and govern in Malawi
