@@ -20,6 +20,7 @@ At least 10% of our profits is given away to local and international charities; 
 - <a href="http://reaperministries.org.uk/" target="_blank">Reaper Ministries</a> - particularly the [school](http://www.reaperministries.org.uk/reaper-ministries-in-action/action-in-malawi/good-hope-school-malawi/) they fund and govern in Malawi
 - <a href="http://www.eiuk.org.uk/" target="_blank">Emmanuel International</a> - helping churches serve the poor - around the world
 - <a href="http://learnappeal.com/" target="_blank">Learn Appeal</a> - the elearning industry charity
+- <a href="https://www.unicef.org.uk/" target="_blank">UNICEF UK</a> - making a difference for children all over the world
 
 <img src="/assets/images/We-support-learn-appeal-logo.jpg" />
 
