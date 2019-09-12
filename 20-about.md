@@ -47,7 +47,7 @@ Some suppliers use me to provide solution design, implementation leadership and 
 
 When working on your behalf, I are able to put your interests first. A clear line of accountability helps this greatly! 
 
-## TESTIMONIALS 
+## Testimonials 
 
 <blockquote>
 <p>
