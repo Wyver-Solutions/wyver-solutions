@@ -45,9 +45,9 @@ Precisely who I bring in or recommend is dependent only on your particular requi
 
 Some suppliers use me to provide solution design, implementation leadership and project management services. To avoid conflicts of interest, my preference is to offer this as an independent service directly to my customers, and to only work for the suppliers when *they* have brought me into *their* customers.
 
-When working on your behalf, I are able to put your interests first. A clear line of accountability helps this greatly! 
+When working on your behalf, I am able to put your interests first. A clear line of accountability helps this greatly! 
 
-## Testimonials 
+## Feedback 
 
 <blockquote>
 <p>
