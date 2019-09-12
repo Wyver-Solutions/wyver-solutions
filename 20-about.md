@@ -47,12 +47,8 @@ Some suppliers use me to provide solution design, implementation leadership and 
 
 When working on your behalf, I are able to put your interests first. A clear line of accountability helps this greatly! 
 
-TESTIMONIALS 
-==================================================
+## TESTIMONIALS 
 
-<div class="row">
-    <div class="twelve columns">
-        <div id="testimonials">
             <blockquote>
                 <p>
                      "Mark is one of the best contractors I have ever worked with. If you need something delivered he's your man."</p>
@@ -66,8 +62,7 @@ TESTIMONIALS
             </blockquote>
             <blockquote>
                 <p>
-                     "Mark was fundamental to the success of our large Moodle upgrade project. He oversaw the key project aspects, including the project controls, requirements gathering and overall delivery. He was adept at bridging the gap between supplier and customer, minimising any conflict.</p><p>"Mark was able to offer a wider input into the project than his specific role from his years of experience in elearning. This was very valuable to us and helped us make some essential decisions very rapidly. Mark brings a pro-active, common-sense approach to all challenges and is able to articulate the most technical of issues to all audiences.<p>"If you want your elearning project to be a success speak to Mark!"</p><p><cite>Andrew Jack - Head of Product and Business Development at i-to-i Online TEFL"</cite></p>
-                
+                     "Mark was fundamental to the success of our large Moodle upgrade project. He oversaw the key project aspects, including the project controls, requirements gathering and overall delivery. He was adept at bridging the gap between supplier and customer, minimising any conflict.</p><p>"Mark was able to offer a wider input into the project than his specific role from his years of experience in elearning. This was very valuable to us and helped us make some essential decisions very rapidly. Mark brings a pro-active, common-sense approach to all challenges and is able to articulate the most technical of issues to all audiences.<p>"If you want your elearning project to be a success speak to Mark!"</p><p><cite>Andrew Jack - Head of Product and Business Development at i-to-i Online TEFL"</cite></p>    
             </blockquote>
             <blockquote>
                 <p>"Mark drove the 'learning' aspects of a consultancy on Technology Enhanced Learning exploitation in the Defence Academy. His input was always highly respected and valued and his cheerful, cooperative personality was a key influence in bringing together disparate views."</p>
@@ -78,10 +73,6 @@ TESTIMONIALS
                 <p>"[Their lead consultant, Mark] is very articulate and versatile, turning his skills from Moodle administration to training tutors and students in a classroom environment - some with very limited technology exposure - but all with excellent results and feedback and ensuring they felt at ease with the technology deployed."</p>
                 <p><cite>John Wood - Service Delivery Manager at LINE Communications</cite></p>
             </blockquote>
-        </div>
-        
-    </div>
-</div>
 
 
 
