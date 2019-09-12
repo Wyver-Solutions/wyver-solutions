@@ -1,8 +1,8 @@
 ---
-title: Our values
+title: Values
 author: Wyver Solutions Admin
 layout: page
-menu: main
+menu: 
 weight: 30
 permalink: "values.html"
 cat: values
