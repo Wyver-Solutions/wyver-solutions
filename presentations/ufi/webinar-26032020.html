@@ -1,0 +1,19 @@
+---
+layout: slides
+title: Jekyll and reveal.js
+description: A presentation slide for how to use reveal.js in Jekyll
+theme: white
+transition: slide
+presenter-email: mberthelemy@wyversolutions.co.uk
+client: UFI
+logo: ./ufi_brand_logotype_rgb_passionate_ruby.png
+---
+
+
+{% for slide in site.ufiwebinar %}
+<section>
+    <h2>{{ slide.title }}</h2>
+    {% if slide.subtitle %}<h3>{{ slide.subtitle }}</h3>{% endif %}
+    {{ slide.content }}
+</section>
+{% endfor %}

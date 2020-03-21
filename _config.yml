@@ -21,7 +21,7 @@ author :
   twitter : username
   feedburner : feedname
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
@@ -32,10 +32,15 @@ paginate_path: "/blog/page:num/"
 name: Wyver Solutions Ltd
 url: https://www.wyversolutions.co.uk
 
+collections_dir: my_collections
+
 collections:
     people:
        output: true
        permalink: /people/:path/
+    ufiwebinar:
+       output: false
+       permalink: /ufiwebinar/:path/
 
       
 defaults:

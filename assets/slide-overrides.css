@@ -1,0 +1,26 @@
+/* Slides */
+
+.client-logo {
+    position: absolute;
+    width: 100px;
+    left: 20px;
+    top: 20px;
+}
+
+.client-logo img {
+    max-width: 100%;
+}
+
+.presenter-email {
+    width: 100%;
+    position: fixed;
+    bottom: 20px;
+    left: 20px
+    
+    
+}
+
+.presenter-email p {
+    font-size: 1.3em;
+    font-family: arial;
+}
