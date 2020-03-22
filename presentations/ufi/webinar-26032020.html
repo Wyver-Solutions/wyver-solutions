@@ -1,19 +1,30 @@
 ---
 layout: slides
-title: Jekyll and reveal.js
-description: A presentation slide for how to use reveal.js in Jekyll
+title: Moving your training online
+description: A webinar for UfI to help face-to-face trainers move online quickly and inexpensively
 theme: white
 transition: slide
-presenter-email: mberthelemy@wyversolutions.co.uk
 client: UFI
-logo: ./ufi_brand_logotype_rgb_passionate_ruby.png
+logo: /presentations/ufi/ufi_brand_logotype_rgb_passionate_ruby.png
 ---
-
+<!-- TO MANAGE VERTICAL SECTIONS put hasChildren: true in the first slide and endVertical: true in the last slide of the vertical section -->
 
 {% for slide in site.ufiwebinar %}
-<section>
-    <h2>{{ slide.title }}</h2>
-    {% if slide.subtitle %}<h3>{{ slide.subtitle }}</h3>{% endif %}
-    {{ slide.content }}
-</section>
+
+{% if slide.hasChildren == true %}
+    <section>
+{% endif %}
+        <section data-background-image="{{ slide.backgroundImage }}" data-background-opacity="0.5">
+            <div class="content">
+                <h2>{{ slide.title }}</h2>
+                {% if slide.subtitle %}<h3>{{ slide.subtitle }}</h3>{% endif %}
+                {{ slide.content }}
+            </div>
+            <aside class="notes">
+                {{ slide.notes }}
+            </aside>
+        </section>
+{% if slide.endVertical == true %}
+    </section>
+{% endif %}
 {% endfor %}
