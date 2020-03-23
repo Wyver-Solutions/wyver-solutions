@@ -2,7 +2,7 @@
 title: Introductions
 subtitle: 
 hasChildren: true
-backgroundImage: startup-593343_1280.jpg
+backgroundImage:
 backgroundImageSourceURL: https://pixabay.com/photos/startup-start-up-people-593343/
 backgroundImageCredit: StartupStockPhotos on Pixabay
 ---
