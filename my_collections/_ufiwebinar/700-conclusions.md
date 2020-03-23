@@ -8,6 +8,7 @@ backgroundImageCredit: StartupStockPhotos on Pixabay
 1. Use the tools you have already
 2. Focus on the learner activities
 3. Take your time
+4. It won't be perfect
 4. Ask for help
 
 <a href="mailto:mberthelemy@wyversolutions.co.uk">mberthelemy@wyversolutions.co.uk</a>
