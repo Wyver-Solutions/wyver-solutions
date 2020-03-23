@@ -42,7 +42,7 @@
                     {% if p.menu == 'main' %}
                         {% if p.title == "Blog" and blog == 0 %}
                       <li{% if p.url == page.url %} class="current"{% endif %}>
-                         <a href="{{ p.url }}">{{ p.title }}</a>
+                         <a href="/blog">{{ p.title }}</a>
                       </li>
 
                         {% assign blog = 1 %}
