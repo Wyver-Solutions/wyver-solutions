@@ -11,6 +11,4 @@ backgroundImageCredit: StartupStockPhotos on Pixabay
 4. It won't be perfect
 4. Ask for help
 
-<a href="mailto:mberthelemy@wyversolutions.co.uk">mberthelemy@wyversolutions.co.uk</a>
-
-<a href="tel: +44 (0)7922 146 761">07922 146 761</a>
+Search for Mark Berthelemy on LinkedIn
