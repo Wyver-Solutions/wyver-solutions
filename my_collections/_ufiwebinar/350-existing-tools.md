@@ -10,4 +10,4 @@ notes:
 - **GSuite** - Hangouts, Drive, Sites, Groups
 - **WhatsApp** - Group messages, video calls
 - **LinkedIn** - Group discussions
-- **Others?** - In the chat box
+- **Others?**

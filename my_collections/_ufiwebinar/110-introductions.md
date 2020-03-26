@@ -9,7 +9,4 @@ notes:
     Ask for feedback & ideas for other webinars
     Intro Sarah
 ---
-Use the CHAT box...
-
-- What sort of training do you do?
-- Where are you working?
+Use the **Questions** box to ask questions of the group, or the organisers.
