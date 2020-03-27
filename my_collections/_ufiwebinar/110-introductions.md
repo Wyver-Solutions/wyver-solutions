@@ -9,4 +9,4 @@ notes:
     Ask for feedback & ideas for other webinars
     Intro Sarah
 ---
-Use the **Questions** box to ask questions of the group, or the organisers.
+Use the **Questions** box to ask questions of the group, or the organisers
