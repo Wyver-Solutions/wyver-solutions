@@ -1,128 +1,75 @@
 {% include head.html %}
 <body>
-{% include topmenu.html %}
-<div class="clear">
-</div>
-{% include subheader.html %}
+<div class="grid">
+        <div id="ident">
+            
+            <div class="col_3">
+                <a href="/index.html">
+                <img src="/assets/wyversolutions_logo_900.png" alt="Wyver Solutions logo" style="object-fit: cover;" />
+                </a>
+                <h3 class="">Technology in your language</h3>
+            </div>
+
+            {% include topmenu.html %}
+
+            <div class="clear"></div>
+        </div> <!-- end ident -->
+
 <!-- CONTENT 
 ================================================== -->
-<div class="row">
-    <!-- MAIN CONTENT-->
-    <div id="content" class="eight columns">
 
+    <!-- MAIN CONTENT-->
+    <div id="content" class="col_12">
+        <h2>{{ page.title }}</h2>
         {{ content }}
 
         
-        <form role="form" method="POST" action="http://formspree.io/mberthelemy@wyversolutions.co.uk">   
+        <form role="form" class="vertical" method="POST" action="http://formspree.io/mberthelemy@wyversolutions.co.uk">   
 
-            <div class="form-group">
-                <input type="text" class="form-control" name="name" id="InputEmail1" placeholder="name...">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" name="organisation" id="organisation" placeholder="organisation...">
-            </div>
-            <div class="form-group">
-                <input type="email" class="form-control" name="_replyto" id="InputPassword1" placeholder="email...">
-            </div>
-            <div class="form-group">
-                <textarea class="form-control" name="message" rows="8" placeholder="message..."></textarea>
-            </div>
-            <div class="form-group">
-            <input type="checkbox" name="newsletter" value="yes"> Twice-yearly newsletter<br>
-            <input type="checkbox" name="blog" value="yes"> Weekly blog posts
-            </div>
+            
+                <label for="name">Name</label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="Your name..." />
+            
+                <label for="organisation">Organisation</label>
+                <input type="text" class="form-control" name="organisation" id="organisation" placeholder="Your organisation..." />
+            
+                <label for="email">Email</label>            
+                <input type="email" class="form-control" name="_replyto" id="email" placeholder="Your email address..." />
+                
+                <label for="message">Message</label>
+                <textarea class="form-control" name="message" id="message" rows="8" placeholder="Your message..."></textarea>
+            
+                
+                <fieldset>
+                    <legend>Marketing consent</legend>
+                
+                    <input type="checkbox" name="marketing" id="marketing" value="yes" />
+                    <label for="marketing-no" class="inline">I give consent for Wyver Solutions Ltd to send marketing information.</label>
+                    <p>This is usually no more than a couple of times a year.</p>
+                    
+                </fieldset>
+                
+            
             <input type="hidden" name="_next" value="http://www.wyversolutions.co.uk" />
             <input type="hidden" name="_subject" value="[Website message] " />
             <input type="text" name="_gotcha" style="display:none" />
-            <button id="contact" type="submit" value="Send" class="btn btn-default">Send</button>
+            
+            
+            <button id="contact" type="submit" value="Send" class="wyver medium">Send</button>
         </form>
 
        
                 
     </div><!-- end main content-->
 
-    <!-- SIDEBAR-->
-    <div id="sidebar" class="four columns">
-            <h6 class="sidebartitle">Contact details</h6>
-            <p><i class="fa fa-phone"></i>&nbsp;01773 881 227</p>
-            <p><a href="https://www.linkedin.com/company/wyver-solutions-ltd"><i class="fa fa-linkedin-square"></i>&nbsp;LinkedIn</a></p>
+    
+    
 
-        </div>
-            <!--<div><img src="images/temp/team1.jpg" alt="">
-            <div class="mask">
-                <h2>Katrina Bernski</h2>
-                <p>
-                    One of our best shooting model, working for this company since the beginning.
-                    <div class="social socialteam facebook">
-                        <a href="#"></a>
-                    </div>
-                    <div class="social socialteam twitter">
-                        <a href="#"></a>
-                    </div>
-                    <div class="social socialteam deviantart">
-                        <a href="#"></a>
-                    </div>
-                    <div class="social socialteam flickr">
-                        <a href="#"></a>
-                    </div>
-                    <div class="social socialteam dribbble">
-                        <a href="#"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="teamwrap teambox">
-                <img src="images/temp/team2.jpg" alt="">
-                <div class="mask">
-                    <h2>Yolanda Bernski</h2>
-                    <p>
-                        One of our best shooting model, working for this company since the beginning.
-                        <div class="social socialteam facebook">
-                            <a href="#"></a>
-                        </div>
-                        <div class="social socialteam twitter">
-                            <a href="#"></a>
-                        </div>
-                        <div class="social socialteam deviantart">
-                            <a href="#"></a>
-                        </div>
-                        <div class="social socialteam flickr">
-                            <a href="#"></a>
-                        </div>
-                        <div class="social socialteam dribbble">
-                            <a href="#"></a>
-                        </div>
-                    </div>
-            </div>
-            <div class="teamwrap teambox">
-                    <img src="images/temp/team3.jpg" alt="">
-                    <div class="mask">
-                        <h2>Luna Galliano</h2>
-                        <p>
-                            One of our best shooting model, working for this company since the beginning.
-                            <div class="social socialteam facebook">
-                                <a href="#"></a>
-                            </div>
-                            <div class="social socialteam twitter">
-                                <a href="#"></a>
-                            </div>
-                            <div class="social socialteam deviantart">
-                                <a href="#"></a>
-                            </div>
-                            <div class="social socialteam flickr">
-                                <a href="#"></a>
-                            </div>
-                            <div class="social socialteam dribbble">
-                                <a href="#"></a>
-                            </div>
-                    </div>
-            </div>-->
-    </div><!-- end sidebar -->
-</div>
-<div class="hr">
-</div>
+<hr />
+
 
 {% include footer.html %}
-
+</div> <!-- End of grid -->
 {% include javascripts.html %}
 </body>
 </html>

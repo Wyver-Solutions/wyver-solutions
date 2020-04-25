@@ -7,45 +7,48 @@ weight: 10
 permalink: "about.html"
 cat: about-us
 ---
-Wyver Solutions is the trading name of Mark Berthelemy, a consultant specialising in learning solution architecture, project management and business & process improvement.
+Wyver Solutions helps technical &amp; non-technical teams communicate better. We specialise in technology that supports learning, communication and project management.
 
-I have over 30 years experience at the interface of learning, business and technology.
+The company was started in 2006, by Mark Berthelemy, an educator, technologist and solution architect.
 
-## My work
+## Our work
 
-My portfolio includes a range of work from across the public and private sector, in the UK, Sweden and the US.
+Our portfolio includes a range of work from across the public and private sector, in the UK, Sweden and the US, including:
 
-Examples include:
+### Product design and consultancy services for:
 
-- Product design and consultancy services for:
-    + An international qualification awarding body
-    + One of the Big Four global professional services firms
-    + A large orthodontics practice's internal training platform
-- Moodle leadership and support for:
-    + A rail engineering corporate academy
-    + A B2C site serving 50,000 TEFL trainees
-    + A government-wide training platform
-    + An award-winning NHS leadership programme
-    + Oxford Health NHS Trust
-    + National Institute for Health Research (Clinical Research Network)
-    + A global social media organisation
-- Learning technology reviews for:
-    * a global utility provider
-    * National Institute for Health Research - clinical research network
-- Learning technology procurement support for:
-    + Education for Health
-    + Association of Accounting Technicians
-- Learning and communication solution design for:
-    + Primary Care International
-    + Public Media Alliance
+- An international qualification awarding body
+- One of the Big Four global professional services firms
+- A large orthodontics practice's internal training platform
 
-## How I remain independent
+### Moodle leadership and support for:
 
-Precisely who I bring in or recommend is dependent only on your particular requirements. I value my independence, and therefore only enter into agreements with suppliers where I can maintain that independence. I do not receive any commission or kick-backs for any introductions made.
+- A rail engineering corporate academy
+- A B2C site serving 50,000 TEFL trainees
+- A government-wide training platform
+- An award-winning NHS leadership programme
+- Oxford Health NHS Trust
+- National Institute for Health Research (Clinical Research Network)
+- A global social media organisation
 
-Some suppliers use me to provide solution design, implementation leadership and project management services. To avoid conflicts of interest, my preference is to offer this as an independent service directly to my customers, and to only work for the suppliers when *they* have brought me into *their* customers.
+### Learning technology reviews for:
 
-When working on your behalf, I am able to put your interests first. A clear line of accountability helps this greatly! 
+* a global utility provider
+* National Institute for Health Research - clinical research network
+
+### Learning technology procurement support for:
+
++ Education for Health
++ Association of Accounting Technicians
+
+### Learning and communication solution design for:
+
++ Primary Care International
++ Public Media Alliance
+
+## Being independent
+
+Precisely who we bring in or recommend is dependent only on your particular requirements. We value our independence, and therefore only enter into agreements with suppliers where we can maintain that independence. We do not receive any commission or kick-backs for any introductions made.
 
 ## Feedback 
 

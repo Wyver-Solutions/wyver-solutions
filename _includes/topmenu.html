@@ -1,31 +1,21 @@
 <!-- HIDDEN PANEL 
 ================================================== -->
-<div id="panel">
+<!--<div id="panel" class="grid">
     <div class="row">
-        <div class="twelve columns">
+        <div class="col_12">
             <img src="/images/info.png" class="pics" alt="info">
             <div class="infotext">
                 <p>Free 30 minute initial consultation | <a href="/contact.html">Contact us for details</a></p>
             </div>
         </div>
     </div>
-</div>
+</div>-->
 
-<!--<p class="slide">
-    <a href="#" class="btn-slide"></a>
-</p>-->
 
 <!-- HEADER
 ================================================== -->
-<div class="row">
-    <div class="headerlogo four columns">
-        <div class="logo">
-            <a href="/index.html">
-            <img src="/assets/wyver_square_logo.jpg" alt="Wyver Solutions logo" style="width: 80px;" />
-            </a>
-        </div>
-    </div>
-    <div class="headermenu eight columns noleftmarg">
+<h1 class="hide">Wyver Solutions Ltd</h1>
+    <div class="col_12">
         <!-- Button for small screens -->
  
 
@@ -35,13 +25,20 @@
 
             {% assign pages = site.pages | sort:"name" %}
             {% assign blog = 0 %}
-            <ul id="menu" class="nav-bar"  >
+            <ul id="menu" class="menu">
             <!-- <ul id="main-menu" class="nav-bar sf-menu"  > -->
+                
                   {% for p in pages %}
 
+
                     {% if p.menu == 'main' %}
+
                         {% if p.title == "Blog" and blog == 0 %}
-                      <li{% if p.url == page.url %} class="current"{% endif %}>
+                        
+
+                        
+                        {% assign pageurl = page.url | slice:0,6 %}
+                      <li{% if p.url == pageurl %} class="current"{% endif %}>
                          <a href="/blog">{{ p.title }}</a>
                       </li>
 
@@ -56,6 +53,11 @@
                       
                     {% endif %}
                   {% endfor %}
+                  <li class="right">
+                    <div id="searchbox">
+                        <input type="text" class="st-default-search-input">
+                    </div>
+                </li>
 
             </ul>
         <!-- <ul id="main-menu" class="nav-bar sf-menu">
@@ -104,4 +106,4 @@
         </ul> -->
         </nav>
     </div>
-</div>
+    

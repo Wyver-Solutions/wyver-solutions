@@ -1,25 +1,25 @@
 <!-- FOOOTER 
 ================================================== -->
-<div id="footer">
-    <footer class="row">
-    <p class="back-top floatright">
-        <a href="#top"><span></span></a>
-    </p>
-    <div class="six columns">
-        <h1>ABOUT</h1>
+<div class="clear"></div>
+
+<div id="footer" class="col_12">
+    <footer>
+    
+    <div class="col_6">
+        <h5>About</h5>
          <p>Wyver Solutions Ltd is a specialist consultancy working with public and private sector organisations to improve communication and learning.</p>
          <p>Company number: 5731173 Registered in England</p>
          <p>VAT number: GB340284915</p>
          <p>Registered address: 1 Newton Close, Belper, DE56 1TN</p>
 
     </div>
-    
-    <div class="six columns">
-        <h1>CONTACT</h1>
+    <div class="col_2"></div>
+    <div class="col_4">
+        <h5>Contact</h5>
         <p>Call: 07922 146 761</p>
         <p class="hideurl">Email: <a href="mailto:sales@wyversolutions.co.uk">sales@wyversolutions.co.uk</a></p>
         <div class="non-printing">
-            <p><a href="https://www.linkedin.com/in/markberthelemy/">Linked In page</a></p>
+            
             <p><a href="http://feeds.feedburner.com/WyverSolutionsLtd"><i class="fa fa-rss"></i> RSS feed</a></p>
         </div>
                 <!--<h1 class="newsmargin">NEWSLETTER</h1>
@@ -32,41 +32,32 @@
             </div>
         </div> -->
     </div>
-    
     </footer>
-
-
-    <div class="row">
-        <div class="twelve columns">
+    
+<hr />
+<div class="copyright">
+    
+        <div class="col_4">
+             <span class="small">&copy; Copyright <script type="text/javascript">document.write(new Date().getFullYear());</script> Wyver Solutions Ltd</span>
+        </div>
+        <div class="col_4 center">
             {% assign pages = site.pages | sort:"name" %}
-            
-            <ul id="utility-menu">
-            <!-- <ul id="main-menu" class="nav-bar sf-menu"  > -->
+            <span class="small"> 
                   {% for p in pages %}
 
                     {% if p.menu == 'utility' %}
                         
-                      <li{% if p.url == page.url %} class="current"{% endif %}>
-                         <a href="{{ p.url }}">{{ p.title }}</a>
-                      </li>
-
-                        
+                      
+                         <a href="{{ p.url }}" class="small">{{ p.title }}</a> 
                       
                     {% endif %}
                   {% endfor %}
-            </ul>
+            </span>
         </div>
-    </div>
-
-<div class="copyright">
-    <div class="row">
-        <div class="six columns">
-             <span class="small">&copy; Copyright <script type="text/javascript">document.write(new Date().getFullYear());</script> Mark Berthelemy</span>
+        <div class="col_4 right">
+            <span class="small floatright"> Built using <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="http://www.99lime.com/elements/" target="_blank">HTML Kickstart<a/></span>
         </div>
-        <div class="six columns">
-            <span class="small floatright"> Theme based on "Studio Francesca" - <a href="http://WowThemes.net" target="_blank">WowThemes.net</a></span>
-        </div>
-    </div>
+    
 
 </div>
 </div>

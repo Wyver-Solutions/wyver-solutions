@@ -1,5 +1,129 @@
 /* Overrides stylesheet */
 
+body {
+    font-family: Arial, sans-serif;
+}
+
+body, div, dl, dt, dd, ul, ol, li, pre, form, p, blockquote, th, td {
+    /*font-size: 18px*/;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#ident h1 {
+    font-size: 1.5em;
+    padding-bottom: 0;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.serif {
+    font-family: 'PT Serif', serif;
+}
+
+#ident h2, #services h2 {
+    font-size: 1.2em;
+}
+
+#ident h3, #services h3 {
+    font-size: 1em;
+    margin-top: 0;
+}
+
+.menu {
+    border: none;
+    border-bottom: none;
+}
+
+.menu li.current>a, .menu li.current>a:hover {
+    background: rgba(13,68,93,1);
+}
+
+.icon {
+    font-size: 5em;
+}
+
+.home-post-title {
+    height: 3em;
+}
+
+#services {
+    margin-top: -2em;
+    padding-top: 3em;
+    background-image: url('/assets/cyber-3400789_1920.jpg');
+    background-size: cover;
+    color: #fff;
+    
+}
+
+#services .column {
+    margin-bottom: 2em;
+}
+
+#services a, #services a:visited {
+    color: rgba(220,220,220,1);
+}
+
+#services a:hover {
+    color: #fff;
+}
+
+.carousel-post {
+    position: relative;
+    top: 1em;
+    padding: 1em;
+    background-color: rgba(13,68,93,1);
+}
+
+.carousel-post p {
+    color: #fff;
+}
+
+.carousel-post a, .carousel-post a:visited {
+    color: rgba(180,180,180,1);
+}
+
+.carousel-post a:hover {
+    color: #fff;
+}
+
+form.vertical button {
+    display: block !important;
+    margin-top: 1em;
+}
+
+button.wyver {
+    background: rgba(13,68,93,1);
+    border: 1px solid rgba(13,68,93,1);
+    text-shadow: none;
+    color: #fff;
+}
+
+button.wyver:hover {
+    background: rgba(13,68,93,0.8);
+}
+
+
+/* --- */
+
+#panel {
+    background: #222;
+    height: 70px;
+    display: block;
+    color: #fff;
+    padding: 20px 0 25px 0;
+}
+
+.infotext {
+    margin-top: 7px;
+}
+
 .reference {
     text-align: right;
     font-style: italic;
@@ -51,8 +175,9 @@ a:hover { color: #5b5b5b; }
 #searchbox {
     clear:both;
     width:100%;
-    padding-top: 10px;
-    margin-bottom:35px;
+    padding-top: 5px;
+    padding-right: 10px;
+    
 }
 .slide {
     border-color: #5b5b5b;
@@ -67,9 +192,7 @@ a:hover { color: #5b5b5b; }
     margin-bottom: 0px;
 }
 
-body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
-    font-size: 18px;
-}
+
 
 .thumb {
     width:100%;
@@ -172,28 +295,29 @@ li.relatedPost {
 
 
 #footer {
-    color: #aaa;
-    font-size: 15px;
+    /*color: #aaa;
+    font-size: 15px;*/
 }
 
 #footer a {
-    color: #ddd;
-    font-size: 20px;
+    /*color: #ddd;
+    font-size: 20px;*/
 }
 
 #footer a:hover {
-    color: #aaa;
-    text-decoration: underline;
+    /*color: #aaa;
+    text-decoration: underline;*/
 }
 
 
 
 .small {
-    color: #aaa;
+    font-size: 0.8rem;
+    /*color: #aaa;*/
 }
 
 #footer span.small a {
-    font-size: 11px;
+    /*font-size: 11px;*/
 }
 
 .ca-menu li {
@@ -227,6 +351,8 @@ ul.flyout li a:hover, .nav-bar li ul li a:hover {color:#1d76c3;}
  #testimonials blockquote cite {color:#1d76c3;}
  .tags {background:#1d76c3;}
  ul.pagination li.current a {background: #1d76c3;}
+ ul.menu li.unavailable a {cursor: default;}
+ ul.menu li.unavailable a:hover {background:inherit;}
 .saymore {color:#1d76c3;}
 .submit {background:#1d76c3;} 
 dl.tabs dd.active { border-bottom: 3px solid #1d76c3;}
@@ -235,7 +361,7 @@ div.alert-box.default { background-color: #1d76c3;}
 .slide {    margin: 0;  padding: 0; border-top: solid 4px #1d76c3;}
 .btn-slide {    background:#1d76c3 url(../../images/plus.png) no-repeat;}
 .btn-slide.active { background: #1d76c3 url(../../images/minus.png) no-repeat;}
-#footer {border-top:#1d76c3 4px solid;}
+/*#footer {border-top:#1d76c3 4px solid;}*/
 .back-top a:hover{background-color: #1d76c3;}
 .sf-shadow ul {border-top:2px solid #1d76c3;}
 .panel {border-left:4px solid #1d76c3;}
@@ -251,6 +377,12 @@ a.projectdetail:hover { background: #1d76c3;opacity:1.0;}
     margin-bottom: 20px;
 }
 
+ul#utility-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 /* Menu */
 
 .nav-bar {
@@ -262,73 +394,80 @@ a.projectdetail:hover { background: #1d76c3;opacity:1.0;}
 .nav-bar > li > a:first-child {
     font-size: 1em;
 }
-
-/*Strip the ul of padding and list styling*/
+/*
+/*Strip the ul of padding and list styling
 ul #menu {
     list-style-type:none;
     margin:0;
     padding:0;
-    /* position: absolute; */
     text-align: right;
 }
+*/
 
-/*Create a horizontal list with spacing*/
+/*Create a horizontal list with spacing
 #menu li {
     display:inline-block;
     float: left;
     margin-right: 1px;
 }
+*/
 
-/*Style for menu links*/
+/*Style for menu links
 #menu li a {
     display:block;
-    /* min-width:140px; */
     height: 50px;
     text-align: center;
     line-height: 50px;
-    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     text-decoration: none;
 }
+*/
 
-/*Hover state for top level links*/
+/*Hover state for top level links
 #menu li:hover a {
     
 }
+*/
 
-/*Style for dropdown links*/
+/*Style for dropdown links
 #menu li:hover ul a {
     color: #5b5b5b;
     height: 40px;
     line-height: 40px;
 }
+*/
 
-/*Hover state for dropdown links*/
+/*Hover state for dropdown links
 #menu li:hover ul a:hover {
     color: #5b5b5b;
 }
+*/
 
-/*Hide dropdown links until they are needed*/
+/*Hide dropdown links until they are needed
 #menu li ul {
     display: none;
 }
+*/
 
-/*Make dropdown links vertical*/
+/*Make dropdown links vertical
 ul #menu li ul li {
     display: block;
     float: none;
 }
+*/
 
-/*Prevent text wrapping*/
+/*Prevent text wrapping
 ul #menu li ul li a {
     width: auto;
     min-width: 100px;
     padding: 0 20px;
 }
+*/
 
-/*Display the dropdown on hover*/
+/*Display the dropdown on hover
 ul #menu li a:hover + .hidden, .hidden:hover {
     display: block;
 }
+*/
 
 /*Style 'show menu' label button and hide it by default*/
 .show-menu {
@@ -388,12 +527,16 @@ input.gsc-input,
 }
 
 .boxblog {
-    height: 100%;
-    border: none;
+
+   
 }
 
 .boxblog h5 {
-    height: 1.5em;
+    height: 2.2em;
+}
+
+.boxblog img {
+    
 }
 
 .section-icon {

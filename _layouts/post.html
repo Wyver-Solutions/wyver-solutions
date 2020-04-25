@@ -1,17 +1,27 @@
 {% include head.html %}
 <body>
-{% include topmenu.html %}
-<div class="clear">
-</div>
-{% include subheader.html %}
+    <div class="grid">
+        <div id="ident">
+            
+            <div class="col_3">
+                <a href="/index.html">
+                <img src="/assets/wyversolutions_logo_900.png" alt="Wyver Solutions logo" style="object-fit: cover;" />
+                </a>
+                <h3 class="">Technology in your language</h3>
+            </div>
+
+            {% include topmenu.html %}
+
+            <div class="clear"></div>
+        </div> <!-- end ident -->
 <!-- CONTENT 
 ================================================== -->
-<div class="row">
-    <div class="twelve columns noleftmargin">
+
+    
     <!-- MAIN CONTENT-->
-    <div id="content" class="eight columns">
+    <div id="content" class="col_12">
+        <h2><a href="/blog">Blog</a> &raquo; {{ page.title }}</h2>
         
-        <p id="print-page" class="small" style="float:right;"><a href="#" onClick="window.print()">Print this page</a></p>
         <p class="small">
                             Posted on: {{ page.date | date: '%B %d, %Y' }}
                         </p>
@@ -21,163 +31,66 @@
 
 
         <div class="banner-image">
-            <img style="max-width:100%;" src="{{ page.banner }}" alt="{{ page.alt }}" />
+            <img class="full-width" style="max-width:100%;" src="{{ page.banner }}" alt="{{ page.alt }}" />
             {% if page.banner %}
                 <p class="small right">Image credit: {{ page.img-credit }}</p>
             {% endif %}
         </div>
-                    
-        {{ content }}
+                   
+            <div class="col_8">{{ content }}</div>
+            <div class="col_1"></div>
+            <div class="col_3">
+
+                <h4>Recent articles</h4>
         
-    <div id="disqus_thread"></div>
-        <script>
-        /**
-        * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-        * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-        */
+        
+            
+    
+        
+        
+        {% for post in site.posts limit: 5 %}
+        
+         <!-- Posts -->
 
-        var disqus_config = function () {
-        this.page.url = '{{site.url}}{{page.url}}'; // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = '{{page.id}}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
+            
+                
+                    <h5 class="home-post-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>
+                    <!--<p class="small date">
+                        Posted on: {{ post.date | date: '%B %d, %Y' }}<br />
+                    </p>-->
+                    
+                    <p>
+                        <a href="{{ post.url }}"><img style="width:100%" src="{{ post.thumb }}" alt="{{ post.alt }}" class="thumb"></a>
+                    <!-- {{ post.excerpt }} -->
+                    </p>
+                    <!--<p class="small">Categories: {% for category in post.categories %}{{ category }},{% endfor %}
+                    </p>-->
+                    <!--<p>
+                        <a href="{{ post.url }}" class="small continue">Continue reading</a>
+                    </p>-->
+                
+            
 
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-
-        s.src = '//wyversolutions.disqus.com/embed.js';
-
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+        
+        
+        {% endfor %}
+    </div>
+        
+    
 
     </div><!-- end main content-->
 
     
 
 
-    <!-- SIDEBAR-->
-    <div id="sidebar" class="four columns">
-            
-            {% include sidebar-content.html %}
+    
+    
 
-            {% assign hasSimilar = '' %}
-            {% for post in site.related_posts %}
-                {% assign postHasSimilar = false %}
-                    {% for category in post.categories %}
-                        {% for thisCategory in page.categories %}
-                            {% if postHasSimilar == false and hasSimilar.size < 6 and post != page and category == thisCategory %}
-                                {% if hasSimilar.size == 0 %}
-                                    <h4 class="sidebartitle">Related Posts</h6>
-                                    <ul>
-                                        {% endif %}
+<hr />
 
-                                        <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
-                <p>
-                <!-- <a href="{{ post.url }}"><img src="{{ post.thumb }}" alt="{{ post.alt }}" class="thumb"></a> -->
-                {{ post.excerpt }}
-                </p>
-                <p class="small date">
-                    Posted on: {{ post.date | date: '%B %d, %Y' }} &nbsp; <a href="{{ site.url}}{{ post.url }}#disqus_thread">Comments</a>
-                </p>
-                <!--
-                                        <li class="relatedPost">
-                                        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}
-                                        {% if post.series %}
-                                            (Series: {{ post.series }})
-                                        {% endif %}
-                                        </a>
-                                        </li>
-
-                                    --> 
-                                        {% capture hasSimilar %}{{ hasSimilar }}*{% endcapture %}
-                                        {% assign postHasSimilar = true %}
-                                    {% endif %}
-                                {% endfor %}
-                            {% endfor %}
-                        {% endfor %}
-                        {% if hasSimilar.size > 0 %}
-                            </ul>
-                        {% endif %}
-        </div>
-    <!--<div id="sidebar" class="four columns">
-        <div class="teamwrap teambox">
-            <img src="images/temp/team1.jpg" alt="">
-            <div class="mask">
-                <h2>Katrina Bernski</h2>
-                <p>
-                    One of our best shooting model, working for this company since the beginning.
-                    <div class="social socialteam facebook">
-                        <a href="#"></a>
-                    </div>
-                    <div class="social socialteam twitter">
-                        <a href="#"></a>
-                    </div>
-                    <div class="social socialteam deviantart">
-                        <a href="#"></a>
-                    </div>
-                    <div class="social socialteam flickr">
-                        <a href="#"></a>
-                    </div>
-                    <div class="social socialteam dribbble">
-                        <a href="#"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="teamwrap teambox">
-                <img src="images/temp/team2.jpg" alt="">
-                <div class="mask">
-                    <h2>Yolanda Bernski</h2>
-                    <p>
-                        One of our best shooting model, working for this company since the beginning.
-                        <div class="social socialteam facebook">
-                            <a href="#"></a>
-                        </div>
-                        <div class="social socialteam twitter">
-                            <a href="#"></a>
-                        </div>
-                        <div class="social socialteam deviantart">
-                            <a href="#"></a>
-                        </div>
-                        <div class="social socialteam flickr">
-                            <a href="#"></a>
-                        </div>
-                        <div class="social socialteam dribbble">
-                            <a href="#"></a>
-                        </div>
-                    </div>
-            </div>
-            <div class="teamwrap teambox">
-                    <img src="images/temp/team3.jpg" alt="">
-                    <div class="mask">
-                        <h2>Luna Galliano</h2>
-                        <p>
-                            One of our best shooting model, working for this company since the beginning.
-                            <div class="social socialteam facebook">
-                                <a href="#"></a>
-                            </div>
-                            <div class="social socialteam twitter">
-                                <a href="#"></a>
-                            </div>
-                            <div class="social socialteam deviantart">
-                                <a href="#"></a>
-                            </div>
-                            <div class="social socialteam flickr">
-                                <a href="#"></a>
-                            </div>
-                            <div class="social socialteam dribbble">
-                                <a href="#"></a>
-                            </div>
-                    </div>
-            </div>-->
-    </div><!-- end sidebar -->
-</div>
-<div class="hr">
-</div>
 
 {% include footer.html %}
-
+</div> <!-- End grid -->
 {% include javascripts.html %}
 </body>
 </html>

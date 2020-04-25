@@ -1,85 +1,75 @@
 {% include head.html %}
 
 <body>
-{% include topmenu.html %}
+    <div class="grid">
+        <div id="ident">
+    
+            <div class="col_3">
+                <a href="/index.html">
+                <img src="/assets/wyversolutions_logo_900.png" alt="Wyver Solutions logo" style="object-fit: cover;" />
+                </a>
+                <h3 class="">Technology in your language</h3>
+            </div>
+            
+            {% include topmenu.html %}
 
-<div class="clear">
-</div>
+            <div class="clear"></div>
 <!-- SUBHEADER
 ================================================== -->
-<div id="subheader" class="subheadertext" style="padding:50px 0px !Important;">
-    <div class="row">
-        <div class="twelve columns">
-            <div class="noslide">
-                 <h1>Wyver Solutions</h1>
-                <h3>Learning Technology Architect</h3>
-                <p>Specialising in analysing your needs,<br />designing solutions and implementing technologies</p>
 
-                <div id="searchbox" class="aligncenter">
-                    <input type="text" class="st-default-search-input">
-                </div>
+
+                
                 
             
                 <!--<a href="/contact.html" class="clear actbutton">Get in touch</a> -->
-            </div>
-        </div>
+            
+        
     </div>
-</div>
+
 <!-- ANIMATED COLUMNS 
 ================================================== -->
-<div class="row">
-    <div class="twelve columns">
-        <ul class="ca-menu">
-            <li>
-            <a href="services.html">
+<div class="clear"></div>
+<div id="services" class="col_12">
+    <!--Image by <a href="https://pixabay.com/users/TheDigitalArtist-202249/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3400789">Pete Linforth</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3400789">Pixabay</a>-->
 
-            <span class="ca-icon"><i class="fa fa-ambulance"></i></span>
-            <div class="ca-content">
+            <div class="col_4 center">
+            <a href="services.html">
+            <span><i class="fa fa-ambulance icon"></i></span>
                 <h2 class="ca-main">Troubleshooting<br />&amp; Consultancy</h2>
-                <h3 class="ca-sub">Straight to the point</h3>
-            </div>
+                <!--<h3 class="ca-sub">Straight to the point</h3>-->
             </a>
-            </li>
-            <li>
+            </div>
+            <div class="col_4 center">
             <a href="services.html">
-            <span class="ca-icon"><i class="fa fa-pencil-square-o"></i></span>
-            <div class="ca-content">
+            <span><i class="fa fa-pencil-square-o icon"></i></span>
                 <h2 class="ca-main">Analysis &amp;<br />Design</h2>
-                <h3 class="ca-sub">Doing more with less</h3>
+               <!-- <h3 class="ca-sub">Doing more with less</h3>-->
+           </a>
             </div>
-            </a>
-            </li>
-            <li>
-            <a href="services.html">
-            <span class="ca-icon"><i class="fa fa-search"></i></span>
-            <div class="ca-content">
+            <div class="col_4 center">
+                <a href="services.html">
+            <span><i class="fa fa-search icon"></i></span>
                 <h2 class="ca-main">Supplier<br />Selection</h2>
-                <h3 class="ca-sub">Asking the right questions</h3>
-            </div>
+                <!--<h3 class="ca-sub">Asking the right questions</h3>-->
             </a>
-            </li>
-            <li>
-            <a href="services.html">
-            <span class="ca-icon"><i class="fa fa-gears"></i></span>
-            <div class="ca-content">
+            </div>
+            <div class="col_6 center">
+                <a href="services.html">
+            <span><i class="fa fa-gears icon"></i></span>
                 <h2 class="ca-main">Implementation<br />Support</h2>
-                <h3 class="ca-sub">Helping clear communication</h3>
+             <!--   <h3 class="ca-sub">Helping clear communication</h3>    -->
+         </a>
             </div>
-            </a>
-            </li>
-            <li>
-            <a href="/leanlearning">
-            <span class="ca-icon"><i class="fa fa-bullseye"></i></span>
-            <div class="ca-content">
-                <h2 class="ca-main">Lean<br />Learning</h2>
-                <h3 class="ca-sub">Iterating towards perfection</h3>
-            </div>
-            </a>
-            </li>
             
-        </ul>
-    </div>
+            <div class="col_6 center">
+                <a href="services.html">
+            <span><i class="fa fa-bullseye icon"></i></span>
+                <h2 class="ca-main">Lean<br />Learning</h2>
+              <!--  <h3 class="ca-sub">Iterating towards perfection</h3>-->
+          </a>
+            </div>    
 </div>
+
 
 
 
@@ -148,8 +138,7 @@
         </p>
     </div>
 </div>-->
-<div class="hr">
-</div>
+
 <!-- CLIENTS 
 ================================================== -->
 <!-- <div class="row">
@@ -193,41 +182,51 @@
     </div>
 </div>-->
 
-<div class="hr">
-</div>
 
-<div class="row">
-    <div class="twelve columns">
-        <div class="centersectiontitle">
-            <h4>Recent blog posts</h4>
+<div id="recent-posts" class="">
+        <div class="col_12 center">
+            <h4>Recent articles</h4>
         </div>
+            
+    
+        
+        
         {% for post in site.posts limit: 3 %}
-        <div class="four columns"> <!-- Posts -->
+        
+        <div class="col_4 center"> <!-- Posts -->
 
-            <div class="boxblog">                   
-                <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
-                <p class="small date">
-                    Posted on: {{ post.date | date: '%B %d, %Y' }} &nbsp; <a href="{{ site.url}}{{ post.url }}#disqus_thread">Comments</a>
-                </p>
-                <p>
-                <a href="{{ post.url }}"><img src="{{ post.thumb }}" alt="{{ post.alt }}" class="thumb"></a>
-                <!-- {{ post.excerpt }} -->
-                </p>
-                <!--<p class="small">Categories: {% for category in post.categories %}{{ category }},{% endfor %}
-                </p>-->
-                <!--<p>
-                    <a href="{{ post.url }}" class="small continue">Continue reading</a>
-                </p>-->
-            </div>
+            
+                <div class="carousel-post">
+                    <h5 class="home-post-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>
+                    <!--<p class="small date">
+                        Posted on: {{ post.date | date: '%B %d, %Y' }}<br />
+                    </p>-->
+                    
+                    <p>
+                        <a href="{{ post.url }}"><img style="width:350px" src="{{ post.thumb }}" alt="{{ post.alt }}" class="thumb"></a>
+                    <!-- {{ post.excerpt }} -->
+                    </p>
+                    <!--<p class="small">Categories: {% for category in post.categories %}{{ category }},{% endfor %}
+                    </p>-->
+                    <!--<p>
+                        <a href="{{ post.url }}" class="small continue">Continue reading</a>
+                    </p>-->
+                </div>
+            
 
         </div>
+        
         {% endfor %}
-        </div>
+    
+    
+        
 </div>
 
 <!--end testimonials-->
 
 {% include footer.html %}
+
+</div> <!-- End of Grid -->
 
 {% include javascripts.html %}
 

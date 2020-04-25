@@ -2,7 +2,15 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:year/:month/:day/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md","*.sublime-project",".gitignore","Gemfile","Gemfile.lock"]
+exclude:
+   - Gemfile
+   - Gemfile.lock
+   - node_modules
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
+#exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md","*.sublime-project",".gitignore","Gemfile","Gemfile.lock"]
 
 markdown: kramdown
 highlighter: rouge
@@ -25,7 +33,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
-paginate: 10
+paginate: 12
 
 paginate_path: "/blog/page:num/"
 
