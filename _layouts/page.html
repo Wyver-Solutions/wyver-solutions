@@ -7,11 +7,14 @@
 ================================================== -->
 
     <!-- MAIN CONTENT-->
-    <div id="content" class="col_12">
-        <h2>{{ page.title }}</h2>
-        {{ content }}
+    <div id="content">
+        <div class="col_12 center">
+            <h2>{{ page.title }}</h2>
+        </div>
         
-    </div><!-- end main content-->
+                {{ content }}
+        
+    <!-- end main content-->
 
     <!-- SIDEBAR-->
     <!--<div id="sidebar" class="four columns">
@@ -45,7 +48,6 @@
         
     </div>-->
     <!-- end sidebar -->
-<hr />
 
 {% include footer.html %}
 
