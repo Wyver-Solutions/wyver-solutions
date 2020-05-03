@@ -2,6 +2,10 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-image: url('/assets/network-4851079_1920.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgba(220,220,220,1);
 }
 
 body, div, dl, dt, dd, ul, ol, li, pre, form, p, blockquote, th, td {
@@ -10,10 +14,21 @@ body, div, dl, dt, dd, ul, ol, li, pre, form, p, blockquote, th, td {
 
 a, a:visited {
     text-decoration: none;
+    color: rgba(220,220,220,1);
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+#ident {
+    position: fixed;
+    top:0;
+    z-index:9999;
+    background: rgb(17,17,17);
+background: -webkit-linear-gradient(rgba(17,17,17,1) 70%, rgba(255,255,255,0) 100%);
+background: -o-linear-gradient(rgba(17,17,17,1) 70%, rgba(255,255,255,0) 100%);
+background: linear-gradient(rgba(17,17,17,1) 70%, rgba(255,255,255,0) 100%);
 }
 
 #ident h1 {
@@ -39,10 +54,26 @@ a:hover {
 .menu {
     border: none;
     border-bottom: none;
+    background: transparent;
+    background-color: inherit;
+}
+
+.menu li a {
+    text-shadow: none;
+    color: inherit;
+}
+
+.menu li a:hover {
+    color: #111;
 }
 
 .menu li.current>a, .menu li.current>a:hover {
     background: rgba(13,68,93,1);
+}
+
+#wrapper {
+    
+    margin-top: 10em;
 }
 
 .icon {
@@ -56,9 +87,8 @@ a:hover {
 #services {
     margin-top: -2em;
     padding-top: 3em;
-    background-image: url('/assets/cyber-3400789_1920.jpg');
-    background-size: cover;
-    color: #fff;
+    /*background-image: url('/assets/cyber-3400789_1920.jpg');
+    background-size: cover;*/
     
 }
 
@@ -67,7 +97,7 @@ a:hover {
 }
 
 #services a, #services a:visited {
-    color: rgba(220,220,220,1);
+   /* color: rgba(220,220,220,1);*/
 }
 
 #services a:hover {
@@ -78,19 +108,19 @@ a:hover {
     position: relative;
     top: 1em;
     padding: 1em;
-    background-color: rgba(13,68,93,1);
+    background-color: rgba(13,68,93,0.7);
 }
 
 .carousel-post p {
-    color: #fff;
+    
 }
 
 .carousel-post a, .carousel-post a:visited {
-    color: rgba(180,180,180,1);
+    /*color: rgba(180,180,180,1);*/
 }
 
 .carousel-post a:hover {
-    color: #fff;
+    /*color: #fff;*/
 }
 
 form.vertical button {
@@ -155,7 +185,7 @@ button.wyver:hover {
     margin-bottom: 15px;
 }
 
-a:hover { color: #5b5b5b; }
+a:hover { color: #fff; }
 
 #subheader {
     background-color: #5b5b5b;
@@ -297,6 +327,7 @@ li.relatedPost {
 #footer {
     /*color: #aaa;
     font-size: 15px;*/
+    
 }
 
 #footer a {
@@ -332,7 +363,7 @@ li.relatedPost {
 
 /* Set colours */
 
-a {color: #1d76c3;}
+
 .colorme {color:#1d76c3;}
 .nav-bar > li:hover, .nav-bar > li a:hover  { color: #1d76c3;}
 .nav-bar > li.active > a { }
