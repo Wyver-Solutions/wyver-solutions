@@ -68,7 +68,7 @@ background: linear-gradient(rgba(17,17,17,1) 70%, rgba(255,255,255,0) 100%);
 }
 
 .menu li.current>a, .menu li.current>a:hover {
-    background: rgba(13,68,93,1);
+    background: rgba(45,116,200,1);
 }
 
 #wrapper {
@@ -108,7 +108,7 @@ background: linear-gradient(rgba(17,17,17,1) 70%, rgba(255,255,255,0) 100%);
     position: relative;
     top: 1em;
     padding: 1em;
-    background-color: rgba(13,68,93,0.7);
+    background-color: rgba(45,45,45,0.7);
 }
 
 .carousel-post p {
@@ -504,10 +504,9 @@ ul #menu li a:hover + .hidden, .hidden:hover {
 .show-menu {
     text-decoration: none;
     position: absolute;
-    top: 20px;
+    top: 10px;
     right: 20px;
     z-index: 1000;
-    color: #000;
     text-align: right;
     padding: 10px 0;
     display: none;
@@ -641,10 +640,16 @@ div .portrait img {
 
 @media screen and (max-width : 800px){
     /*Make dropdown links appear inline*/
+    .desktop-only {
+        display:none;
+    }
+
     #menu {
         position: static;
         display: none;
-        margin: 0
+        margin: 0;
+        margin-right:0px;
+        background-color: #000;
     }
 
     /*Create vertical spacing*/
@@ -659,6 +664,10 @@ div .portrait img {
     /*Display 'show menu' link*/
     .show-menu {
         display:block;
+        width: 30px;
+        position: absolute;
+        top: 70px;
+        cursor: hand;
     }
 
     .section-icon {
