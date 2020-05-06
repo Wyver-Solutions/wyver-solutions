@@ -30,13 +30,13 @@ As a thought-experiment, I would like to propose an architecture as shown in the
 
 Each component within the architecture is a designed as a service which can be called upon by any of the other components. That service could be realised through people, through a website, through a mobile app, or any combination of these. 
 
-## Identity Management
+#### Identity Management
 
 A single identity management service, which contains all the personal profile and authentication information for any particular user makes it much simpler to plug in additional services which need that information.
 
 Just as a student ID card gives access to any number of services within a university, so corporate identity management can allow people to use multiple services without having to continually provide credentials and personal data.
 
-## Search
+#### Search
 
 An enterprise Search service should be able to:
 
@@ -54,7 +54,7 @@ Neither are actually that simple!
 
 However, with search being the primary route to learning materials for people outside of work, it makes sense to try to replicate this as much as possible within work.
 
-## Personalisation
+#### Personalisation
 
 The personalisation service provides the means by which people get, as quickly as possible, to the learning resources and activities that they need.
 
@@ -78,7 +78,7 @@ The Search service will provide data to the Learning Records service, such as:
 
     [UserID] searched for [search term] on [date]
 
-## Community
+#### Community
 
 The Community service provides the ability to add human interaction capabilities at any point within the user's journey.
 
@@ -92,7 +92,7 @@ The Community will also provide data to the Learning Records service, such as:
 
     [UserID] responded to [forum post] on [date]
 
-## Content
+#### Content
 
 The Content service could actually be many services. Each one will provide data for the Search service, so that the content it contains can be found.
 
@@ -119,7 +119,7 @@ The Content service will also provide data to the Learning Records service, such
 
     [UserID] watched [x%] of [video] on [date]
 
-## Courses
+#### Courses
 
 The course service is important in any learning architecture - particularly for those people who are novices in a field. They require structured introductions to the field, and to the language used within it.
 
@@ -135,7 +135,7 @@ The Course service will also provide data for the Learning Records service, such
 
     [UserID] completed [Course] on [date]
 
-## Assessment
+#### Assessment
 
 The Assessment service provides the ability to supply:
 
@@ -158,7 +158,7 @@ The Assessment service will also provide data to the Learning Records service, s
 
     [UserID] answered [Question] in [Assessment] with [Answer], scoring [n]
 
-## Learning records
+#### Learning records
 
 The Learning Records service collects and stores all the data sent to it from the other services.
 
@@ -166,7 +166,7 @@ This data can also be used by the other services - particularly the Personalisat
 
 The Learning Records service will make its data available to the Analytics service.
 
-## Analytics
+#### Analytics
 
 The Analytics service is designed to:
 
@@ -187,7 +187,7 @@ Note that, if the Analytics service also has access to performance data, then ev
 - Does our &ldquo;x&rdquo; course have an impact on performance?
 - How do high-achieving people use the learning services?
 
-# References
+#### References
 
 Caple, C. (1996) &ldquo;The Effects of Spaced Practice and Spaced Review on Recall and Retention Using Computer Assisted Instruction&rdquo;, available from: [http://eric.ed.gov/?id=ED427772](http://eric.ed.gov/?id=ED427772)
 

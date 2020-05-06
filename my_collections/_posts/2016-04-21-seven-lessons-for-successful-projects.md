@@ -15,7 +15,7 @@ img-credit: <a href="https://en.wikipedia.org/wiki/File:Simple-kanban-board-.jpg
 ---
 Over the many years in which we have been involved in or running projects, we have learnt many lessons - from observing where things have or haven't worked. We would argue that these seven are the most important:
 
-## Lesson 1: Appropriate communication
+#### Lesson 1: Appropriate communication
 
 Whether you're using Kanban, Prince 2&trade;, Scrum or any other project management metholodology, you will need to tell some people what they're doing, and other what is being done.
 
@@ -25,7 +25,7 @@ Ideally, the project management software you're using will allow different views
 
 Giving detailed reports is usually actually quite easy. But generating a high-level report that is meaningful at the same time as being concise will require work. Don't expect the software to do everything... Sometimes you will need to create a simple dashboard for your project board, like these templates available from <a href="http://www.techno-pm.com/p/project-status-report-template-free.html" target="_blank">TechnoPM</a>.
 
-## Lesson 2: A product owner who can make decisions
+#### Lesson 2: A product owner who can make decisions
 
 There are two aspects to this lesson. One is that you need a product owner - someone who owns the vision for the end result of the project, who understands the target "user", the competition and where things are going in this particular domain.
 
@@ -37,7 +37,7 @@ The project board's relationship with the product owner then becomes one of acco
 
 The second is that this person must be empowered to make decisions and provide feedback to suppliers. Once those decisions are made they then feed them back to their project board - who simply ratify them. It should be a very rare occassion when the board overrides decisions. (See lesson 7)
 
-## Lesson 3: A project manager who talks the right language(s)
+#### Lesson 3: A project manager who talks the right language(s)
 
 It's important that the project manager is able to communicate with, and translate for, all the project stakeholders.
 
@@ -53,7 +53,7 @@ And when talking with learning designers and solutions architects, they'll be ha
 
 Part of the PM's role is to ensure that anything that's going to have an impact on the wider project is communicated across the workstreams, in a language that all can understand.
 
-## Lesson 4: Clear accountabilities
+#### Lesson 4: Clear accountabilities
 
 In lesson 2, we discussed the role of the product owner, who is accountable to the project board, but is able to make decisions independently.
 
@@ -65,7 +65,7 @@ If the supplier wants to have their own project manager, that's fine, and often 
 
 That's a nice idea, but when there are difficult conversations to be had, about delays or quality, then you need to know that the PM is batting on your behalf.
 
-## Lesson 5: Mix and adapt your methodologies
+#### Lesson 5: Mix and adapt your methodologies
 
 While there are purists who will only use concepts, tools and techniques from Prince2&trade;, Scrum, Kanban, PMI et al, we would recommend that you adapt your methodologies to the context.
 
@@ -81,7 +81,7 @@ Precisely how you adapt your methodologies will depend on a number of factors:
 - How well the project scope is understood
 - Whether this is a one-off, or whether there's scope for continuous, iterative improvement
 
-## Lesson 6: Ring fence your project team
+#### Lesson 6: Ring fence your project team
 
 Project teams need time away from their Business As Usual work to focus on the project.
 
@@ -89,7 +89,7 @@ Anything that comes in from their BAU life that's likely to have an impact on th
 
 Just don't ignore the potential for BAU to scupper a project!
 
-## Lesson 7: Avoid management by committee
+#### Lesson 7: Avoid management by committee
 
 This links to lessons 2 and 4. If you have clear accountabilities and decision-making vested in individuals, then projects can be made to run very smoothly.
 

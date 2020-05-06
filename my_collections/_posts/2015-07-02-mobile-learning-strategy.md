@@ -17,7 +17,7 @@ img-credit: <a href="http://www.morguefile.com/archive/display/891862" target="_
 
 At this week&rsquo;s meeting of <a href="https://eastmidslt.wordpress.com/about/" target="_blank">East Midlands Learning Technologists</a> the focus for discussion was <strong>mobile learning</strong>.
 
-### Mobile &ndash; What is it good for?
+#### Mobile &ndash; What is it good for?
 
 With the introduction of ubiquitous, connected mobile devices into the workplace or the classroom, what can we do now that we couldn't do before?
 
@@ -25,13 +25,13 @@ With the introduction of ubiquitous, connected mobile devices into the workplace
 + Expect people to be able to communicate with peers and experts outside of fixed times or locations
 + Capture data (eg. audio and video) at any time
 
-### What needs to be in my mobile strategy?
+#### What needs to be in my mobile strategy?
 
 As in most strategies, there are three components:
 
 People &mdash; Processes &mdash; Technology
 
-#### People
+##### People
 
 You will need to consider:
 
@@ -41,7 +41,7 @@ You will need to consider:
 + Training &amp; support
 + Change management &amp; communication
 
-#### Processes
+##### Processes
 
 You will need to consider:
 
@@ -49,7 +49,7 @@ You will need to consider:
 + Your learner support processes
 + How you will retrieve data from mobile devices &ndash; to share in a classroom, or online
 
-#### Technology
+##### Technology
 
 You will need to consider:
 
@@ -60,7 +60,7 @@ You will need to consider:
 - Security &ndash; how will you handle sensitive data on devices you don't control?
 
 <hr />
-### Addendum
+#### Addendum
 
 The recently released mLearning Design Reference Model from [ADL&rsquo;s MOTIF project](https://motifproject.org/) provides a useful [interactive Powerpoint](http://www.adlnet.gov/downloads/mlearning.pptx) (why Powerpoint rather than HTML, I&rsquo;m not quite sure). It helps learning designers and architects to focus on the unique characteristics of mobile devices and usage patterns.
 

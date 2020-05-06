@@ -28,11 +28,11 @@ Much depends on the level of ownership you&rsquo;re going to take for the site. 
 
 So, here are few resources that may help guide you at each level.
 
-## Level 1: Infrastructure
+#### Level 1: Infrastructure
 
 We&rsquo;ve split this into small and large setups.
 
-### Small setup
+##### Small setup
 
 (Low user numbers, low bandwidth requirements)
 
@@ -54,7 +54,7 @@ A lot has also been written about optimizing Moodle servers:
 
 <a href="http://www.iteachwithmoodle.com/2014/01/23/how-to-optimize-a-moodle-server-part-4-apc/" target="_blank">http://www.iteachwithmoodle.com/2014/01/23/how-to-optimize-a-moodle...</a>
 
-### Large setup
+##### Large setup
 
 (High user numbers accessing a lot of resources and activities)
 
@@ -66,7 +66,7 @@ You will find this document useful at this stage:
 
 <a href="https://docs.moodle.org/29/en/Performance_recommendations" target="_blank">https://docs.moodle.org/29/en/Performance_recommendations</a>
 
-## Level 2: Installation
+#### Level 2: Installation
 
 Moodle is actually very simple to install, once you have the server hardware and software setup correctly.
 
@@ -78,8 +78,7 @@ Some hosting providers offer an automated Moodle installation service, but be aw
 
 Don&rsquo;t forget that you will need to perform regular maintenance upgrades on your Moodle site in order to remain secure.
 
-
-## Level 3: Configuration
+#### Level 3: Configuration
 
 This is where it starts to get complicated, as Moodle can be configured to operate in so many different ways.
 
@@ -97,13 +96,13 @@ The main things to consider are:
 <li>What roles will people have within Moodle, and what does each role need to be able to do?</li>
 </ul>
 
-## Level 4: Administration
+#### Level 4: Administration
 
 Actually, once a Moodle site is setup, there&rsquo;s little ongoing administration to do, apart from adding new users and assigning the right users to the right courses and groups, with the right permissions. It is possible to automate much of that, which will be considered during Configuration.
 
 Again, Moodle docs is a good source of info: <a href="https://docs.moodle.org/29/en/Guide_for_new_administrators" target="_blank">https://docs.moodle.org/29/en/Guide_for_new_administrators</a>
 
-## Level 5: Course design
+#### Level 5: Course design
 
 At this point, there is a huge amount of guidance and support <a href="https://www.google.co.uk/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=moodle%20course%20design" target="_blank">dotted around the web</a>. The <a href="https://moodle.org/mod/forum/view.php?id=41" target="_blank">Teaching with Moodle forum</a> is a particularly good source of help.
 

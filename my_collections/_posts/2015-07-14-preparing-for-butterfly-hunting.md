@@ -16,25 +16,25 @@ This week&rsquo;s Elearning Network event focusses on <a href="http://www.elearn
 
 On the day, attendees will have the opportunity to choose which areas they want to focus on. So it will be worth having a think beforehand about their potential impact in your organisation. The videos below should give an introduction to each topic:
 
-# Augmented reality
+#### Augmented reality
 
 Consider how you would teach someone to do this task without the augmented reality system:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eVV5tUmky6c" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
 
-# Ubiquitous video
+#### Ubiquitous video
 
 Consider how you would teach someone to do this task without video. What would it cost?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0VaPOtC-Ans" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
 
-# Open badges
+#### Open badges
 
 The video describes "Open badges" as an enabling technology. What does it enable?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fCQE1EGIFhQ" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
 
-# Enterprise search
+#### Enterprise search
 
 Take a look at the <a href="http://www.alexa.com/topsites" target="_blank">top 500 sites on the internet</a>. Of the top 20, how many have search at the centre?
 
@@ -42,19 +42,19 @@ How do you use the internet? Where do you start when you need to find out someth
 
 Where do people start when they&rsquo;re at work?
 
-# Experience API
+#### Experience API
 
 If we can collect learner tracking data from any system, why do we need an LMS?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Uf9W3MU5ceg" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
 
-# H5P
+#### H5P
 
 Try out some of the <a href="http://h5p.org/content-types-and-applications" target="_blank">H5P examples</a>.
 
 Consider how you might use them if you could add things like this to your intranet, and track their usage in a Learning Record Store?
 
-# Content management
+#### Content management
 
 Content management systems (CMS) enable:
 

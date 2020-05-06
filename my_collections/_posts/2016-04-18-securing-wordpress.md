@@ -19,7 +19,7 @@ Wordpress is at the heart of many thousands of websites around the world. Just b
 
 We would like to propose three sets of actions, which, when put together, will make a strong defence for any Wordpress site:
 
-## Policies and practices
+#### Policies and practices
 
 1. Keep the number of people with admin rights to a bare minimum. Ideally have just two administrator logins (so that one can be used if you lose the password for the first).
 2. Don't use an administrator login for general use, eg. writing posts and editing pages.
@@ -29,7 +29,7 @@ We would like to propose three sets of actions, which, when put together, will m
 6. Ensure your plugins and themes, and the Wordpress core code is updated immediately new versions are released. The <a href="https://www.wordfence.com/" target="_blank">Wordfence</a> plugin will email you whenever there's something to update.
 7. Use strong passwords, and store them securely - eg. with a password vault such as <a href="https://lastpass.com/" target="_blank">LastPass</a>.
 
-## Hardening
+#### Hardening
 
 1. Change any default usernames or passwords to something new. This applies to Wordpress, to the Database, and to your FTP user.
 2. Make sure your database user cannot access other databases - and especially isn't the root user.
@@ -38,7 +38,7 @@ We would like to propose three sets of actions, which, when put together, will m
 5. Only get plugins and themes from known sources, such as the Wordpress repository.
 6. Remove any plugins or themes that you are not using.
 
-## Monitoring
+#### Monitoring
 
 1. Use a plugin like <a href="https://www.wordfence.com/" target="_blank">Wordfence</a> to keep an eye on your site. It provides a number of tools to check for strange activity and changes in the code. You will need to get a little bit technical to interpret whether the warnings it gives can be ignored safely.
 2. Set up a regular monitor to see whether your site is behaving properly. There are <a href="https://www.google.co.uk/search?q=website+monitoring" target="_blank">many services</a> that do this, some free. The paid for ones will offer more frequent monitoring, and usually a better user interface. Most will give you a free trial period.

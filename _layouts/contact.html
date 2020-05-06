@@ -10,53 +10,18 @@
 ================================================== -->
 
     <!-- MAIN CONTENT-->
-    <div id="content" class="col_12">
+    <div id="content" class="col_12 center">
         <h2>{{ page.title }}</h2>
         {{ content }}
 
-        
-        <form role="form" class="vertical" method="POST" action="http://formspree.io/mberthelemy@wyversolutions.co.uk">   
-
-            
-                <label for="name">Name</label>
-                <input type="text" class="form-control" name="name" id="name" placeholder="Your name..." />
-            
-                <label for="organisation">Organisation</label>
-                <input type="text" class="form-control" name="organisation" id="organisation" placeholder="Your organisation..." />
-            
-                <label for="email">Email</label>            
-                <input type="email" class="form-control" name="_replyto" id="email" placeholder="Your email address..." />
-                
-                <label for="message">Message</label>
-                <textarea class="form-control" name="message" id="message" rows="8" placeholder="Your message..."></textarea>
-            
-                
-                <fieldset>
-                    <legend>Marketing consent</legend>
-                
-                    <input type="checkbox" name="marketing" id="marketing" value="yes" />
-                    <label for="marketing-no" class="inline">I give consent for Wyver Solutions Ltd to send marketing information.</label>
-                    <p>This is usually no more than a couple of times a year.</p>
-                    
-                </fieldset>
-                
-            
-            <input type="hidden" name="_next" value="http://www.wyversolutions.co.uk" />
-            <input type="hidden" name="_subject" value="[Website message] " />
-            <input type="text" name="_gotcha" style="display:none" />
-            
-            
-            <button id="contact" type="submit" value="Send" class="wyver medium">Send</button>
-        </form>
+    </div>
+    
 
        
                 
-    </div><!-- end main content-->
+    </div><!-- end form -->
+    <div class="col_2"></div>
 
-    
-    
-
-<hr />
 
 
 {% include footer.html %}

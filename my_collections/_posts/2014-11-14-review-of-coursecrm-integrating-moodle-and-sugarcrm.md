@@ -18,29 +18,29 @@ Leaving the content management piece aside for now (as I&#8217;m sure that will 
 
 <img class="aligncenter" src="/post-images/2014/11/building-blocks.png" alt="Building blocks of a typical L&amp;D organisation" />
 
-## Building blocks
+#### Building blocks
 
-### Customer Relationship Management
+##### Customer Relationship Management
   
 Any organisation needs to know who their customers are and what they are buying or using. Clever analytics will help the organisation to match new &amp;existing customers to new &amp; existing products in order to grow further.
   
-### Student Administration
+##### Student Administration
 
 Administration is the process of ensuring the right people get the right information at the right time, with the minimal amount of wasted activity for all involved.
 
-### Learning Delivery
+##### Learning Delivery
   
 At the heart of any L&amp;Dorganisation is the &#8220;delivery&#8221; of learning, whether that&#8217;s events, materials or activities.
 
-### Support Tickets
+##### Support Tickets
 
 People will often need support, especially when there are complex administration processes, assessments or technology involved. It&#8217;s important to ensure that those support requests are met efficiently and effectively, and then to learn from them to improve communication and processes in the future.
   
-### Reports
+##### Reports
   
 By pulling together data from across the different parts of the organisation it&#8217;s possible to provide up-to-date information to both the learner and the organisation&#8217;s teams &#8211; to help them make decisions and improvements.
 
-## Processes
+#### Processes
 
 When you look in more detail at how these building blocks work together, it shows some fairly complex process flows:
 

@@ -6,10 +6,25 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: rgba(220,220,220,1);
+    margin: 0;
+    padding:0;
 }
 
 body, div, dl, dt, dd, ul, ol, li, pre, form, p, blockquote, th, td {
     /*font-size: 18px*/;
+}
+
+p {
+    line-height: 1.3em;
+}
+
+strong, b {
+    color: inherit;
+}
+
+blockquote {
+    font-size: 1em;
+    line-height: 1.2em;
 }
 
 a, a:visited {
@@ -23,13 +38,13 @@ a:hover {
 
 #ident {
     position: fixed;
-    padding-bottom: 10px;
+    padding: 5px 5px 10px 5px;
     top:0;
     z-index:9999;
-    background: rgb(17,17,17);
-background: -webkit-linear-gradient(rgba(17,17,17,1) 70%, rgba(255,255,255,0) 100%);
+    background: rgb(17,17,17,0.9);
+/*background: -webkit-linear-gradient(rgba(17,17,17,1) 70%, rgba(255,255,255,0) 100%);
 background: -o-linear-gradient(rgba(17,17,17,1) 70%, rgba(255,255,255,0) 100%);
-background: linear-gradient(rgba(17,17,17,1) 70%, rgba(255,255,255,0) 100%);
+background: linear-gradient(rgba(17,17,17,1) 70%, rgba(255,255,255,0) 100%);*/
 }
 
 #ident h1 {
@@ -66,7 +81,7 @@ background: linear-gradient(rgba(17,17,17,1) 70%, rgba(255,255,255,0) 100%);
 }
 
 .menu li a:hover {
-    color: #dcdcdc;
+    color: #111;
 }
 
 .menu li.current>a, .menu li.current>a:hover {
@@ -75,7 +90,7 @@ background: linear-gradient(rgba(17,17,17,1) 70%, rgba(255,255,255,0) 100%);
 
 #wrapper {
     
-    margin-top: 7em;
+    margin-top: 5em;
 }
 
 #titles h2 {
@@ -114,14 +129,14 @@ background: linear-gradient(rgba(17,17,17,1) 70%, rgba(255,255,255,0) 100%);
     color: #fff;
 }
 
-a.button.orange, a.button.orange:visited {
+a.button.orange, a.button.orange:visited, button.orange, button.orange:visited {
     background: #D44C00;
     color: #dcdcdc;
     text-shadow: none;
     border: 1px solid #D44C00;
 }
 
-a.button.orange:hover {
+a.button.orange:hover, button.orange:hover {
     background: #FF7528;
     color: #eee;
     text-decoration: none;
@@ -151,6 +166,36 @@ form.vertical button {
     margin-top: 1em;
 }
 
+fieldset {
+    color: #111;
+}
+
+.black-background {
+    background-color: rgba(17,17,17,0.7);
+    
+    overflow: hidden;
+}
+
+.banner-image {
+    position: relative;
+    
+}
+
+.overlay-caption {
+    position: absolute;
+    padding-right:10px;
+    padding-left: 10px;
+    right: 0;
+    bottom: 0px;
+    color: #dcdcdc;
+    background-color: rgba(0,0,0,1);
+    z-index: 999;
+}
+
+.overlay-caption a, .overlay-caption a:hover {
+    color: #dcdcdc;
+}
+
 button.wyver {
     background: rgba(13,68,93,1);
     border: 1px solid rgba(13,68,93,1);
@@ -168,8 +213,8 @@ button.wyver:hover {
     height: 1.5em;
     font-size: 2em;
     border-radius: 100%;
-    background-color: #dcdcdc;
-    color: #D44C00;
+    background-color: rgba(45,116,200,1);
+    color: #fff;
     text-align: center;
     line-height: 1.5em;
     margin: 0;
@@ -220,7 +265,7 @@ button.wyver:hover {
     margin-bottom: 15px;
 }
 
-a:hover { color: #fff; }
+
 
 #subheader {
     background-color: #5b5b5b;
@@ -300,13 +345,11 @@ a:hover { color: #fff; }
 }
 
 #content h2 {
-    font-size: 1.8em;
-    margin-top: 1em;
-    margin-bottom: 0.25em;
+
 }
 
 #content h3 {
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
 #content h4 {
@@ -563,10 +606,7 @@ input[type=checkbox]:checked ~ #menu {
     display: block;
 }
 
-.banner-image {
-    width: 100%;
-    margin-bottom: 35px;
-}
+
 
 .right {
     text-align: right;

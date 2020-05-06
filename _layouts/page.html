@@ -1,5 +1,6 @@
 {% include head.html %}
 <body>
+    <div class="black-background">
     
         {% include topmenu.html %}
         <div class="grid" id="wrapper">
@@ -7,12 +8,16 @@
 ================================================== -->
 
     <!-- MAIN CONTENT-->
-    <div id="content">
+    <div id="content" >
         <div class="col_12 center">
             <h2>{{ page.title }}</h2>
         </div>
+        <div class="clear"></div>
         
                 {{ content }}
+            </div>
+
+    
         
     <!-- end main content-->
 
@@ -52,7 +57,7 @@
 {% include footer.html %}
 
 </div><!-- end of grid -->
-
+</div><!-- close black background -->
 {% include javascripts.html %}
 </body>
 </html>

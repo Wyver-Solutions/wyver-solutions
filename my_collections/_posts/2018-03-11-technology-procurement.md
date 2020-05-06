@@ -30,7 +30,7 @@ Many organisations are starting to adopt a more successful procurement process, 
 
 When we help organisations to purchase technology solutions, we use our own flavour of the competitive dialogue process:
 
-## Requirements analysis
+#### Requirements analysis
 
 Normally we would begin this phase with a workshop to:
 
@@ -38,7 +38,7 @@ Normally we would begin this phase with a workshop to:
 - prioritise those requirements, probably using the MoSCoW methodology (see: https://en.wikipedia.org/wiki/MoSCoW_method). This would help to identify what is essential for the short term, and what can come later.
 - identify a set of scenarios which the suppliers will need to demonstrate during the selection process to ensure the system can model the real world requirements
 
-## RFP design
+#### RFP design
 
 The Request for Proposal would consist of a document with the following headings:
 
@@ -51,11 +51,11 @@ The Request for Proposal would consist of a document with the following headings
 - Cost model
 - Competitive dialogue process
 
-## Long listing
+#### Long listing
 
 Having understood the requirements, whilst writing the RFP document, now is the time to identify the suppliers to whom you will send the RFP (assuming this is allowed to be a closed tender).
 
-## Selection
+#### Selection
 
 A typical competitive dialogue process would be as follows:
 
@@ -66,7 +66,7 @@ A typical competitive dialogue process would be as follows:
 
 After each stage, the procurement team may choose to remove one or more suppliers from the list of those invited to the next stage.
 
-## Deep dive
+#### Deep dive
 
 We would normally expect any buying organisation to undertake an extensive Deep Dive into each of the invited systems that reach Stage 3. This will ensure that the decision is made based on hands-on experience.
 

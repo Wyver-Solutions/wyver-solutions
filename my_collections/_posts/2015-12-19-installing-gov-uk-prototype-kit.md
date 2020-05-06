@@ -25,7 +25,7 @@ The best way to deal with this, without downgrading your node installation, is t
 
 This allows you to have multiple versions of node on your machine at once, and switch between them when working with different applications.
 
-## Step-by-step to use nvm (Unix & Mac)
+#### Step-by-step to use nvm (Unix & Mac)
 
 In your Terminal, type:
 
