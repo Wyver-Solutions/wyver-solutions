@@ -28,13 +28,18 @@ blockquote {
 }
 
 a, a:visited {
-    text-decoration: none;
+    text-decoration: underline;
     color: #dcdcdc;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
+
+a:focus, #menu nav a:focus, .carousel-post a:focus h5, a.button:focus h4, input:focus {
+        outline: dotted #fff;
+        color: rgba(255, 255, 255, 0.95);
+    }
 
 #ident {
     position: fixed;
@@ -56,6 +61,11 @@ background: linear-gradient(rgba(17,17,17,1) 70%, rgba(255,255,255,0) 100%);*/
 
 .serif {
     font-family: 'PT Serif', serif;
+}
+
+blockquote cite {
+    font-style: normal;
+    font-weight: bold;
 }
 
 #ident h2, #services h2 {
@@ -286,12 +296,19 @@ button.wyver:hover {
     
 }
 
+.st-default-search-input, .st-ui-search-input {
+   
+    
+    margin-right: 0 !important:;
+
+}
+
 .search-home {
     width: 66.6% !important;
 }
 
 .search-pages {
-    margin-right: 2em !important;
+    
 }
 
 .slide {
@@ -339,7 +356,7 @@ button.wyver:hover {
 }
 
 #content h1 {
-    font-size: 2em;
+    
     margin-top: 1em;
     margin-bottom: 0.5em;
 }
@@ -608,15 +625,6 @@ input[type=checkbox]:checked ~ #menu {
 
 
 
-.right {
-    text-align: right;
-}
-
-#search-box {
-    
-    width: 100%;
-    
-}
 
 input.gsc-input,
 .gsc-input-box,

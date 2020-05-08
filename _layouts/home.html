@@ -1,6 +1,7 @@
 {% include head.html %}
 
 <body>
+    <div class="black-background">
     
         
             {% include topmenu.html %}
@@ -25,7 +26,7 @@
                 <!--<h3 class="ca-sub">Straight to the point</h3>-->
             </div>
             <div class="col_4 center">
-            <span><i class="fa fa-search icon"></i></span>
+            <span><i class="fa fa-hands-helping icon"></i></span>
                 <h4 class="ca-main">Procurement support</h4>
                <!-- <h3 class="ca-sub">Doing more with less</h3>-->
             </div>
@@ -181,15 +182,17 @@
 
             
                 <div class="carousel-post">
-                    <h5 class="home-post-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>
+                    <a href="{{ post.url }}">
+                        <h5 class="home-post-title">{{ post.title }}</h5>
                     <!--<p class="small date">
                         Posted on: {{ post.date | date: '%B %d, %Y' }}<br />
                     </p>-->
                     
                     <p>
-                        <a href="{{ post.url }}"><img style="width:350px" src="{{ post.thumb }}" alt="{{ post.alt }}" class="thumb"></a>
+                        <img style="width:350px" src="{{ post.thumb }}" alt="{{ post.alt }}" class="thumb">
                     <!-- {{ post.excerpt }} -->
                     </p>
+                    </a>
                     <!--<p class="small">Categories: {% for category in post.categories %}{{ category }},{% endfor %}
                     </p>-->
                     <!--<p>
@@ -211,7 +214,7 @@
 {% include footer.html %}
 
 </div> <!-- End of Grid -->
-
+</div><!-- end black background -->
 {% include javascripts.html %}
 
 </body>
