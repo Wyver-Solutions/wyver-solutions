@@ -46,7 +46,8 @@ a:focus, #menu nav a:focus, .carousel-post a:focus h5, a.button:focus h4, input:
     padding: 5px 5px 10px 5px;
     top:0;
     z-index:9999;
-    background: rgb(17,17,17,0.9);
+    background: rgb(17,17,17,1.0);
+    width: 100%;
 /*background: -webkit-linear-gradient(rgba(17,17,17,1) 70%, rgba(255,255,255,0) 100%);
 background: -o-linear-gradient(rgba(17,17,17,1) 70%, rgba(255,255,255,0) 100%);
 background: linear-gradient(rgba(17,17,17,1) 70%, rgba(255,255,255,0) 100%);*/
@@ -322,6 +323,13 @@ button.wyver:hover {
 .logo {
     margin-top: 0px;
     margin-bottom: 0px;
+    float:left;
+    width: 200px;
+}
+
+#menu-container {
+    float: right;
+    text-align: right;
 }
 
 
@@ -732,12 +740,19 @@ div .portrait img {
         display:none;
     }
 
+    .logo {
+        float: none;
+        margin: auto;
+    }
+
     #menu {
         position: static;
         display: none;
         margin: 0;
         margin-right:0px;
         background-color: #000;
+        margin-left: 50px;
+        width: 80%;
     }
 
     /*Create vertical spacing*/
@@ -755,6 +770,7 @@ div .portrait img {
         width: 30px;
         position: absolute;
         top: 70px;
+        left:10px;
         cursor: hand;
     }
 
