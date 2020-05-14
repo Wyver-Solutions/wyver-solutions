@@ -2,7 +2,15 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:year/:month/:day/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md","*.sublime-project",".gitignore","Gemfile","Gemfile.lock"]
+exclude:
+   - Gemfile
+   - Gemfile.lock
+   - node_modules
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
+#exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md","*.sublime-project",".gitignore","Gemfile","Gemfile.lock"]
 
 markdown: kramdown
 highlighter: rouge
@@ -12,8 +20,8 @@ highlighter: rouge
 #
 
 title : Wyver Solutions Ltd
-tagline: Learning Technology Architects
-description: 'Learning Technology Architects: consulting, supplier selection, implementation management and training'
+tagline: 'Helping organisations increase value using new &amp; existing digital technologies'
+description: 'Digital problem solvers'
 author :
   name : Mark Berthelemy
   email : mberthelemy@wyversolutions.co.uk
@@ -25,7 +33,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
-paginate: 10
+paginate: 12
 
 paginate_path: "/blog/page:num/"
 

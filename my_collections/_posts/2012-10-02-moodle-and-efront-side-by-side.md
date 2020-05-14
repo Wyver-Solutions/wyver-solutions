@@ -21,7 +21,7 @@ On the downside, though, it has grown to become a little bit of a monster. Each 
 
 By comparison, eFront&#8217;s user interface is a delight. It uses a clear, icon driven design, which, somehow doesn&#8217;t fall into the trap of many such designs where the icons need interpretation. A lot of thought seems to have gone into keeping the interface consistent across the application.
 
-## Don&#8217;t make me think
+#### Don&#8217;t make me think
 
 That doesn&#8217;t mean it&#8217;s all good. I like to see how far I can get with an application before having to resort to the manual &#8211; to see whether it follows the &#8220;[Don&#8217;t make me think][6]&#8221; principle. This means that the application designers have to second guess what users are going to want to do next, and provide a route to that place. One of my first actions, after logging in as an administrator, was to try to build a lesson &#8211; which, eventually, I discovered, is only possible once you&#8217;ve switched roles to &#8220;professor&#8221;. But, once I got there, the process of designing a lesson was very straightforward, and the division began to make sense.
 
@@ -31,7 +31,7 @@ Moodle&#8217;s courses are built from a series of &#8220;activities&#8221; (ie. 
 
 eFront&#8217;s lessons, however, are built along more traditional lines (cf. Blackboard), whereby a the lesson is built from content-based units, perhaps interspersed with tests. Any other tools, like projects (cd. Moodle assignments) or forums sit outside of the lesson structure. I know this would work for many usage scenarios, but I do prefer Moodle&#8217;s flexibility in how to structure the learning experience.
 
-## Flexibility vs Complexity
+#### Flexibility vs Complexity
 
 In fact, that&#8217;s the key area where Moodle wins out &#8211; its flexibility. But this comes with maturity, and also with a price &#8211; complexity. For example, the roles and permissions structures within Moodle are perhaps the most complete of any application I know. With them you can allow a user to do something in one context, but not in another. But this richness also means that it can become a nightmare trying to work out what has caused a particular behaviour for a particular user. It&#8217;s a little like having an overcomplicated set of Cascading Style Sheets (CSS), when building a website.
 

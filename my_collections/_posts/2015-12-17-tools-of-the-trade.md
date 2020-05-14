@@ -20,7 +20,7 @@ There&rsquo;s a story about a furniture maker who was asked for a hammer. She pu
 
 When going into a new client, we don&#8217;t take hammers, but we do go in with a range of different tools, some of which are more specialised than others.
 
-## Project planning
+#### Project planning
 
 <a data-lightbox="merlin" href="/post-images/2015/12/screenshots/merlin-structure_large_en.jpg"><img width="300" class="alignright" src="/post-images/2015/12/screenshots/merlin-structure_large_en.jpg" alt="Merlin screenshot"/></a>
 
@@ -28,7 +28,7 @@ When going into a new client, we don&#8217;t take hammers, but we do go in with 
 
 If you have the fortune to work in a Merlin-only environment, then there are all sorts of additional features that allow you to use Merlin as the hub of your whole project. For example, you can attach, to each task, elements such as additional information, events, files, issues, risks and checklists. And then you can generate reports which pull out this information in easily readable formats.
 
-## Document creation
+#### Document creation
 
 <a data-lightbox="google-drive" href="/post-images/2015/12/screenshots/google-drive.png"><img width="300" class="alignright" src="/post-images/2015/12/screenshots/google-drive.png" alt="Google drive screenshot"/></a>
 
@@ -36,7 +36,7 @@ For group collaboration on documents, I&#8217;ve still not found anything to bea
 
 The main problem with Google Drive comes when you need to take a document and turn it into a finished product, with branding applied. Quite often, this process then requires a wholesale reformatting in a standalone word processing or desktop publishing application like Microsoft Word or Pages.
 
-## Diagram creation
+#### Diagram creation
 
 <a data-lightbox="omnigraffle" href="/post-images/2015/12/screenshots/omnigraffle.png"><img width="300" class="alignright" src="/post-images/2015/12/screenshots/omnigraffle.png" alt="Omnigraffle screenshot"/></a>
 
@@ -44,7 +44,7 @@ When I need something that&#8217;s more capable of creating complex flow charts 
 
 Sometimes, a specialist diagramming tool is required. One that&#8217;s designed for a specific context. For example, I use [Balsamiq Mockups][8] for creating working mockups of software interfaces &#8211; particularly web applications. By creating diagrams that look hand-drawn, but are still &#8220;functional&#8221; (in that you can navigate between pages using links), it makes communicating ideas to the client much easier, without the distraction of &#8220;I don&#8217;t like that colour&#8221;.
 
-## Presentations
+#### Presentations
 
 <a data-lightbox="doceri" href="/post-images/2015/12/screenshots/doceri.png"><img width="300" class="alignright" src="/post-images/2015/12/screenshots/doceri.png" alt="Doceri screenshot"/></a>
 
@@ -56,7 +56,7 @@ Rather than being stuck behind a laptop screen during the presentation, I often 
 
 I&#8217;ve tried a number of such tools, and Doceri has proven to be the easiest, and safest, to use &#8220;in the wild&#8221;.
 
-## Sense-making
+#### Dense-making
 
 <a data-lightbox="ithoughtsx" href="/post-images/2015/12/screenshots/iThoughtsX-banner.png"><img width="300" class="alignright" src="/post-images/2015/12/screenshots/iThoughtsX-banner.png" alt="iThoughtsX screenshot"/></a>
 

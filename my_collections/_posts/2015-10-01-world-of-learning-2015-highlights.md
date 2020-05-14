@@ -23,7 +23,7 @@ As an aside, this is often made somewhat difficult by the utterly bland nature o
 
 There were four suppliers that stood out to me, so I made a beeline to them:
 
-## <a href="http://www.kpoint.com/" target="_blank">kPoint</a>
+#### <a href="http://www.kpoint.com/" target="_blank">kPoint</a>
 
 Now this was impressive. I watched a live demo in which they:
 
@@ -38,7 +38,7 @@ Even more impressive is that they&rsquo;ve thought about xAPI and built it in fr
 
 Their <a href="http://www.kpoint.com/showcase/" target="_blank">showcase</a> provides some useful examples.
 
-## <a href="http://www.training-orchestra.com/" target="_blank">Training Orchestra</a>
+#### <a href="http://www.training-orchestra.com/" target="_blank">Training Orchestra</a>
 
 Many learning management systems try to help organisations do all the administration required around training, but sometimes you need a specialist administration system.
 
@@ -55,7 +55,7 @@ There are very few players in this particular market. Training Orchestra, alread
 
 Worth checking out if you manage a traditional training business or department.
 
-## <a href="http://www.viatechpub.com/" target="_blank">ViaTech</a>
+#### <a href="http://www.viatechpub.com/" target="_blank">ViaTech</a>
 
 ViaTech have quite a difficult proposition to understand. You&rsquo;ll only know you need their solution if you have a ViaTech-shaped hole in your organisation...
 
@@ -65,7 +65,7 @@ Their promo video gives an outline of what they do, but it&rsquo;s one of those 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Mpwl2p4GwZY" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-## <a href="http://www.advancedmedicalapplications.com/" target="_blank">AMA</a>
+#### <a href="http://www.advancedmedicalapplications.com/" target="_blank">AMA</a>
 
 I thought the Google Glass project had finished, but discovered that a number of companies are still working with it on specific, niche applications.
 

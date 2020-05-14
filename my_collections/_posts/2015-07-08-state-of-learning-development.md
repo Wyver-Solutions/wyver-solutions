@@ -19,7 +19,7 @@ One of the key ones was the excellent <a href="http://www2.deloitte.com/us/en/pa
 
 We&rsquo;ve categorised some of their main learning technology findings under the headings: People, Processes and Technology. We find that this way of organising thinking fits how many people think, and so is a useful way to communicate ideas.
 
-# People
+#### People
 
 The Deloitte team highlighted the need for systemic change within the learning &amp; training industry to respond to societal expectations:
 
@@ -31,7 +31,7 @@ The Deloitte team highlighted the need for systemic change within the learning &
 
 > Implementing new tools without redesigning processes and retraining HR does not solve talent problems. The lesson is not to stop spending on technology, but to make sure complementary investments are made in programs that redesign processes, develop new learning content and programs, and train both leaders and the HR team.
 
-# Process
+#### Process
 
 If we keep our focus on measuring attendees or SCORM completions we will not be able to respond effectively:
 
@@ -39,7 +39,7 @@ If we keep our focus on measuring attendees or SCORM completions we will not be 
  
 > The heavy increased spending on technology has not been accompanied by similar investments in process and people.
 
-# Technology
+#### Technology
 
 The current corporate learning technology offering does not yet meet the expectations of how people learn outside of work:
 

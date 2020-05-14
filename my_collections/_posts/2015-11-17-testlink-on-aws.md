@@ -32,19 +32,19 @@ Setting up Testlink on the server was mostly quite straightforward, but there we
 
 If you then go to the IP address supplied by AWS, you should see the Testlink login page. However, the normal Bitnami password doesn't seem to work, so you'll need to change it, but you'll only be able to do that when you've got a way for Testlink to send emails...
 
-## Setting up an AWS SMTP server
+#### Setting up an AWS SMTP server
 
 There are three stages to getting Testlink setup so it can send emails:
 
-### Verify email addresses
+##### Verify email addresses
 
 Setup verified email addresses (ie. those which you&rsquo;ll be using within Testlink) within Amazon's Simple Email Service (note this route is only suitable for small teams, for larger teams you'll need to <a href="http://docs.aws.amazon.com/ses/latest/DeveloperGuide/request-production-access.html" target="_blank">ask Amazon for production access</a>)
 
-### Obtain your Simple Email Service SMTP credentials
+##### Obtain your Simple Email Service SMTP credentials
 
 <a href="https://docs.aws.amazon.com/ses/latest/DeveloperGuide/smtp-credentials.html" target="_blank">Obtain SES credentials</a> so that Testlink can use SES
 
-### Configure Testlink to use SES
+##### Configure Testlink to use SES
 
 This is where you'll need to <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html" target="_blank">connect to the AWS server via SSH</a>, using the .pem file created earlier. Note that AWS helpfully provides a connect button on the EC2 > Instances page, with commands for your particular instance.
 

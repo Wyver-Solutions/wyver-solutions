@@ -1,26 +1,28 @@
 {% include head.html %}
 <body>
-{% include topmenu.html %}
-<div class="clear">
-</div>
-{% include subheader.html %}
+    <div class="black-background">
+    {% include topmenu.html %}
+        <div class="grid" id="wrapper">
+
 <!-- CONTENT 
 ================================================== -->
-<div class="row">
-    <div class="twelve columns noleftmargin">
         <!-- MAIN CONTENT -->
-        <div id="content" class="twelve columns noleftmargin">
-
+        <div id="content">
+            <div class="col_12 center">
+                <h2>{{ page.title }}</h2>
+                <p id="searchbox">
+                    <input type="text" class="st-default-search-input">
+                </p>
+            </div>
             {% assign cellcount = 0 %}
             {% for post in paginator.posts %}
 
-            {% if cellcount == 0 %}<div class="row blogrow">{% endif %}
-                <div class="six columns">
-                    <div class="boxblog">                   
+            
+                <div class="col_4 boxblog">                   
                         <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
-                        <p class="small date">
+                        <!--<p class="small date">
                             Posted on: {{ post.date | date: '%B %d, %Y' }} &nbsp; <a href="{{ site.url}}{{ post.url }}#disqus_thread">Comments</a>
-                        </p>
+                        </p>-->
                         <p>
                         <a href="{{ post.url }}"><img src="{{ post.thumb }}" alt="{{ post.alt }}" class="thumb"></a>
                         <!-- {{ post.excerpt }} -->
@@ -30,39 +32,46 @@
                         <!--<p>
                             <a href="{{ post.url }}" class="small continue">Continue reading</a>
                         </p>-->
-                    </div>
                 </div>
-            {% if cellcount == 1 %}</div> <!-- End row -->{% assign cellcount = 0 %}{% else %}{% assign cellcount = 1 %}{% endif %}
+                {% assign cellcount = cellcount|plus:1 %}
+                {% if cellcount == 3 %}
+                    <div class="clear"></div>
+                    {% assign cellcount = 0 %}
+                {% endif %}
+            
             {% endfor %}
-            {% if cellcount == 1 %}</div> <!-- End row -->{% endif %}
-
+            </div>
+            <div class="clear"></div>
+            
+            <div id="paginator" class="col_12 center">
 <!-- PAGINATION BUTTONS -->
-        {% if paginator.total_pages > 1 %}
-        <ul class="pagination">
-          {% if paginator.previous_page %}
-            <li class="arrow"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
-            <!--<a rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>-->
-          {% else %}
-            <li>&laquo; Prev</li>
-          {% endif %}
+                {% if paginator.total_pages > 1 %}
+                <ul class="menu">
+                  {% if paginator.previous_page %}
+                    <li class="arrow"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
+                    <!--<a rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>-->
+                  {% else %}
+                    <!--<li class="unavailable"><a href="#">&laquo; Prev</a></li>-->
+                  {% endif %}
 
-          {% for page in (1..paginator.total_pages) %}
-            {% if page == paginator.page %}
-            <li class="current">{{ page }}</li>
-            {% elsif page == 1 %}
-              <li><a href="{{ '/blog' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
-            {% else %}
-              <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
-            {% endif %}
-          {% endfor %}
+                  {% for page in (1..paginator.total_pages) %}
+                    {% if page == paginator.page %}
+                    <li class="current"><a href="#">{{ page }}</a></li>
+                    {% elsif page == 1 %}
+                      <li><a href="{{ '/blog' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+                    {% else %}
+                      <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+                    {% endif %}
+                  {% endfor %}
 
-          {% if paginator.next_page %}
-            <li class="arrow"><a rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
-          {% else %}
-            <li>Next &raquo;</li>
-          {% endif %}
-        </ul>
-        {% endif %}            
+                  {% if paginator.next_page %}
+                    <li class="arrow"><a rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
+                  {% else %}
+                    <!--<li class="unavailable"><a href="#">Next &raquo;</a></li>-->
+                  {% endif %}
+                </ul>
+                {% endif %}  
+            </div>          
            <!-- 
             <ul class="pagination">
                 <li class="arrow unavailable"><a href="">&laquo;</a></li>
@@ -75,7 +84,7 @@
                 <li><a href="">13</a></li>
                 <li class="arrow"><a href="">&raquo;</a></li>
             </ul>-->
-        </div>
+        
         <!-- SIDEBAR -->
         
         <!--<div class="four columns">
@@ -87,16 +96,16 @@
             </div>
             
         </div>-->
-    </div>
     
-</div>
-<div class="hr">
-</div>
+    
+
+
 
 <!-- FOOOTER 
 ================================================== -->
 {% include footer.html %}
-
+</div> <!-- end of grid -->
+</div> <!-- end of black background -->
 {% include javascripts.html %}
 </body>
 </html>

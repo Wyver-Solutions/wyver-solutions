@@ -33,7 +33,7 @@ How would you ensure that everyone, including new starters, knows they have to d
 
 Who's going to keep track of the results? How often? And where will those results be stored?
 
-## Use your LMS
+#### Use your LMS
 
 You're likely to already have a system that manages who does what learning. People will already have a login and it's already got somewhere to capture and report on who has done what.
 
@@ -43,7 +43,7 @@ So how can we make use of that centralised functionality, while still allowing f
 
 That's where LTI (or <a href="https://www.imsglobal.org/activity/learning-tools-interoperability" target="_blank">Learning Tools Interoperability</a>) comes in.
 
-## Learning Tools Interoperability
+#### Learning Tools Interoperability
 
 <img width='600' src="/post-images/2017/06/lti-banner.svg" alt="LTI flow chart" />
 
@@ -59,6 +59,6 @@ And, if you're already using Moodle or Totara as your LMS you can already use an
 
 So, next time you procure another tactical learning solution why not ask if they support LTI. It'll make your life, and that of your employees, so much simpler.
 
-### Editor's note
+####  Editor's note
 
 This post was created in half the time using <a href="https://speechpad.pw/" target="_blank">Speechpad</a> - a free, web-based text to speech tool.

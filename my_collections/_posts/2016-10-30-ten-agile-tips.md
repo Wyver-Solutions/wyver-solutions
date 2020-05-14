@@ -26,7 +26,7 @@ Agile is more than just a way of managing projects. It's a way of thinking about
 
 If your organisation is wanting to move from the traditional "waterfall" approach (where you define all the requirements up front, organise your people to build the product, then test and deliver it), then the following ten tips, gleaned from our work with many such organisations will hopefully help you avoid some of the major pitfalls.
 
-# 1. Know why
+#### 1. Know why
 
 Although you mainly come across the term "agile" in software development, it's very closely linked to "lean thinking", and its principles can be applied to most contexts where a product (of any sort) is being delivered.
 
@@ -35,7 +35,7 @@ Knowing **why** you want to move towards an agile approach is critical to the su
 | Good reasons | Bad reasons |
 | We want to improve the quality of what we produce.<br />We want to recognise change as an integral part of how we work and not deal with it separately.<br />We want to improve our ability to meet our customers' needs | We want to put "agile" into our marketing collateral.<br />We want to use the XYZ agile project tool to manage our work.<br />We want to move with the times |
 
-# 2. Understand the consequences
+#### 2. Understand the consequences
 
 Making the change to an agile way of doing things will probably result in changes right across your organisation - from end-to-end:
 
@@ -44,13 +44,13 @@ Making the change to an agile way of doing things will probably result in change
 | Delivery | Everyone involved in delivering the product (on both client and supplier-side) will need to be signed up to working in an agile manner. |
 | Invoicing | Invoices will be generated based on work done, not on products delivered. |
 
-# 3. Start with the right client
+#### 3. Start with the right client
 
 A client that is asking for fixed deliverables in a fixed timeframe at a fixed cost is not one that is ready for an agile approach.
 
 But a client that recognises their need to iterate towards a solution - that they don't yet have all the answers - is one that is ripe to work with you on your agile journey.
 
-# 4. Start with the right project
+#### 4. Start with the right project
 
 The right project is one that is just the right size to fully occupy a small project team from the outset, and one that can easily be broken into smaller phases, which can gradually increase in size and complexity.
 
@@ -63,7 +63,7 @@ We tend to base our projects on the service design phases developed by the UK <a
 
 Source: <a href="https://www.gov.uk/service-manual/phases" target="_blank">GDS service manual - service design phases<a/>
 
-# 5. Incubate your team
+#### 5. Incubate your team
 
 The difference between waterfall and agile can be so great that it's often better to completely separate them out.
 
@@ -71,7 +71,7 @@ Create a small, dedicated, multi-disciplinary team, which can manage the whole e
 
 The lessons learned can be demonstrated back into the parent organisation which may then choose to adopt agile, or maybe the new team will grow to replace the old one.
 
-# 6. Who owns the product?
+#### 6. Who owns the product?
 
 Agile projects fail or succeed on the strength of their product ownership.
 
@@ -81,7 +81,7 @@ An effective product owner has three key characteristics:
 | **Capability** | Product owners need to be fully aware of why the product is being developed, and have vision for what the product will look like, based on a clear understanding of its users and purchasers. |
 | **Devolved decision making** | Product owners need to be able to make decisions independently and quickly, but with accountability to senior management for those decisions. |
 
-# 7. Focus on quality
+#### 7. Focus on quality
 
 It's quite easy to operate in what seems to be an agile way, with sprints, backlogs etc, without it making much difference. And, in many cases, just focussing on the outward appearance can actually make things worse.
 
@@ -92,7 +92,7 @@ Successful agile projects maintain very clear quality definitions which are acce
 | Definition of Ready | The Definition of Ready makes explicit the criteria that each user story (that describes something to be built) must meet **before** it is accepted for development in the next iteration period.<br /><a href="https://www.agilealliance.org/glossary/definition-of-ready/" target="_blank">More information from the Agile Alliance</a>|
 | Definition of Done | The Definition of Done makes explicit the criteria by which the team will accept a user story as having been completed.<br /><a href="https://www.agilealliance.org/glossary/definition-of-done/" target="_blank">More information from the Agile Alliance</a> |
 
-# 8. Build trust gradually
+#### 8. Build trust gradually
 
 With an agile project there are many unknowns at the beginning: What is the end result going to look like? How quickly will the team be able to define and create each iteration?
 
@@ -100,13 +100,13 @@ It's important to build trust across the supplier/client divide - not least so t
 
 Build trust by starting small, and contracting (or releasing funding) for each phase separately. The GDS phases described above are a useful basis to work from - with governance decision points to release further funding between each phase.
 
-# 9. Tools alone are not the solution
+#### 9. Tools alone are not the solution
 
 There are heaps of software tools (eg. Trello, Jira, Leankit) and management techniques (eg. Kanban boards, daily standups, retrospectives) that can be a great addition to your agile culture change.
 
 But, introducing a tool on its own will not effect that culture change. That comes by continuously exploring, with your team, what agile means in your context. (See number 10 - below)
 
-# 10. Iterate towards perfection
+#### 10. Iterate towards perfection
 
 The concept of iterating towards perfection is taken from "lean thinking". It's a method of continuous improvement that focusses on what perfection looks like and striving to reach that state. It means that constant change is inevitable, but, by including everyone in the process, change is something that people do to themselves rather than having it done to them.
 

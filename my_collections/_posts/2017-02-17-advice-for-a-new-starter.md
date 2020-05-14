@@ -16,7 +16,7 @@ I was recently asked the question about how I made the transition from school te
 
 This has been a gradual journey - one on which I've been supported by great managers, advisors and colleagues.
 
-## Starting points
+#### Starting points
 
 I did a post-graduate diploma in Elearning. This was with Hull University, but, these days, I'd probably recommend the <a href="http://digital.education.ed.ac.uk/" target="_blank">MSc in Digital Education</a> from Edinburgh, or, for a short course, go for <a href="http://shop.cipd.co.uk/shop/cipd-training/courses/learning-talent/digital-learning-design-programme" target="_blank">CIPD's Digital Learning Design</a>, run by Clive Shepherd. He's a real expert in the subject.
 
@@ -34,7 +34,7 @@ Constant CPD, through my PLN, through Twitter, through meetups and conferences, 
 
 Join the <a href="https://www.elearningnetwork.org/" target="_blank">Elearning Network</a> and try to get along to some of their events. You'll learn masses!
 
-## Useful books
+#### Useful books
 
 <a href="https://www.amazon.co.uk/Really-Useful-eLearning-Instruction-Manual/dp/1118375890" target="_blank">The Really Useful Elearning Instruction Manual</a> by Rob Hubbard
 

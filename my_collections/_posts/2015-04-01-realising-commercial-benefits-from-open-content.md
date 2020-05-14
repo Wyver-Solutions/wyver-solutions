@@ -19,7 +19,7 @@ Now, however, it is so easy for anyone to create, distribute and copy digital 
 
 In this post, we discuss an approach to business which is based on giving away your generic ideas and selling the specific and the hard to get. It&#8217;s designed to be a discussion starter, as we know that this approach will not work in every situation&#8230;
 
-# The benefits
+#### The benefits
 
 > “So the strategy comes down to this: Give away the content that benefits many; sell the stuff that appeals to the niche.”<a href="#_edn5" name="_ednref5">[v]</a>
 
@@ -35,7 +35,7 @@ Making your generic, digital content freely available brings the following benef
   * It reduces the barriers to entry for your potential clients
   * It reduces the number of people who are leaving your website and going to other places that provide the information they need
 
-# Realising the benefits
+#### Realising the benefits
 
 There are a number of things you can do that will help you to still receive an income from your ideas:
 
@@ -45,15 +45,15 @@ There are a number of things you can do that will help you to still receive an 
   * By accrediting qualifications based around your particular area of knowledge
   * By providing high-quality events focussed on putting your content into practice
 
-# Case studies
+#### Case studies
 
-## Case study: TED Talks
+##### Case study: TED Talks
 
 “Sharing online was a very controversial decision. People feared it would capsize our business, discourage people from paying for our conference, and be rejected by speakers.
 
 “The first year after releasing videos of talks for free, we raised the cost of the conference by 50 percent and sold out in one week with a 1,000 person waiting list,” Cohen says. “Not only do speakers lobby for the talks to be posted as soon as possible, but paying conference participants are anxious to share talks they just heard with family, friends and colleagues.” <a href="#_edn6" name="_ednref6">[vi]</a>
 
-## Case study: Manager Tools
+##### Case study: Manager Tools
 
 Go to the Manager Tools website<a href="#_edn7" name="_ednref7">[vii]</a> and you will find a growing library of high-quality management development resources available in the English-speaking world. Most of that is given for free, without even requiring any sort of registration. With about 150,000 downloads per week, you get an indication of how useful their materials are.
 
@@ -71,7 +71,7 @@ Having built up a reputation for good, useful advice, the Manager Tools team hav
   2. By providing bespoke consultancy services for organisations wishing to improve their management practices.
   3. By creating bundles of materials that can be purchased to support the free materials.
 
-# Endnotes
+#### Endnotes
 
 <a href="#_ednref1" name="_edn1">[i]</a> Why reputation and trust are essential for marketing: [http://contentmasterclass.co.uk/\_2014\_05\_30\_reputation-trust-authority-history-future-marketing][1]
 

@@ -16,19 +16,19 @@ At the heart of digital transformation are a series of big questions that all or
 
 Those answers may change over time - but by forcing a response at the beginning of the process, you start to really understand the organisation.
 
-## Where are you now?
+#### Where are you now?
 
 - What’s going well?
 - Where are the pain points?
 - Why do you do things the way you do?
 
-## Where do you want to be?
+#### Where do you want to be?
 
 - What is driving the change? Customers, cost-savings, competition...
 - What does good look like? Higher sales, lower costs, happier customers...
 - What constraints are you working under? Time, money, regulation…
 
-## How will technology get you there?
+#### How will technology get you there?
 
 - Which technology/technologies are right for you?
 - How will it fit into your organisation’s existing systems and processes?

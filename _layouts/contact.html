@@ -1,128 +1,31 @@
 {% include head.html %}
 <body>
-{% include topmenu.html %}
-<div class="clear">
-</div>
-{% include subheader.html %}
-<!-- CONTENT 
-================================================== -->
-<div class="row">
-    <!-- MAIN CONTENT-->
-    <div id="content" class="eight columns">
-
-        {{ content }}
 
         
-        <form role="form" method="POST" action="http://formspree.io/mberthelemy@wyversolutions.co.uk">   
 
-            <div class="form-group">
-                <input type="text" class="form-control" name="name" id="InputEmail1" placeholder="name...">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" name="organisation" id="organisation" placeholder="organisation...">
-            </div>
-            <div class="form-group">
-                <input type="email" class="form-control" name="_replyto" id="InputPassword1" placeholder="email...">
-            </div>
-            <div class="form-group">
-                <textarea class="form-control" name="message" rows="8" placeholder="message..."></textarea>
-            </div>
-            <div class="form-group">
-            <input type="checkbox" name="newsletter" value="yes"> Twice-yearly newsletter<br>
-            <input type="checkbox" name="blog" value="yes"> Weekly blog posts
-            </div>
-            <input type="hidden" name="_next" value="http://www.wyversolutions.co.uk" />
-            <input type="hidden" name="_subject" value="[Website message] " />
-            <input type="text" name="_gotcha" style="display:none" />
-            <button id="contact" type="submit" value="Send" class="btn btn-default">Send</button>
-        </form>
+            {% include topmenu.html %}
+
+ <div class="grid" id="wrapper">           
+<!-- CONTENT 
+================================================== -->
+
+    <!-- MAIN CONTENT-->
+    <div id="content" class="col_12 center">
+        <h2>{{ page.title }}</h2>
+        {{ content }}
+
+    </div>
+    
 
        
                 
-    </div><!-- end main content-->
+    </div><!-- end form -->
+    <div class="col_2"></div>
 
-    <!-- SIDEBAR-->
-    <div id="sidebar" class="four columns">
-            <h6 class="sidebartitle">Contact details</h6>
-            <p><i class="fa fa-phone"></i>&nbsp;01773 881 227</p>
-            <p><a href="https://www.linkedin.com/company/wyver-solutions-ltd"><i class="fa fa-linkedin-square"></i>&nbsp;LinkedIn</a></p>
 
-        </div>
-            <!--<div><img src="images/temp/team1.jpg" alt="">
-            <div class="mask">
-                <h2>Katrina Bernski</h2>
-                <p>
-                    One of our best shooting model, working for this company since the beginning.
-                    <div class="social socialteam facebook">
-                        <a href="#"></a>
-                    </div>
-                    <div class="social socialteam twitter">
-                        <a href="#"></a>
-                    </div>
-                    <div class="social socialteam deviantart">
-                        <a href="#"></a>
-                    </div>
-                    <div class="social socialteam flickr">
-                        <a href="#"></a>
-                    </div>
-                    <div class="social socialteam dribbble">
-                        <a href="#"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="teamwrap teambox">
-                <img src="images/temp/team2.jpg" alt="">
-                <div class="mask">
-                    <h2>Yolanda Bernski</h2>
-                    <p>
-                        One of our best shooting model, working for this company since the beginning.
-                        <div class="social socialteam facebook">
-                            <a href="#"></a>
-                        </div>
-                        <div class="social socialteam twitter">
-                            <a href="#"></a>
-                        </div>
-                        <div class="social socialteam deviantart">
-                            <a href="#"></a>
-                        </div>
-                        <div class="social socialteam flickr">
-                            <a href="#"></a>
-                        </div>
-                        <div class="social socialteam dribbble">
-                            <a href="#"></a>
-                        </div>
-                    </div>
-            </div>
-            <div class="teamwrap teambox">
-                    <img src="images/temp/team3.jpg" alt="">
-                    <div class="mask">
-                        <h2>Luna Galliano</h2>
-                        <p>
-                            One of our best shooting model, working for this company since the beginning.
-                            <div class="social socialteam facebook">
-                                <a href="#"></a>
-                            </div>
-                            <div class="social socialteam twitter">
-                                <a href="#"></a>
-                            </div>
-                            <div class="social socialteam deviantart">
-                                <a href="#"></a>
-                            </div>
-                            <div class="social socialteam flickr">
-                                <a href="#"></a>
-                            </div>
-                            <div class="social socialteam dribbble">
-                                <a href="#"></a>
-                            </div>
-                    </div>
-            </div>-->
-    </div><!-- end sidebar -->
-</div>
-<div class="hr">
-</div>
 
 {% include footer.html %}
-
+</div> <!-- End of grid -->
 {% include javascripts.html %}
 </body>
 </html>

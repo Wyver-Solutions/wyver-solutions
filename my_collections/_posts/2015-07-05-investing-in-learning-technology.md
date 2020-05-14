@@ -14,7 +14,7 @@ alt: Investment wheel pie chart
 img-credit: Wyver Solutions
 ---
 
-### Why invest in learning technology? 
+#### Why invest in learning technology? 
 
 Organisations invest in Learning Technologies because they can, when used well:
 
@@ -30,7 +30,7 @@ However, when used inappropriately or poorly, learning technologies can have the
 + Collecting large quantities of meaningless data
 + Demotivating employees who are used, in their lives outside work, to on-demand support at the point of need
 
-### Where should we spend our money?
+#### Where should we spend our money?
 
 Organisations that are using learning technology *well* will tend to invest in more than just the technology itself. They will spend money on:
 
