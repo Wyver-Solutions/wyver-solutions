@@ -675,7 +675,9 @@ input.gsc-input,
 }
 
 .boxblog h5 {
-    height: 2.2em;
+    height: 2.8em;
+    margin-top: 1em;
+
 }
 
 .boxblog img {
