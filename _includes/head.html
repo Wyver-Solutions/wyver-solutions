@@ -20,12 +20,12 @@
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
 {% if page.thumb %}
-  <meta name="og:image" content="{{site.url }}{{ page.thumb }}">
+  <meta name="image" property="og:image" content="{{site.url }}{{ page.thumb }}">
 {% else %}
-  <meta name="og:image" content="{{ site.url }}/assets/open-graph-image.png">
+  <meta name="image" property="og:image" content="{{ site.url }}/assets/open-graph-image.png">
 {% endif %}
 
-<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta name="description" property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
 <meta property="og:site_name" content="{{ site.title }}">
 

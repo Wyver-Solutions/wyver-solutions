@@ -1,6 +1,6 @@
-# This is the default format. 
+# This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:year/:month/:day/:title 
+permalink: /:year/:month/:day/:title
 
 exclude:
    - Gemfile
@@ -15,13 +15,13 @@ exclude:
 markdown: kramdown
 highlighter: rouge
 
-# Themes are encouraged to use these universal variables 
+# Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
 
 title : Wyver Solutions Ltd
 tagline: 'Independent learning technology consultants'
-description: 'Independent learning technology consultants'
+description: 'Independent learning technology consultants, specialising in strategic consulting, procurement support, troubleshooting, digital transformation, agile product development and implementation management'
 author :
   name : Mark Berthelemy
   email : mberthelemy@wyversolutions.co.uk
@@ -50,10 +50,10 @@ collections:
        output: false
        permalink: /ufiwebinar/:path/
 
-      
+
 defaults:
   - scope:
       path: ""
       type: people
     values:
-      layout: page 
+      layout: page
