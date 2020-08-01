@@ -22,7 +22,7 @@
 {% if page.thumb %}
   <meta name="og:image" content="{{site.url }}{{ page.thumb }}">
 {% else %}
-  <meta name="og:image" content="{{ site.url }}/assets/wyver_square_logo.jpg">
+  <meta name="og:image" content="{{ site.url }}/assets/open-graph-image.png">
 {% endif %}
 
 <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
@@ -50,7 +50,7 @@
 {% if page.thumb %}
   <meta name="twitter:image:src" content="{{site.url }}{{ page.thumb }}">
 {% else %}
-  <meta name="twitter:image:src" content="{{ site.url }}/assets/wyver_square_logo.jpg">
+  <meta name="twitter:image:src" content="{{ site.url }}/assets/open-graph-image.png">
 {% endif %}
 
 <title>{{ site.title }} > {{ page.title }}</title>
@@ -74,7 +74,7 @@
 
 <script src="https://kit.fontawesome.com/d29bcec915.js" crossorigin="anonymous"></script>
 
-  
+
     <link rel="stylesheet" href="/assets/lightbox/css/lightbox.css">
   <link href="//cdn.rawgit.com/noelboss/featherlight/1.6.1/release/featherlight.min.css" type="text/css" rel="stylesheet" />
   <link href="//cdn.rawgit.com/noelboss/featherlight/1.6.1/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
@@ -99,8 +99,8 @@ window.cookieconsent.initialise({
 </script>
 
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-  
-  
+
+
   <link rel="stylesheet" href="/assets/overrides.css">
 
 </head>
