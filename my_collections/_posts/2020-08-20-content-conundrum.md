@@ -106,3 +106,5 @@ If I wasn't worried about SCORM, then I could just embed content using iframes, 
 - [Sway](https://sway.office.com/)
 - [Grav](https://learn.hibbittsdesign.org/opencoursehub/integrating-grav-with-moodle)
 - [H5P.com](https://h5p.com/) - Great if you don't have a platform that directly supports H5P
+
+What would you do in my shoes?
