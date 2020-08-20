@@ -17,33 +17,33 @@ Earlier this week, I put a post on LinkedIn asking for vendors to get in touch i
 
 The normal process for externally authored content is:
 
-1) Create
-2) Export from authoring tool
-3) Import to LMS
-4) Edit
-5) Re-export from authoring tool
-6) Re-import to LMS
+1. Create
+2. Export from authoring tool
+3. Import to LMS
+4. Edit
+5. Re-export from authoring tool
+6. Re-import to LMS
 
 What I'm looking for is:
 
-1) Create
-2) Make available in LMS
-3) Edit
-4) Nothing else - any edits (eg. typos, image changes) would be automatically available to the end-user
+1. Create
+2. Make available in LMS
+3. Edit
+4. Nothing else - any edits (eg. typos, image changes) would be automatically available to the end-user
 
-There was **lots** of responses to that original post. And a number of people who were watching the thread just to see what came of it.
+There were **lots** of responses to that original post. And a number of people who were watching the thread just to see what came of it.
 
 So, this post is a summary of what I discovered, and my conclusions.
 
 But first, an overview of **all** the requirements:
 
-## Business requirements
+#### Business requirements
 
 - To produce a large number of online scenarios and reference content
 - For use in low or zero bandwidth areas
 - In multiple languages
 
-## Functional requirements
+#### Functional requirements
 
 1. Able to create interactive materials (eg. questions, branching) as well as more straightforward text and video content
 2. The text content must be searchable from inside the LMS platform (Moodle)
@@ -53,7 +53,7 @@ But first, an overview of **all** the requirements:
 6. The interactive content must pass a grade to the Moodle Gradebook
 7. An efficient author, review, edit, publish workflow
 
-## Most likely solution
+#### Most likely solution
 
 Given that we're using Moodle, we also have access to the [Book](https://moodle.org/plugins/mod_book) and [H5P](https://moodle.org/plugins/mod_hvp) plugins.
 
@@ -67,7 +67,7 @@ This meets the functional requirements as follows:
 6. H5P passes a grade to the Gradebook, and also to an xAPI Learning Record Store if you have one
 7. I could use an external tool like [Diigo Premium](https://www.diigo.com/premium) or [PageReview](https://pagereview.io/) to add collaborative comments to pages. And make careful use of Moodle's roles and permissions to give certain people ability to view things prior to publishing.
 
-## Why not use SCORM?
+#### Why not use SCORM?
 
 Again, looking at the functional requirements:
 
@@ -79,11 +79,11 @@ Again, looking at the functional requirements:
 6. Yep - SCORM does this very simply. For anything more complex we'd need to move up to xAPI, as with the H5P solution.
 7. Yep - Most of the server-based tools are pretty good on the reviewing workflow. That's their real strong point compared to the client-based tools.
 
-## Package Exchange Notification Services (PENS)
+#### Package Exchange Notification Services (PENS)
 
 [PENS](https://scorm.com/pens/) is an ancient, standards-based way to publish directly to an LMS. However it seems to be very rarely supported, by either authoring tools or learning management systems. Some people think it's a bit "meh".
 
-## What about the authoring tools you looked at?
+#### What about the authoring tools you looked at?
 
 So, back to the original request, for on-the-fly editing... Although I now have a solution, there will be some people that still want a basic SCORM approach, so here are some tools to consider. All of these provide a content hosting solution that allows changes to flow through directly to the user via the LMS:
 
@@ -93,13 +93,13 @@ So, back to the original request, for on-the-fly editing... Although I now have 
 - [Elucidat](https://www.elucidat.com/)
 - [Xyleme](https://xyleme.com/)
 
-## But what about all the other authoring tools?
+#### But what about all the other authoring tools?
 
 Straightaway you can discount any tools that sit on your PC, unless they have a server component.
 
 So, that leaves tools like [Evolve](https://www.evolveauthoring.com/), [Rise](https://articulate.com/360/rise), [Genie](https://www.growthengineering.co.uk/genie-content-authoring-tool/), [Lectora Online](https://www.lectoraonline.com/) and [Courselab](http://www.courselab.com/). All good tools in their own right, but they all seem to offer the traditional export to SCORM deployment route only.
 
-## Other alternatives
+#### Other alternatives
 
 If I wasn't worried about SCORM, then I could just embed content using iframes, from tools such as:
 
