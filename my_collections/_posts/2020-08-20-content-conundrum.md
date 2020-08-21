@@ -107,4 +107,20 @@ If I wasn't worried about SCORM, then I could just embed content using iframes, 
 - [Grav](https://learn.hibbittsdesign.org/opencoursehub/integrating-grav-with-moodle)
 - [H5P.com](https://h5p.com/) - Great if you don't have a platform that directly supports H5P
 
+#### [Edit] All in one platforms
+
+In the original version of this post, I forgot to mention those platforms which, like Moodle, incorporate both the LMS and the content authoring capabilities.
+
+There are a growing number of these, aimed at contexts where usability is more important than content portability.
+
+Examples include:
+
+- [My Learning Hub](https://www.mylearninghub.com/)
+- [Thrive LXP](https://www.thrivelearning.com/products/learning-experience-platform)
+- [Netex ContentCloud + LearningCloud](https://www.netexlearning.com/en/contentcloud/)
+- [Unicorn LMS](https://www.unicorntraining.com/lms)
+- [LearnDash](https://www.learndash.com/)
+
+[End edit]
+
 What would you do in my shoes?
