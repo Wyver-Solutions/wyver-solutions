@@ -3,17 +3,19 @@
     <div class="black-background">
     {% include topmenu.html %}
         <div class="grid" id="wrapper">
-<!-- CONTENT 
+<!-- CONTENT
 ================================================== -->
 
-    
+
     <!-- MAIN CONTENT-->
     <div id="content">
         <div class="col_12">
-            
 
 
-        <div class="banner-image">
+
+
+
+      <!--  <div class="banner-image">
             {% if page.banner %}
             <img class="full-width" style="max-width:100%;" src="{{ page.banner }}" alt="{{ page.alt }}" />
             {% if page.img-credit %}
@@ -22,19 +24,22 @@
             </div>
             {% endif %}
             {% endif %}
-        </div>
-        
+        </div>-->
+
         </div>
         <div class="clear"></div>
 
-            
-            <div class="col_8">
+
+            <div class="col_12 center">
                 <h3>{{ page.title }}</h3>
                 <p class="small">Posted on: {{ page.date | date: '%B %d, %Y' }}</p>
-                <!--<p class="small">Categories: {{ page.categories | join: ', ' }}</p>-->
-                {{ content }}
 
-            <div class="col_6">
+                <p>This article can now be found on my new site:</p>
+                <p><a href="https://mark.berthelemy.net{{ page.url }}">https://mark.berthelemy.net{{ page.url }}</a></p>
+                <!--<p class="small">Categories: {{ page.categories | join: ', ' }}</p>-->
+                <!--{{ content }}-->
+
+            <!--<div class="col_6">
 
             {% if page.next.url %}
             <a class="next button" href="{{page.next.url}}">&laquo; {{page.next.title}}</a>
@@ -44,30 +49,31 @@
                 {% if page.previous.url %}
             <a class="prev button" href="{{page.previous.url}}">{{page.previous.title}} &raquo;</a>
             {% endif %}
-            
-            </div>
+
+            </div>-->
 
             </div>
-            <div class="col_1"></div>
+            <!--<div class="col_1"></div>
             <div class="col_3 sidebar">
                 <p id="searchbox" class="desktop-only">
                     <input type="text" class="st-default-search-input search-pages">
                 </p>
                 <h4>Recent articles</h4>
                 {% for post in site.posts limit: 5 %}
-         
+
                     <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
-                    
-                    
+
+
                     <p>
                         <a href="{{ post.url }}"><img src="{{ post.thumb }}" alt="{{ post.alt }}" class="full-width"></a>
-                     
+
                     </p>
-                    
+
         {% endfor %}
-                </div>
-            
+                </div>-->
+
     </div><!-- end main content-->
+    <hr />
 
 
 {% include footer.html %}
