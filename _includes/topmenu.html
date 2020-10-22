@@ -1,22 +1,24 @@
-<!-- HIDDEN PANEL 
+<!-- HIDDEN PANEL
 ================================================== -->
-<!--<div id="panel" class="grid">
+<div id="panel" class="grid">
     <div class="row">
         <div class="col_12">
             <img src="/images/info.png" class="pics" alt="info">
             <div class="infotext">
-                <p>Free 30 minute initial consultation | <a href="/contact.html">Contact us for details</a></p>
+
+                <p>Wyver Solutions is no longer trading. Please head to <a href="https://mark.berthelemy.net">mark.berthelemy.net</a> to obtain advice and support about learning technologies.</p>
+                <p>This site has been archived.</p>
             </div>
         </div>
     </div>
-</div>-->
+</div>
 
 
 <!-- HEADER
 ================================================== -->
 <div id="ident">
 
-            
+
     <div class="logo">
         <a href="/">
         <img src="/assets/wyversolutions_logo_900.png" alt="Wyver Solutions logo" style="object-fit: contain; width:100%" />
@@ -30,23 +32,23 @@
     </div>-->
 
     <div id="menu-container">
-        
+
         <!-- Button for small screens -->
- 
+
 
         <nav id="nav-wrap">
            <label for="show-menu" class="show-menu"><i class="fa fa-bars"></i></label>
             <input type="checkbox" class="hide" id="show-menu" role="button">
 
             {% assign pages = site.pages | sort:"name" %}
-            
-            
+
+
             <ul id="menu" class="menu">
-                
+
             <!-- <ul id="main-menu" class="nav-bar sf-menu"  > -->
                 {% assign blog = 0 %}
                   {% for p in pages %}
-                    
+
                     {% if p.menu == 'main' %}
 
                         {% if page.layout == "post" and p.title == "Blog" and blog == 0 %}
@@ -56,7 +58,7 @@
                                 </li>
 
                         {% elsif p.title == "Blog" and blog == 0 %}
-                               {% assign blog = 1 %}                     
+                               {% assign blog = 1 %}
                                 <li {% if p.url == page.url %}class="current"{% endif %}>
                                     <a href="/blog">{{ p.title }}</a>
                                 </li>
@@ -65,9 +67,9 @@
                         <li{% if p.url == page.url %} class="current"{% endif %}>
                          <a href="{{ p.url }}">{{ p.title }}</a>
                       </li>
-                      
+
                       {% endif %}
-                      
+
                     {% endif %}
                   {% endfor %}
                   <!--<li class="right">
@@ -125,14 +127,9 @@
         </nav>
     </div> <!-- End of menu -->
 
-    
 
-    
 
-            
+
+
+
         </div> <!-- end ident -->
-    
-
-
-
-    
